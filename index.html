@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#445349" />
+    <meta name="description" content="Lucchi Furniture — timeless furniture, thoughtfully made. Explore the Lucchi catalogue across living, bedroom, dining, kids bedroom, and accessories." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lucchi Furniture — Timeless furniture, thoughtfully made." />
+    <meta property="og:description" content="Explore the Lucchi Furniture catalogue, shaped by material quality and proportion." />
+    <meta property="og:site_name" content="Lucchi Furniture" />
+    <meta property="og:image" content="https://lucchi-website-ten.vercel.app/images/products/turkish-set.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lucchi Furniture — Timeless furniture, thoughtfully made." />
+    <meta name="twitter:description" content="Explore the Lucchi Furniture catalogue, shaped by material quality and proportion." />
+    <meta name="twitter:image" content="https://lucchi-website-ten.vercel.app/images/products/turkish-set.webp" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Hero: the poster is frame 0 of the scroll hero video (scripts/make-scroll-hero.mjs). It is the first thing painted. -->
+    <link rel="preload" as="image" type="image/webp" fetchpriority="high"
+          media="(orientation: portrait)" href="/media/hero/hero-mobile-seq-poster.webp" />
+    <link rel="preload" as="image" type="image/webp" fetchpriority="high"
+          media="(orientation: landscape)" href="/media/hero/hero-hq-desktop-poster.webp" />
+    <title>Lucchi Furniture — Timeless furniture, thoughtfully made.</title>
+    <script>
+      /* Hero entrance: hide the hero's start state before first paint (see Hero.jsx).
+         Only on a fresh load of the homepage; the hero swaps this class when it plays. */
+      (function () {
+        try {
+          var d = document.documentElement
+          if (location.pathname === '/') {
+            d.classList.add('hero-pre')
+            var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+            var saver = navigator.connection && navigator.connection.saveData === true
+            if (reduced || saver) d.classList.add('hero-reduced')
+          }
+        } catch (e) {}
+      })()
+    </script>
+    <script>
+      /* Start loading the hero video as early as possible (it does not autoplay: the scroll plays it): build the <video> now, while the page and
+         the JS bundle are still loading. Hero.jsx (getHeroVideo in src/config/heroMedia.js)
+         adopts window.__heroVideo and puts it in the hero. Keep the paths and the "weak
+         device" test in sync with src/config/heroMedia.js. */
+      (function () {
+        try {
+          if (location.pathname !== '/') return
+          var nav = navigator
+          var net = nav.connection
+          var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+          var slow = net && (net.saveData === true || net.effectiveType === '2g' || net.effectiveType === 'slow-2g')
+          var phone = window.matchMedia('(orientation: portrait)').matches
+          // Phones keep the video (small mobile clip); only a weak landscape computer falls back to the picture.
+          var weak = !phone && (nav.hardwareConcurrency || 8) <= 4 && (nav.deviceMemory || 8) <= 4
+          if (calm || slow || weak) return
+          var v = document.createElement('video')
+          v.className = 'hero-video'
+          v.muted = true
+          v.defaultMuted = true
+          v.loop = false
+          v.autoplay = false
+          v.playsInline = true
+          v.setAttribute('muted', '')
+          v.setAttribute('playsinline', '')
+          v.setAttribute('webkit-playsinline', '')
+          v.setAttribute('aria-hidden', 'true')
+          v.disablePictureInPicture = true
+          v.disableRemotePlayback = true
+          v.preload = 'auto'
+          v.poster = phone ? '/media/hero/hero-mobile-seq-poster.webp' : '/media/hero/hero-hq-desktop-poster.webp'
+          var files = phone
+            ? [['/media/hero/hero-mobile-seq.mp4', 'video/mp4'], ['/media/hero/hero-mobile-seq.webm', 'video/webm']]
+            : [['/media/hero/hero-hq-desktop.webm', 'video/webm'], ['/media/hero/hero-hq-desktop.mp4', 'video/mp4']]
+          for (var i = 0; i < files.length; i++) {
+            var s = document.createElement('source')
+            s.src = files[i][0]
+            s.type = files[i][1]
+            v.appendChild(s)
+          }
+          window.__heroVideo = v
+        } catch (e) {}
+      })()
+    </script>
+    <style>
+      #lucchi-boot {
+        position: fixed;
+        inset: 0;
+        z-index: 10000;
+        background: #2d3730;
+        pointer-events: none;
+      }
+      html.is-intro, html.is-intro body { overflow: hidden; height: 100%; }
+      html.intro-done #lucchi-boot,
+      html.intro-ready #lucchi-boot { display: none !important; }
+      @keyframes lucchi-boot-hide {
+        to { opacity: 0; visibility: hidden; }
+      }
+      #lucchi-boot {
+        animation: lucchi-boot-hide 0.4s 4s forwards;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="lucchi-boot" aria-hidden="true"></div>
+    <div id="root">
+      <noscript>
+        <style>#lucchi-boot { display: none !important; } html { overflow: auto !important; }</style>
+        <main>
+          <h1>Timeless furniture, thoughtfully made.</h1>
+          <p>Lucchi Furniture presents a considered catalogue of living room, bedroom, dining, kids bedroom, and accessory pieces.</p>
+        </main>
+      </noscript>
+    </div>
+    <script>
+      (function () {
+        document.documentElement.classList.add('is-intro')
+        window.setTimeout(function () {
+          document.documentElement.classList.remove('is-intro')
+          document.documentElement.classList.add('intro-done')
+        }, 4000)
+      })()
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

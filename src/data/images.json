@@ -1,0 +1,3821 @@
+{
+  "version": "1.0.0",
+  "globalStatus": "placeholder",
+  "hero": {
+    "desktop": {
+      "src": "/media/hero/hero-desktop-2560.jpg",
+      "alt": "A cream bouclé curved sectional sofa and round dark-wood coffee table on a jute rug in a sunlit Mediterranean living room, with an arched window framing cypress trees and the sea",
+      "focalPoint": {
+        "x": 0.62,
+        "y": 0.56
+      },
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "aspect": "16/9",
+      "recommendedSize": "2560x1440",
+      "status": "final",
+      "srcset": {
+        "avif": "/media/hero/hero-desktop-1024.avif 1024w, /media/hero/hero-desktop-1280.avif 1280w, /media/hero/hero-desktop-1920.avif 1920w, /media/hero/hero-desktop-2560.avif 2560w",
+        "webp": "/media/hero/hero-desktop-1024.webp 1024w, /media/hero/hero-desktop-1280.webp 1280w, /media/hero/hero-desktop-1920.webp 1920w, /media/hero/hero-desktop-2560.webp 2560w",
+        "jpeg": "/media/hero/hero-desktop-1024.jpg 1024w, /media/hero/hero-desktop-1280.jpg 1280w, /media/hero/hero-desktop-1920.jpg 1920w, /media/hero/hero-desktop-2560.jpg 2560w"
+      },
+      "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAAsAPuliqE2pJaOiMAgBIB0JZQCdMoADP9XAYiX0yFgAAP7i5jwjWBpfRlBc7JuXQFxBda9ImunuBz/pLc5QYApfLyUBHvgAAA=="
+    },
+    "wide": {
+      "src": "/media/hero/hero-wide-2560.jpg",
+      "alt": "Wide view of a cream bouclé curved sectional sofa and round dark-wood coffee table beside an arched window overlooking cypress trees and the sea",
+      "focalPoint": {
+        "x": 0.705,
+        "y": 0.499
+      },
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.55
+      },
+      "aspect": "64/30",
+      "recommendedSize": "2560x1200",
+      "status": "final",
+      "srcset": {
+        "avif": "/media/hero/hero-wide-1920.avif 1920w, /media/hero/hero-wide-2560.avif 2560w",
+        "webp": "/media/hero/hero-wide-1920.webp 1920w, /media/hero/hero-wide-2560.webp 2560w",
+        "jpeg": "/media/hero/hero-wide-1920.jpg 1920w, /media/hero/hero-wide-2560.jpg 2560w"
+      },
+      "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAAkAPulgqU0pJaQiMAgBIB0JZQC06CERlQVLxCtnw4AA/ujQDlAympQU/LttnHGL1cTRwNYfFCvraV/cq1K8blAAAA=="
+    },
+    "tablet": {
+      "src": "/media/hero/hero-tablet-2000.jpg",
+      "alt": "A cream bouclé curved sectional sofa with a round dark-wood coffee table on a jute rug beside a tall arched window",
+      "focalPoint": {
+        "x": 0.68,
+        "y": 0.56
+      },
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "aspect": "4/3",
+      "recommendedSize": "2000x1500",
+      "status": "final",
+      "srcset": {
+        "avif": "/media/hero/hero-tablet-1200.avif 1200w, /media/hero/hero-tablet-1600.avif 1600w, /media/hero/hero-tablet-2000.avif 2000w",
+        "webp": "/media/hero/hero-tablet-1200.webp 1200w, /media/hero/hero-tablet-1600.webp 1600w, /media/hero/hero-tablet-2000.webp 2000w",
+        "jpeg": "/media/hero/hero-tablet-1200.jpg 1200w, /media/hero/hero-tablet-1600.jpg 1600w, /media/hero/hero-tablet-2000.jpg 2000w"
+      },
+      "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAA8APuloq06pJiQiMAgBIB0JYwCdMoADP/NPetlZ/YAA/uL16oSZienbRjIR3U+jtIpmPWPtfS3KmOg+kJ0q6gMYTzHx6Ka6qrcXMcQAAA=="
+    },
+    "mobile": {
+      "src": "/media/hero/hero-mobile-1440.jpg",
+      "alt": "Close view of a cream bouclé curved sectional sofa and round dark-wood coffee table on a jute rug in a sunlit living room",
+      "focalPoint": {
+        "x": 0.501,
+        "y": 0.56
+      },
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.62
+      },
+      "aspect": "4/5",
+      "recommendedSize": "1440x1800",
+      "status": "final",
+      "srcset": {
+        "avif": "/media/hero/hero-mobile-720.avif 720w, /media/hero/hero-mobile-1080.avif 1080w, /media/hero/hero-mobile-1440.avif 1440w",
+        "webp": "/media/hero/hero-mobile-720.webp 720w, /media/hero/hero-mobile-1080.webp 1080w, /media/hero/hero-mobile-1440.webp 1440w",
+        "jpeg": "/media/hero/hero-mobile-720.jpg 720w, /media/hero/hero-mobile-1080.jpg 1080w, /media/hero/hero-mobile-1440.jpg 1440w"
+      },
+      "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQBACdASoUABkAPuliqk4pJaQiKA1RIB0JQBTigZeHM4ycEEH4h/hYM/hyliQVIAD+vg6Ixg4cK0XpV6e+I6cflC+H5OuV72ae9peEKiVZQaAC8Npe0Jn6Mxc9ljQ6NtblQnYeHJOu+KFuNh9Ubth0uDRHh0TkgAA="
+    },
+    "legacyFallback": {
+      "desktop": {
+        "src": "/images/products/living-room-set-r1552.webp",
+        "alt": "Lucchi Living Room Suite R1552 in soft ivory upholstery with sculptural coffee table",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "16/9",
+        "recommendedSize": "2560x1440",
+        "status": "placeholder"
+      },
+      "mobile": {
+        "src": "/images/products/living-room-set-r1552.webp",
+        "alt": "Lucchi Living Room Suite R1552 cropped for mobile viewport",
+        "focalPoint": {
+          "x": 0.46,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "recommendedSize": "1080x1350",
+        "status": "placeholder"
+      }
+    },
+    "tabletPortrait": {
+      "src": "/media/hero/hero-mobile-1440.jpg",
+      "alt": "Settled living room: a curved cream sofa, olive armchair and round coffee tables (portrait tablet crop)",
+      "focalPoint": {
+        "x": 0.501,
+        "y": 0.56
+      },
+      "objectPosition": {
+        "x": 0.5,
+        "y": 0.8
+      },
+      "aspect": "4/5",
+      "recommendedSize": "1440x1800",
+      "status": "final",
+      "srcset": {
+        "avif": "/media/hero/hero-mobile-720.avif 720w, /media/hero/hero-mobile-1080.avif 1080w, /media/hero/hero-mobile-1440.avif 1440w",
+        "webp": "/media/hero/hero-mobile-720.webp 720w, /media/hero/hero-mobile-1080.webp 1080w, /media/hero/hero-mobile-1440.webp 1440w",
+        "jpeg": "/media/hero/hero-mobile-720.jpg 720w, /media/hero/hero-mobile-1080.jpg 1080w, /media/hero/hero-mobile-1440.jpg 1440w"
+      },
+      "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQBACdASoUABkAPuliqk4pJaQiKA1RIB0JQBTigZeHM4ycEEH4h/hYM/hyliQVIAD+vg6Ixg4cK0XpV6e+I6cflC+H5OuV72ae9peEKiVZQaAC8Npe0Jn6Mxc9ljQ6NtblQnYeHJOu+KFuNh9Ubth0uDRHh0TkgAA="
+    }
+  },
+  "collections": {
+    "Living Room": {
+      "category": "Living Room",
+      "descriptor": "Conversational Grand Salon & Lounge Ensembles",
+      "narrative": "Contoured architectural seating structured around solid Romanian red beech frames and tactile upholstery.",
+      "materials": "Romanian red beech wood, textured upholstery, bespoke proportions",
+      "countText": "Master Suites",
+      "primary": {
+        "productId": "curve-set",
+        "productName": "Curve Set",
+        "src": "/media/categories/living-room-portrait-drive.webp",
+        "alt": "Living Room Set R1552 by Lucchi Furniture — Living Room collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/living-room-set-r1552.webp",
+        "source": "client-photography",
+        "previousSrc": "/media/catalogue/curve-set/collection-primary.webp"
+      },
+      "secondary": {
+        "productId": "mechanism-corner-sofa",
+        "productName": "Mechanism Corner Sofa",
+        "src": "/media/catalogue/mechanism-corner-sofa/collection-secondary.webp",
+        "alt": "Turkish Set detail view — Living Room collection",
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/turkish-set.webp",
+        "source": "client-photography"
+      },
+      "desktop": {
+        "productId": "curve-set",
+        "productName": "Curve Set",
+        "src": "/media/categories/living-room-desktop.webp",
+        "alt": "Curve Set living room by Lucchi Furniture",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "3/2",
+        "status": "placeholder",
+        "source": "client-photography",
+        "referenceSrc": "/media/catalogue/curve-set/collection-primary.webp",
+        "srcset": {
+          "avif": "/media/categories/living-room-desktop-800.avif 800w, /media/categories/living-room-desktop-1280.avif 1280w, /media/categories/living-room-desktop-1920.avif 1920w",
+          "webp": "/media/categories/living-room-desktop-800.webp 800w, /media/categories/living-room-desktop-1280.webp 1280w, /media/categories/living-room-desktop-1920.webp 1920w"
+        },
+        "graded": {
+          "src": "/media/categories/living-room-desktop-tone.webp",
+          "srcset": {
+            "avif": "/media/categories/living-room-desktop-tone-800.avif 800w, /media/categories/living-room-desktop-tone-1280.avif 1280w, /media/categories/living-room-desktop-tone-1920.avif 1920w",
+            "webp": "/media/categories/living-room-desktop-tone-800.webp 800w, /media/categories/living-room-desktop-tone-1280.webp 1280w, /media/categories/living-room-desktop-tone-1920.webp 1920w"
+          },
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAwCdASoYABAAPvVmq06/paQiMAgD8B6JZwAAetENeAAA/ubvfRYSrXq7Ebc3Tpc3UUAA",
+          "width": 2560,
+          "height": 1707
+        }
+      },
+      "mobile": {
+        "productId": "curve-set",
+        "productName": "Curve Set",
+        "src": "/media/categories/living-room-mobile.webp",
+        "alt": "Curve Set living room: curved sofa and onyx-topped coffee table",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "referenceSrc": "/media/catalogue/mechanism-corner-sofa/collection-secondary.webp",
+        "srcset": {
+          "avif": "/media/categories/living-room-mobile-800.avif 800w, /media/categories/living-room-mobile-1080.avif 1080w, /media/categories/living-room-mobile-1440.avif 1440w",
+          "webp": "/media/categories/living-room-mobile-800.webp 800w, /media/categories/living-room-mobile-1080.webp 1080w, /media/categories/living-room-mobile-1440.webp 1440w"
+        },
+        "graded": {
+          "src": "/media/categories/living-room-portrait-drive.webp",
+          "srcset": {
+            "avif": "/media/categories/living-room-portrait-drive-640.avif 640w, /media/categories/living-room-portrait-drive-1080.avif 1080w, /media/categories/living-room-portrait-drive-1600.avif 1600w",
+            "webp": "/media/categories/living-room-portrait-drive-640.webp 640w, /media/categories/living-room-portrait-drive-1080.webp 1080w, /media/categories/living-room-portrait-drive-1600.webp 1600w"
+          },
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoYAB4APvVurVG/pjKjqAqr8B6JZwDMHBd0ROAA/umVPrTV7ID1auAkKDh36IvSCYhs0AAA",
+          "width": 1600,
+          "height": 2000
+        },
+        "clientFile": "lucchi/طقم كيرف/magnific_photo-a-modern-living-roo_tCxJDkpmZJ.JPG",
+        "previous": {
+          "graded": {
+            "src": "/media/categories/living-room-mobile-tone.webp",
+            "srcset": {
+              "avif": "/media/categories/living-room-mobile-tone-800.avif 800w, /media/categories/living-room-mobile-tone-1080.avif 1080w, /media/categories/living-room-mobile-tone-1440.avif 1440w",
+              "webp": "/media/categories/living-room-mobile-tone-800.webp 800w, /media/categories/living-room-mobile-tone-1080.webp 1080w, /media/categories/living-room-mobile-tone-1440.webp 1440w"
+            },
+            "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAgCdASoYABAAPvVmq040paQiMAgCkB6JYwCw7C5+gAD+5TRValVGRgSqfnzMf688l+CJMUOAAA==",
+            "width": 1440,
+            "height": 960
+          },
+          "alt": "Curve sofa by Lucchi Furniture",
+          "status": "placeholder",
+          "source": "client-photography"
+        }
+      }
+    },
+    "Bedroom": {
+      "category": "Bedroom",
+      "descriptor": "Architectural Headboards & Private Dressing Suites",
+      "narrative": "Integrated sleeping sanctuaries featuring natural bookmatched veneers, floating nightstands, and dressing tables.",
+      "materials": "Natural wood veneers, red beech construction, tailored headboards",
+      "countText": "Master Suites",
+      "primary": {
+        "productId": "areej-bedroom",
+        "productName": "Areej Bedroom",
+        "src": "/media/catalogue/areej-bedroom/collection-primary.webp",
+        "alt": "Bedroom Set B1387 by Lucchi Furniture — Bedroom collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/bedroom-set-b1387.webp",
+        "source": "client-photography"
+      },
+      "secondary": {
+        "productId": "bianco-bedroom-set",
+        "productName": "Bianco Bedroom Set",
+        "src": "/media/categories/bedroom-portrait-drive.webp",
+        "alt": "Bianco Bedroom Set detail view — Bedroom collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/bianco-bedroom-set.webp",
+        "source": "client-photography",
+        "previousSrc": "/media/catalogue/bianco-bedroom-set/collection-secondary.webp"
+      },
+      "desktop": {
+        "productId": "areej-bedroom",
+        "productName": "Areej Bedroom",
+        "src": "/media/categories/bedroom-desktop.webp",
+        "alt": "Bedroom suite by Lucchi Furniture",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "3/2",
+        "status": "placeholder",
+        "source": "client-photography",
+        "referenceSrc": "/media/catalogue/areej-bedroom/collection-primary.webp",
+        "srcset": {
+          "avif": "/media/categories/bedroom-desktop-800.avif 800w, /media/categories/bedroom-desktop-1280.avif 1280w, /media/categories/bedroom-desktop-1920.avif 1920w",
+          "webp": "/media/categories/bedroom-desktop-800.webp 800w, /media/categories/bedroom-desktop-1280.webp 1280w, /media/categories/bedroom-desktop-1920.webp 1920w"
+        },
+        "graded": {
+          "src": "/media/categories/bedroom-desktop-tone.webp",
+          "srcset": {
+            "avif": "/media/categories/bedroom-desktop-tone-800.avif 800w, /media/categories/bedroom-desktop-tone-1280.avif 1280w, /media/categories/bedroom-desktop-tone-1920.avif 1920w",
+            "webp": "/media/categories/bedroom-desktop-tone-800.webp 800w, /media/categories/bedroom-desktop-tone-1280.webp 1280w, /media/categories/bedroom-desktop-tone-1920.webp 1920w"
+          },
+          "lqip": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADwAgCdASoYABAAPvVmq067paQvsAgDcB6JZwAAeeEPgAD+0nocdG96uxHGCwIAlQAAAA==",
+          "width": 2560,
+          "height": 1707
+        }
+      },
+      "mobile": {
+        "productId": "areej-bedroom",
+        "productName": "Areej Bedroom",
+        "src": "/media/categories/bedroom-mobile.webp",
+        "alt": "Bedroom with a walnut bed, olive throw and fluted wardrobe",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "referenceSrc": "/media/catalogue/bianco-bedroom-set/collection-secondary.webp",
+        "srcset": {
+          "avif": "/media/categories/bedroom-mobile-800.avif 800w, /media/categories/bedroom-mobile-1080.avif 1080w, /media/categories/bedroom-mobile-1440.avif 1440w",
+          "webp": "/media/categories/bedroom-mobile-800.webp 800w, /media/categories/bedroom-mobile-1080.webp 1080w, /media/categories/bedroom-mobile-1440.webp 1440w"
+        },
+        "graded": {
+          "src": "/media/categories/bedroom-portrait-drive.webp",
+          "srcset": {
+            "avif": "/media/categories/bedroom-portrait-drive-640.avif 640w, /media/categories/bedroom-portrait-drive-1080.avif 1080w, /media/categories/bedroom-portrait-drive-1600.avif 1600w",
+            "webp": "/media/categories/bedroom-portrait-drive-640.webp 640w, /media/categories/bedroom-portrait-drive-1080.webp 1080w, /media/categories/bedroom-portrait-drive-1600.webp 1600w"
+          },
+          "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoYAB4APvVwsFE0pi8nKAqqkB6JZwDMHBXmX6gA/rTQt5JWKShKa6ahcjjYRBfgju1MAAAA",
+          "width": 1600,
+          "height": 2000
+        },
+        "clientFile": "room 1/magnific_photo-a-bedroom-with-a-la_bxOV9Dw5Y2.JPG",
+        "previous": {
+          "graded": {
+            "src": "/media/categories/bedroom-mobile-tone.webp",
+            "srcset": {
+              "avif": "/media/categories/bedroom-mobile-tone-800.avif 800w, /media/categories/bedroom-mobile-tone-1080.avif 1080w, /media/categories/bedroom-mobile-tone-1440.avif 1440w",
+              "webp": "/media/categories/bedroom-mobile-tone-800.webp 800w, /media/categories/bedroom-mobile-tone-1080.webp 1080w, /media/categories/bedroom-mobile-tone-1440.webp 1440w"
+            },
+            "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoYABAAPvVmq06/paQiMAgD8B6JQBOgBckgAP2yyCaddQkYooCJuy98UCKJri7yNGQluVAA",
+            "width": 1440,
+            "height": 960
+          },
+          "alt": "Areej bedroom bed by Lucchi Furniture",
+          "status": "placeholder",
+          "source": "client-photography"
+        }
+      }
+    },
+    "Dining": {
+      "category": "Dining",
+      "descriptor": "Sculptural Tables, Buffets & Vitrines",
+      "narrative": "Commanding table surfaces anchored by Calacatta marble, black ofran veneer, stainless details, and upholstered seating.",
+      "materials": "Italian Calacatta marble, natural wood veneers, 304 stainless steel",
+      "countText": "Grand Ensembles",
+      "primary": {
+        "productId": "lina-dining-table",
+        "productName": "Lina Dining Table",
+        "src": "/media/categories/dining-portrait-drive.webp",
+        "alt": "Sila Dining Table by Lucchi Furniture — Dining collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.54
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/sila-dining-table.webp",
+        "source": "client-drive",
+        "previousSrc": "/media/catalogue/lina-dining-table/collection-primary.webp"
+      },
+      "secondary": {
+        "productId": "rahaf-dining-table",
+        "productName": "Rahaf Dining Table",
+        "src": "/media/catalogue/rahaf-dining-table/collection-secondary.webp",
+        "alt": "Lina Dining Table detail view — Dining collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/lina-dining-table.webp",
+        "source": "client-photography"
+      },
+      "desktop": {
+        "productId": "rahaf-dining-table",
+        "productName": "Rahaf Dining Table",
+        "src": "/media/categories/dining-desktop.webp",
+        "alt": "Rahaf dining set by Lucchi Furniture",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "3/2",
+        "status": "placeholder",
+        "source": "client-photography",
+        "referenceSrc": "/media/catalogue/lina-dining-table/collection-primary.webp",
+        "srcset": {
+          "avif": "/media/categories/dining-desktop-800.avif 800w, /media/categories/dining-desktop-1280.avif 1280w, /media/categories/dining-desktop-1920.avif 1920w",
+          "webp": "/media/categories/dining-desktop-800.webp 800w, /media/categories/dining-desktop-1280.webp 1280w, /media/categories/dining-desktop-1920.webp 1920w"
+        },
+        "graded": {
+          "src": "/media/categories/dining-desktop-tone.webp",
+          "srcset": {
+            "avif": "/media/categories/dining-desktop-tone-800.avif 800w, /media/categories/dining-desktop-tone-1280.avif 1280w, /media/categories/dining-desktop-tone-1920.avif 1920w",
+            "webp": "/media/categories/dining-desktop-tone-800.webp 800w, /media/categories/dining-desktop-tone-1280.webp 1280w, /media/categories/dining-desktop-tone-1920.webp 1920w"
+          },
+          "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADwAgCdASoYABAAPvVkq04qpaQiMAgBUB6JZQCw7C2OAAD+xOAkHnsvkT6f7HRgAAA=",
+          "width": 2560,
+          "height": 1707
+        }
+      },
+      "mobile": {
+        "productId": "rahaf-dining-table",
+        "productName": "Rahaf Dining Table",
+        "src": "/media/categories/dining-mobile.webp",
+        "alt": "Rahaf dining table with six upholstered chairs and a sideboard",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "referenceSrc": "/media/catalogue/rahaf-dining-table/collection-secondary.webp",
+        "srcset": {
+          "avif": "/media/categories/dining-mobile-800.avif 800w, /media/categories/dining-mobile-1080.avif 1080w, /media/categories/dining-mobile-1440.avif 1440w",
+          "webp": "/media/categories/dining-mobile-800.webp 800w, /media/categories/dining-mobile-1080.webp 1080w, /media/categories/dining-mobile-1440.webp 1440w"
+        },
+        "graded": {
+          "src": "/media/categories/dining-portrait-drive.webp",
+          "srcset": {
+            "avif": "/media/categories/dining-portrait-drive-640.avif 640w, /media/categories/dining-portrait-drive-1080.avif 1080w, /media/categories/dining-portrait-drive-1600.avif 1600w",
+            "webp": "/media/categories/dining-portrait-drive-640.webp 640w, /media/categories/dining-portrait-drive-1080.webp 1080w, /media/categories/dining-portrait-drive-1600.webp 1600w"
+          },
+          "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAwCdASoYAB4APvVur1E/pimyKAqr8B6JZwCo9BwWUiKAAP7Sfabi8/inlzeD7tvZLbtnG6Zyo7pe048ELq7KAAA=",
+          "width": 1600,
+          "height": 2000
+        },
+        "clientFile": "lucchi/سفره رهف/magnific_photo-a-dining-room-with-_WDa5vwAcXe.JPG",
+        "previous": {
+          "graded": {
+            "src": "/media/categories/dining-mobile-tone.webp",
+            "srcset": {
+              "avif": "/media/categories/dining-mobile-tone-800.avif 800w, /media/categories/dining-mobile-tone-1080.avif 1080w, /media/categories/dining-mobile-tone-1440.avif 1440w",
+              "webp": "/media/categories/dining-mobile-tone-800.webp 800w, /media/categories/dining-mobile-tone-1080.webp 1080w, /media/categories/dining-mobile-tone-1440.webp 1440w"
+            },
+            "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoYABAAPvVmq04/paQiMAgD8B6JQBOmUACJzz9WgAD+vk20D6ii29SKJd4eQG2gJwJYgAAA",
+            "width": 1440,
+            "height": 960
+          },
+          "alt": "Dining table and chairs by Lucchi Furniture",
+          "status": "placeholder",
+          "source": "client-photography"
+        }
+      }
+    },
+    "Kids Bedroom": {
+      "category": "Kids Bedroom",
+      "descriptor": "Youth Sanctuaries with Enduring Proportion",
+      "narrative": "Generational youth bedroom suites with solid wood joinery designed to live gracefully through years of transition.",
+      "materials": "Kiln-dried beech wood, child-safe natural finishes, modular millwork",
+      "countText": "Junior Suites",
+      "primary": {
+        "productId": "bonkio-kids-bedroom-set",
+        "productName": "Bonkio Kids' Bedroom Set",
+        "src": "/media/catalogue/bonkio-kids-bedroom-set/collection-primary.webp",
+        "alt": "Shababi Asil Bedroom by Lucchi Furniture — Kids Bedroom collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/shababi-asil-bedroom.webp",
+        "source": "client-photography"
+      },
+      "secondary": {
+        "productId": "golf-kids-bedroom-set",
+        "productName": "Golf Kids' Bedroom Set",
+        "src": "/media/catalogue/golf-kids-bedroom-set/collection-secondary.webp",
+        "alt": "Grey Kids' Bedroom Set detail view — Kids Bedroom collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.48
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/grey-kids-bedroom-set.webp",
+        "source": "client-photography"
+      },
+      "desktop": {
+        "productId": "golf-kids-bedroom-set",
+        "productName": "Golf Kids' Bedroom Set",
+        "src": "/media/categories/kids-bedroom-desktop.webp",
+        "alt": "Kids twin bedroom by Lucchi Furniture",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "3/2",
+        "status": "placeholder",
+        "source": "client-photography",
+        "referenceSrc": "/media/catalogue/bonkio-kids-bedroom-set/collection-primary.webp",
+        "srcset": {
+          "avif": "/media/categories/kids-bedroom-desktop-800.avif 800w, /media/categories/kids-bedroom-desktop-1280.avif 1280w, /media/categories/kids-bedroom-desktop-1920.avif 1920w",
+          "webp": "/media/categories/kids-bedroom-desktop-800.webp 800w, /media/categories/kids-bedroom-desktop-1280.webp 1280w, /media/categories/kids-bedroom-desktop-1920.webp 1920w"
+        },
+        "graded": {
+          "src": "/media/categories/kids-bedroom-desktop-tone.webp",
+          "srcset": {
+            "avif": "/media/categories/kids-bedroom-desktop-tone-800.avif 800w, /media/categories/kids-bedroom-desktop-tone-1280.avif 1280w, /media/categories/kids-bedroom-desktop-tone-1920.avif 1920w",
+            "webp": "/media/categories/kids-bedroom-desktop-tone-800.webp 800w, /media/categories/kids-bedroom-desktop-tone-1280.webp 1280w, /media/categories/kids-bedroom-desktop-tone-1920.webp 1920w"
+          },
+          "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAgCdASoYABAAPvVkqk4qpaOpMAgBUB6JQBOgCG0QAN+/RcNXsuVetEf7sHeUrpAOSgAA",
+          "width": 2560,
+          "height": 1707
+        }
+      },
+      "mobile": {
+        "productId": "bonkio-kids-bedroom-set",
+        "productName": "Bonkio Kids' Bedroom Set",
+        "src": "/media/categories/kids-bedroom-mobile.webp",
+        "alt": "Kids bedroom with two twin beds and soft throws",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "referenceSrc": "/media/catalogue/golf-kids-bedroom-set/collection-secondary.webp",
+        "srcset": {
+          "avif": "/media/categories/kids-bedroom-mobile-800.avif 800w, /media/categories/kids-bedroom-mobile-1080.avif 1080w, /media/categories/kids-bedroom-mobile-1440.avif 1440w",
+          "webp": "/media/categories/kids-bedroom-mobile-800.webp 800w, /media/categories/kids-bedroom-mobile-1080.webp 1080w, /media/categories/kids-bedroom-mobile-1440.webp 1440w"
+        },
+        "graded": {
+          "src": "/media/categories/kids-bedroom-portrait-drive.webp",
+          "srcset": {
+            "avif": "/media/categories/kids-bedroom-portrait-drive-640.avif 640w, /media/categories/kids-bedroom-portrait-drive-1080.avif 1080w, /media/categories/kids-bedroom-portrait-drive-1600.avif 1600w",
+            "webp": "/media/categories/kids-bedroom-portrait-drive-640.webp 640w, /media/categories/kids-bedroom-portrait-drive-1080.webp 1080w, /media/categories/kids-bedroom-portrait-drive-1600.webp 1600w"
+          },
+          "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoYAB4APvVysFMqpqQiqAgBUB6JZQC7ABZl2+FZU+QA/urF/4leEhjzT5L0sFKDDCdy13+YAAA=",
+          "width": 1600,
+          "height": 2000
+        },
+        "clientFile": "lucchi/اطفال بونكيو/magnific_photo-two-twin-beds-with-_nVhHh01YQD.JPG",
+        "previous": {
+          "graded": {
+            "src": "/media/categories/kids-bedroom-mobile-tone.webp",
+            "srcset": {
+              "avif": "/media/categories/kids-bedroom-mobile-tone-800.avif 800w, /media/categories/kids-bedroom-mobile-tone-1080.avif 1080w, /media/categories/kids-bedroom-mobile-tone-1440.avif 1440w",
+              "webp": "/media/categories/kids-bedroom-mobile-tone-800.webp 800w, /media/categories/kids-bedroom-mobile-tone-1080.webp 1080w, /media/categories/kids-bedroom-mobile-tone-1440.webp 1440w"
+            },
+            "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAwCdASoYACQAPvVusVIqpi8npWsx4B6JZwAAKerlvfAA/twKIfmm8k3KJ5Ky9KnKh8d0kcT+DJOKWbn1It1oc0vKvPVRzwAAAA==",
+            "width": 1440,
+            "height": 2160
+          },
+          "alt": "Kids single bed by Lucchi Furniture",
+          "status": "placeholder",
+          "source": "client-photography"
+        }
+      }
+    },
+    "Accessories": {
+      "category": "Accessories",
+      "descriptor": "Architectural Fireplace & Finishing Elements",
+      "narrative": "Sculptural focal accents that ground a living room, from illuminated decorative hearths to crafted occasional pieces.",
+      "materials": "Precision steel framing, ambient hearth illumination, architectural casing",
+      "countText": "Accent Design",
+      "primary": {
+        "productId": "electric-decorative-fireplace",
+        "productName": "Electric Decorative Fireplace",
+        "src": "/media/catalogue/electric-decorative-fireplace/collection-primary.webp",
+        "alt": "Electric Decorative Fireplace by Lucchi Furniture — Accessories collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+        "source": "client-photography"
+      },
+      "secondary": {
+        "productId": "electric-decorative-fireplace",
+        "productName": "Electric Decorative Fireplace",
+        "src": "/images/products/electric-decorative-fireplace.webp",
+        "alt": "Electric Decorative Fireplace detail view — Accessories collection",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "placeholder"
+      },
+      "desktop": {
+        "productId": "electric-decorative-fireplace",
+        "productName": "Electric Decorative Fireplace",
+        "src": "/media/categories/accessories-desktop.webp",
+        "alt": "Electric decorative fireplace by Lucchi Furniture",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "3/2",
+        "status": "placeholder",
+        "source": "client-photography",
+        "referenceSrc": "/media/catalogue/electric-decorative-fireplace/collection-primary.webp",
+        "srcset": {
+          "avif": "/media/categories/accessories-desktop-800.avif 800w, /media/categories/accessories-desktop-1280.avif 1280w, /media/categories/accessories-desktop-1920.avif 1920w",
+          "webp": "/media/categories/accessories-desktop-800.webp 800w, /media/categories/accessories-desktop-1280.webp 1280w, /media/categories/accessories-desktop-1920.webp 1920w"
+        },
+        "graded": {
+          "src": "/media/categories/accessories-desktop-tone.webp",
+          "srcset": {
+            "avif": "/media/categories/accessories-desktop-tone-800.avif 800w, /media/categories/accessories-desktop-tone-1280.avif 1280w, /media/categories/accessories-desktop-tone-1920.avif 1920w",
+            "webp": "/media/categories/accessories-desktop-tone-800.webp 800w, /media/categories/accessories-desktop-tone-1280.webp 1280w, /media/categories/accessories-desktop-tone-1920.webp 1920w"
+          },
+          "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABwAwCdASoYACQAPvVur080tymiKrgMAuAeiWkAzFgOqpi4CaAA/uggAWakDG+jslx6Q7/ZXVu1GMagG/9cPPUyrAAAAA==",
+          "width": 2560,
+          "height": 3840
+        }
+      },
+      "mobile": {
+        "productId": "electric-decorative-fireplace",
+        "productName": "Electric Decorative Fireplace",
+        "src": "/media/categories/accessories-mobile.webp",
+        "alt": "Gold pedestal side table with a black glass top",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+        "srcset": {
+          "avif": "/media/categories/accessories-mobile-800.avif 800w, /media/categories/accessories-mobile-1080.avif 1080w, /media/categories/accessories-mobile-1440.avif 1440w",
+          "webp": "/media/categories/accessories-mobile-800.webp 800w, /media/categories/accessories-mobile-1080.webp 1080w, /media/categories/accessories-mobile-1440.webp 1440w"
+        },
+        "graded": {
+          "src": "/media/categories/accessories-portrait-drive.webp",
+          "srcset": {
+            "avif": "/media/categories/accessories-portrait-drive-640.avif 640w, /media/categories/accessories-portrait-drive-1080.avif 1080w, /media/categories/accessories-portrait-drive-1600.avif 1600w",
+            "webp": "/media/categories/accessories-portrait-drive-640.webp 640w, /media/categories/accessories-portrait-drive-1080.webp 1080w, /media/categories/accessories-portrait-drive-1600.webp 1600w"
+          },
+          "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoYAB4APvVwsFK0piSnqAgCkB6JZwDKABZl483aAAD+3Qo1nL7Y6D9n3grXOQQDHAuAAA==",
+          "width": 1600,
+          "height": 2000
+        },
+        "clientFile": "table 2/magnific_photo-a-gold-ornate-table_ks4pHVI16B.JPG",
+        "previous": {
+          "graded": {
+            "src": "/media/categories/accessories-mobile-tone.webp",
+            "srcset": {
+              "avif": "/media/categories/accessories-mobile-tone-800.avif 800w, /media/categories/accessories-mobile-tone-1080.avif 1080w, /media/categories/accessories-mobile-tone-1440.avif 1440w",
+              "webp": "/media/categories/accessories-mobile-tone-800.webp 800w, /media/categories/accessories-mobile-tone-1080.webp 1080w, /media/categories/accessories-mobile-tone-1440.webp 1440w"
+            },
+            "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoYACQAPvVur080tymiKrgMAuAeiWcAzFgOqpi3vm2sAP7owHiai6KZCokQLZXy9FfK44iBWouvEzmyZI4AAA==",
+            "width": 1440,
+            "height": 2160
+          },
+          "alt": "Electric decorative fireplace by Lucchi Furniture",
+          "status": "placeholder",
+          "source": "client-photography"
+        }
+      }
+    }
+  },
+  "selectedPieces": {
+    "electric-decorative-fireplace": {
+      "productId": "electric-decorative-fireplace",
+      "productName": "Electric Decorative Fireplace",
+      "category": "Accessories",
+      "productCode": "Fireplace",
+      "fallback": {
+        "productId": "electric-decorative-fireplace",
+        "productName": "Electric Decorative Fireplace",
+        "category": "Accessories",
+        "productCode": "Fireplace",
+        "full": {
+          "src": "/media/catalogue/electric-decorative-fireplace/full.webp",
+          "alt": "Electric Decorative Fireplace full product view",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "aspect": "4/3",
+          "status": "final",
+          "source": "client-photography",
+          "clientFile": "table 3/magnific_photo-a-black-electric-fi_gO2taaYSXO.JPG",
+          "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+          "srcset": {
+            "webp": "/media/catalogue/electric-decorative-fireplace/full.webp 1600w"
+          },
+          "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdL1ABn0AmzHWEAP7fdWdsSHUySt55j3jbJDUURwQqECMrnYezWSfBzO2gaDXe8Vt7l+4FPDKZThDx0v4jED9/7El0zaAAAA=="
+        },
+        "detail": {
+          "src": "/media/catalogue/electric-decorative-fireplace/detail.webp",
+          "alt": "Electric Decorative Fireplace material detail view",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "aspect": "1/1",
+          "status": "final",
+          "source": "client-photography",
+          "clientFile": "table 3/magnific_photo-a-black-console-tab_jUiBtB4LD0.JPG",
+          "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+          "srcset": {
+            "webp": "/media/catalogue/electric-decorative-fireplace/detail.webp 1080w"
+          },
+          "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBQCdASoUABQAPu1ur1IppiQiqAgBMB2JQBOiyAADbvgXDcjvomzbUok35q3nG4wAAP7rbDYfbiWHe4JEWXrWk/c5Hx+0t8hRM9lZo8R9yHJLexCj13w1H5lJmH8mY3+TeclGjAbwO3PNkecTJeOxcAA="
+        },
+        "context": {
+          "src": "/media/catalogue/electric-decorative-fireplace/context.webp",
+          "alt": "Electric Decorative Fireplace styled room context",
+          "focalPoint": {
+            "x": 0.5,
+            "y": 0.5
+          },
+          "aspect": "16/9",
+          "status": "final",
+          "source": "client-photography",
+          "clientFile": "table 3/magnific_photo-a-black-console-tab_jUiBtB4LD0.JPG",
+          "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+          "srcset": {
+            "webp": "/media/catalogue/electric-decorative-fireplace/context.webp 1600w"
+          },
+          "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JYgCdAB4U/Sf0couGMP4AAOJ/NPEGkvn1nFvuKFWSHqoBbc5nD++XbHLqtUXRuiBawXeQfns39PrmgUqD+TtJvG2dNs3bWU9AAA=="
+        }
+      },
+      "full": {
+        "src": "/media/selected/selected-electric-decorative-fireplace-full-drive.webp",
+        "alt": "Electric Decorative Fireplace by Lucchi Furniture, full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "table 3/magnific_photo-a-black-electric-fi_gO2taaYSXO.JPG",
+        "referenceSrc": "/media/selected/selected-electric-decorative-fireplace-full.webp",
+        "srcset": {
+          "avif": "/media/selected/selected-electric-decorative-fireplace-full-drive-640.avif 640w, /media/selected/selected-electric-decorative-fireplace-full-drive-1080.avif 1080w, /media/selected/selected-electric-decorative-fireplace-full-drive-1600.avif 1600w",
+          "webp": "/media/selected/selected-electric-decorative-fireplace-full-drive-640.webp 640w, /media/selected/selected-electric-decorative-fireplace-full-drive-1080.webp 1080w, /media/selected/selected-electric-decorative-fireplace-full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAwCdASoYAB4APvVorE+7pakiKA1TcB6JZwDKABaf9vAA/udw9hp1z2KDdzIm/5equ0kZVuwDT5v4YXAAAA==",
+        "original": "4672x7008",
+        "previous": {
+          "src": "/media/selected/selected-electric-decorative-fireplace-full.webp",
+          "status": "placeholder",
+          "source": "client-photography",
+          "clientFile": "table 3/magnific_photo-a-black-electric-fi_gO2taaYSXO.JPG"
+        }
+      },
+      "detail": {
+        "src": "/media/selected/selected-electric-decorative-fireplace-detail.webp",
+        "alt": "Electric Decorative Fireplace detail view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "placeholder",
+        "source": "client-photography",
+        "clientFile": "table 3/magnific_photo-a-black-electric-fi_gO2taaYSXO.JPG",
+        "referenceSrc": "/media/catalogue/electric-decorative-fireplace/detail.webp",
+        "srcset": {
+          "avif": "/media/selected/selected-electric-decorative-fireplace-detail-800.avif 800w, /media/selected/selected-electric-decorative-fireplace-detail-1200.avif 1200w, /media/selected/selected-electric-decorative-fireplace-detail-1600.avif 1600w",
+          "webp": "/media/selected/selected-electric-decorative-fireplace-detail-800.webp 800w, /media/selected/selected-electric-decorative-fireplace-detail-1200.webp 1200w, /media/selected/selected-electric-decorative-fireplace-detail-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoUABkAPv1ysFIrJqSiqAqpYB+JZQCnFA9W/Bar5SFIXBTfkNcAAP7VnQDtFdPqVlfJemtaJ6b05w7+oDzCm4/kybi+ymC5p/lF2gfq+AoDKHDEn9qAAA==",
+        "original": "7008x4672"
+      },
+      "context": {
+        "src": "",
+        "alt": "Electric Decorative Fireplace context view pending",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "pending"
+      }
+    },
+    "venus-corner-sofa": {
+      "productId": "venus-corner-sofa",
+      "productName": "Venus Corner Sofa",
+      "category": "Living Room",
+      "productCode": "Code on enquiry",
+      "full": {
+        "src": "/images/products/venus-corner-sofa.webp",
+        "alt": "Venus Corner Sofa full product view",
+        "focalPoint": {
+          "x": 0.52,
+          "y": 0.54
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/venus-corner-sofa.webp",
+        "alt": "Venus Corner Sofa material detail view (placeholder)",
+        "focalPoint": {
+          "x": 0.52,
+          "y": 0.54
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/venus-corner-sofa.webp",
+        "alt": "Venus Corner Sofa styled room context (placeholder)",
+        "focalPoint": {
+          "x": 0.52,
+          "y": 0.54
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "turkish-set": {
+      "productId": "turkish-set",
+      "productName": "Turkish Set",
+      "category": "Living Room",
+      "productCode": "R1542",
+      "full": {
+        "src": "/images/products/turkish-set.webp",
+        "alt": "Turkish Set full product view",
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.52
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/turkish-set.webp",
+        "alt": "Turkish Set material detail view (placeholder)",
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.52
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/turkish-set.webp",
+        "alt": "Turkish Set styled room context (placeholder)",
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.52
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "grey-kids-bedroom-set": {
+      "productId": "grey-kids-bedroom-set",
+      "productName": "Grey Kids' Bedroom Set",
+      "category": "Kids Bedroom",
+      "productCode": "K1184",
+      "full": {
+        "src": "/media/catalogue/grey-kids-bedroom-set/full.webp",
+        "alt": "Grey Kids' Bedroom Set full product view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جراي/magnific_photo-two-single-beds-wit_xS3cLLWjfW.JPG",
+        "referenceSrc": "/images/products/grey-kids-bedroom-set-selected.webp",
+        "srcset": {
+          "webp": "/media/catalogue/grey-kids-bedroom-set/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoUAA8APu1iqU2ppaQiMAgBMB2JQBUfNQA0FsSbUZXF9K0GqAgA/t7JyzahatjE0a6OciabptpM1iv++4lNsYgoOuMhBy/OCikakMRVNDqqBZSWclBNPNzm3VS1cjHnEHeJlxPwjcsnJXA3Rs7O9JGyrwbW4YYAAAA="
+      },
+      "detail": {
+        "src": "/media/catalogue/grey-kids-bedroom-set/detail.webp",
+        "alt": "Grey Kids' Bedroom Set material detail view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جراي/magnific_photo-a-wooden-vanity-wit_aFlPv8xfSh.JPG",
+        "referenceSrc": "/images/products/grey-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/grey-kids-bedroom-set/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBACdASoUABQAPu1mqk8ppaOiKA1RMB2JQBibATCNr/NzX0vKCM0ONh1bAADNwP9ltU4Okg11ONCYJ6M4bIaIoG5/nROQw0r5t185hRZhXu5hKurRntpl4phhMn76bK530gr3Q7Wx8A8ca0+bgEUPQptAAAAA"
+      },
+      "context": {
+        "src": "/media/catalogue/grey-kids-bedroom-set/context.webp",
+        "alt": "Grey Kids' Bedroom Set styled room context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جراي/magnific_photo-a-wooden-nightstand_jUR0UemLD0.JPG",
+        "referenceSrc": "/images/products/grey-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/grey-kids-bedroom-set/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAAsAPu1iqk2ppaQiMAgBMB2JQBOmUABd3ZD2dvbbKhFQAP6xkfHTebNW+HLsfx+zqmDkS1LAHoyXGN48bBsAx4BCRZUfvbRgkeRbgAA="
+      }
+    },
+    "side-table": {
+      "productId": "side-table",
+      "productName": "Side Table",
+      "category": "Accessories",
+      "productCode": "",
+      "fallback": null,
+      "full": {
+        "src": "/media/selected/selected-side-table-full-drive.webp",
+        "alt": "Side Table by Lucchi Furniture, full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "table 1/magnific_photo-a-round-dark-brown-_YMmsNauWeC.JPG",
+        "referenceSrc": "/media/selected/selected-side-table-full.webp",
+        "srcset": {
+          "avif": "/media/selected/selected-side-table-full-drive-640.avif 640w, /media/selected/selected-side-table-full-drive-1080.avif 1080w, /media/selected/selected-side-table-full-drive-1600.avif 1600w",
+          "webp": "/media/selected/selected-side-table-full-drive-640.webp 640w, /media/selected/selected-side-table-full-drive-1080.webp 1080w, /media/selected/selected-side-table-full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoYAB4APvVysFM/pqSiqAgD8B6JZwDKACJaSIAA/s9B6SBw7rEIOE3YSSF7xuiQA34AAAAA",
+        "original": "4672x7008",
+        "previous": {
+          "src": "/media/selected/selected-side-table-full.webp",
+          "status": "placeholder",
+          "source": "client-photography",
+          "clientFile": "table 1/magnific_photo-a-round-dark-brown-_YMmsNauWeC.JPG"
+        }
+      },
+      "detail": {
+        "src": "/media/selected/selected-side-table-detail.webp",
+        "alt": "Side Table detail view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "placeholder",
+        "source": "client-photography",
+        "clientFile": "table 1/magnific_photo-a-round-dark-brown-_YMmsNauWeC.JPG",
+        "referenceSrc": "",
+        "srcset": {
+          "avif": "/media/selected/selected-side-table-detail-800.avif 800w, /media/selected/selected-side-table-detail-1200.avif 1200w, /media/selected/selected-side-table-detail-1600.avif 1600w",
+          "webp": "/media/selected/selected-side-table-detail-800.webp 800w, /media/selected/selected-side-table-detail-1200.webp 1200w, /media/selected/selected-side-table-detail-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwBACdASoUABkAPv1wsVGrJiSiqAqpYB+JQBYj6rg1T8xuNePlSC9OpXgvQv2K4AAA/uAaRI4+ejBNtwg8eHSAv8izzeEmEBqsDsaDumxewj7EyIHgUFUjYD+1OZwGQCYkAAAA",
+        "original": "7008x4672"
+      },
+      "context": {
+        "src": "/media/selected/selected-side-table-context.webp",
+        "alt": "Side Table context view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "placeholder",
+        "source": "client-photography",
+        "clientFile": "table 1/magnific_photo-a-wooden-table-with_CqlzX3jEEy.JPG",
+        "referenceSrc": "",
+        "srcset": {
+          "avif": "/media/selected/selected-side-table-context-800.avif 800w, /media/selected/selected-side-table-context-1200.avif 1200w, /media/selected/selected-side-table-context-1600.avif 1600w",
+          "webp": "/media/selected/selected-side-table-context-800.webp 800w, /media/selected/selected-side-table-context-1200.webp 1200w, /media/selected/selected-side-table-context-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQBACdASoUABkAPv1urVArJqQjKA1RYB+JZQC7ABEJ7OLcNwaE0p6waLWlwNp2gAD+5zTOvPVq3svye9vFs3reF0bR/lUFHBA2lSLW41tbxTEiv7GnYrYWXtAAAA==",
+        "original": "7008x4672"
+      }
+    },
+    "pedestal-table": {
+      "productId": "pedestal-table",
+      "productName": "Pedestal Table",
+      "category": "Accessories",
+      "productCode": "",
+      "fallback": null,
+      "full": {
+        "src": "/media/selected/selected-pedestal-table-full-drive.webp",
+        "alt": "Pedestal Table by Lucchi Furniture, full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "table 2/magnific_photo-a-gold-ornate-table_ks4pHVI16B.JPG",
+        "referenceSrc": "/media/selected/selected-pedestal-table-full.webp",
+        "srcset": {
+          "avif": "/media/selected/selected-pedestal-table-full-drive-640.avif 640w, /media/selected/selected-pedestal-table-full-drive-1080.avif 1080w, /media/selected/selected-pedestal-table-full-drive-1600.avif 1600w",
+          "webp": "/media/selected/selected-pedestal-table-full-drive-640.webp 640w, /media/selected/selected-pedestal-table-full-drive-1080.webp 1080w, /media/selected/selected-pedestal-table-full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoYAB4APvVwsFK0piSnqAgCkB6JZwDKABZl483aAAD+3Qo1nL7Y6D9n3grXOQQDHAuAAA==",
+        "original": "4672x7008",
+        "previous": {
+          "src": "/media/selected/selected-pedestal-table-full.webp",
+          "status": "placeholder",
+          "source": "client-photography",
+          "clientFile": "table 2/magnific_photo-a-gold-ornate-table_ks4pHVI16B.JPG"
+        }
+      },
+      "detail": {
+        "src": "/media/selected/selected-pedestal-table-detail.webp",
+        "alt": "Pedestal Table detail view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "placeholder",
+        "source": "client-photography",
+        "clientFile": "table 2/magnific_photo-a-gold-ornate-table_ks4pHVI16B.JPG",
+        "referenceSrc": "",
+        "srcset": {
+          "avif": "/media/selected/selected-pedestal-table-detail-800.avif 800w, /media/selected/selected-pedestal-table-detail-1200.avif 1200w, /media/selected/selected-pedestal-table-detail-1600.avif 1600w",
+          "webp": "/media/selected/selected-pedestal-table-detail-800.webp 800w, /media/selected/selected-pedestal-table-detail-1200.webp 1200w, /media/selected/selected-pedestal-table-detail-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQBACdASoUABkAPv1wrFErJiQiqA1RYB+JQBYj5DAnDMlvkqtTQoce/uzcRMAA+D+WTea46iUPLZo6lsqb7WOlQV9SmXiWFfN1tOxakMIWq3W2n2DWdRTplQveezW8AGGCAA==",
+        "original": "7008x4672"
+      },
+      "context": {
+        "src": "",
+        "alt": "Pedestal Table context view pending",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "pending"
+      }
+    },
+    "table-lamp": {
+      "productId": "table-lamp",
+      "productName": "Table Lamp",
+      "category": "Accessories",
+      "productCode": "",
+      "fallback": null,
+      "full": {
+        "src": "/media/selected/selected-table-lamp-full-drive.webp",
+        "alt": "Table Lamp by Lucchi Furniture, full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "lamp 2/magnific_photo-a-modern-gold-floor_N2Mb4DZ6D9.jpg",
+        "referenceSrc": "/media/selected/selected-table-lamp-full.webp",
+        "srcset": {
+          "avif": "/media/selected/selected-table-lamp-full-drive-640.avif 640w, /media/selected/selected-table-lamp-full-drive-1080.avif 1080w, /media/selected/selected-table-lamp-full-drive-1600.avif 1600w",
+          "webp": "/media/selected/selected-table-lamp-full-drive-640.webp 640w, /media/selected/selected-table-lamp-full-drive-1080.webp 1080w, /media/selected/selected-table-lamp-full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAwCdASoYAB4APu1mp04/pawpMAwD8B2JZwDDcCxClxpWAAD+3Q/B8e/buU9RFsnbC8uuQCBuyy7FGcIwN0j7qgAAAA==",
+        "original": "4672x7008",
+        "previous": {
+          "src": "/media/selected/selected-table-lamp-full.webp",
+          "status": "placeholder",
+          "source": "client-photography",
+          "clientFile": "lamp 2/magnific_photo-a-modern-gold-floor_N2Mb4DZ6D9.jpg"
+        }
+      },
+      "detail": {
+        "src": "/media/selected/selected-table-lamp-detail.webp",
+        "alt": "Table Lamp detail view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/5",
+        "status": "placeholder",
+        "source": "client-photography",
+        "clientFile": "lamp 2/magnific_photo-a-modern-gold-floor_N2Mb4DZ6D9.jpg",
+        "referenceSrc": "",
+        "srcset": {
+          "avif": "/media/selected/selected-table-lamp-detail-800.avif 800w, /media/selected/selected-table-lamp-detail-1200.avif 1200w, /media/selected/selected-table-lamp-detail-1600.avif 1600w",
+          "webp": "/media/selected/selected-table-lamp-detail-800.webp 800w, /media/selected/selected-table-lamp-detail-1200.webp 1200w, /media/selected/selected-table-lamp-detail-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQBACdASoUABkAPv1urFErJiQiqA1RYB+JYwCdAA9oEl7x63lATurwWPKAAP5qyO+yeC6X1LfYnQXZgjUJyqtPyTP4+DsRax2BVeEQiZ3y6+aQD42J32rkUN86UYkbwAA=",
+        "original": "7008x4672"
+      },
+      "context": {
+        "src": "",
+        "alt": "Table Lamp context view pending",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/5",
+        "status": "pending"
+      }
+    }
+  },
+  "archiveItems": {
+    "turkish-set": {
+      "productId": "turkish-set",
+      "productName": "Turkish Set",
+      "category": "Living Room",
+      "productCode": "R1542",
+      "dimensions": "3-Seater Sofa 340cm; 2-Seater Sofa 270cm; Armchair 100cm",
+      "materials": "Romanian Red Beech Wood; Embossed Velvet fabric; Chair: Wood & Metal, Velvet Print fabric",
+      "full": {
+        "src": "/media/catalogue/turkish-set/full-drive.webp",
+        "alt": "Turkish Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 2/magnific_photo-a-light-gray-curved_jUiBCBNLD0.jpg",
+        "referenceSrc": "/images/products/turkish-set.webp",
+        "srcset": {
+          "avif": "/media/catalogue/turkish-set/full-drive-640.avif 640w, /media/catalogue/turkish-set/full-drive-1080.avif 1080w, /media/catalogue/turkish-set/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/turkish-set/full-drive-640.webp 640w, /media/catalogue/turkish-set/full-drive-1080.webp 1080w, /media/catalogue/turkish-set/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoYABIAPvVqrFA/paQisBgIA/AeiWkAxzAVRKpDhIdDAAD+zc7vj/+KHmSUEdFNisLMmAAA",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/turkish-set.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/turkish-set/full-drive.webp",
+        "alt": "Turkish Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 2/magnific_photo-a-light-gray-curved_jUiBCBNLD0.jpg",
+        "referenceSrc": "/images/products/turkish-set.webp",
+        "srcset": {
+          "avif": "/media/catalogue/turkish-set/full-drive-640.avif 640w, /media/catalogue/turkish-set/full-drive-1080.avif 1080w, /media/catalogue/turkish-set/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/turkish-set/full-drive-640.webp 640w, /media/catalogue/turkish-set/full-drive-1080.webp 1080w, /media/catalogue/turkish-set/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAACwAwCdASoYABIAPvVqrFA/paQisBgIA/AeiWkAxzAVRKpDhIdDAAD+zc7vj/+KHmSUEdFNisLMmAAA",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/turkish-set.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/turkish-set.webp",
+        "alt": "Turkish Set styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.52
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/turkish-set.webp",
+        "alt": "Turkish Set architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.52
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "bedroom-set-b1387": {
+      "productId": "bedroom-set-b1387",
+      "productName": "Bedroom Set B1387",
+      "category": "Bedroom",
+      "productCode": "B1387",
+      "dimensions": "Bed 260cm; Nightstand 60cm; Dressing Table 125cm; Wardrobe 240cm, H225cm",
+      "materials": "Natural Wood, Plywood, Beech Wood; HPL Veneer finish; Velvet fabric",
+      "full": {
+        "src": "/media/catalogue/bedroom-set-b1387/full-drive.webp",
+        "alt": "Bedroom Set B1387 full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 1/magnific_photo-a-bedroom-with-a-la_bxOV9Dw5Y2.JPG",
+        "referenceSrc": "/images/products/bedroom-set-b1387.webp",
+        "srcset": {
+          "avif": "/media/catalogue/bedroom-set-b1387/full-drive-640.avif 640w, /media/catalogue/bedroom-set-b1387/full-drive-1080.avif 1080w, /media/catalogue/bedroom-set-b1387/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/bedroom-set-b1387/full-drive-640.webp 640w, /media/catalogue/bedroom-set-b1387/full-drive-1080.webp 1080w, /media/catalogue/bedroom-set-b1387/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoYABIAPvVssVC/pa8jqAqr8B6JZwDOOBWdkIAA/tJ9puLIFJhUYYr6O7iIG2ekRYAAAA==",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/bedroom-set-b1387.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/bedroom-set-b1387/full-drive.webp",
+        "alt": "Bedroom Set B1387 full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 1/magnific_photo-a-bedroom-with-a-la_bxOV9Dw5Y2.JPG",
+        "referenceSrc": "/images/products/bedroom-set-b1387.webp",
+        "srcset": {
+          "avif": "/media/catalogue/bedroom-set-b1387/full-drive-640.avif 640w, /media/catalogue/bedroom-set-b1387/full-drive-1080.avif 1080w, /media/catalogue/bedroom-set-b1387/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/bedroom-set-b1387/full-drive-640.webp 640w, /media/catalogue/bedroom-set-b1387/full-drive-1080.webp 1080w, /media/catalogue/bedroom-set-b1387/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoYABIAPvVssVC/pa8jqAqr8B6JZwDOOBWdkIAA/tJ9puLIFJhUYYr6O7iIG2ekRYAAAA==",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/bedroom-set-b1387.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/bedroom-set-b1387.webp",
+        "alt": "Bedroom Set B1387 styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/bedroom-set-b1387.webp",
+        "alt": "Bedroom Set B1387 architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "sila-dining-table": {
+      "productId": "sila-dining-table",
+      "productName": "Sila Dining Table",
+      "category": "Dining",
+      "productCode": "Code on enquiry",
+      "dimensions": "Dining Table 240x120cm; Buffet 220cm",
+      "materials": "Natural Wood, Plywood & Romanian Red Beech Wood; 304 Stainless Steel; Natural Black Ofran veneer; Ouster Paint; Linen fabric; Italian Calacatta Marble",
+      "full": {
+        "src": "/images/products/sila-dining-table.webp",
+        "alt": "Sila Dining Table full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.54
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/sila-dining-table.webp",
+        "alt": "Sila Dining Table material craftsmanship detail (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.54
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/sila-dining-table.webp",
+        "alt": "Sila Dining Table styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.54
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/sila-dining-table.webp",
+        "alt": "Sila Dining Table architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.54
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "living-room-set-r1549": {
+      "productId": "living-room-set-r1549",
+      "productName": "Living Room Set R1549",
+      "category": "Living Room",
+      "productCode": "R1549",
+      "dimensions": "Two Sofas 240cm each; Armchair 100cm",
+      "materials": "Romanian Red Beech Wood; Linen & Leather fabric; Medium Soft upholstery",
+      "full": {
+        "src": "/images/products/living-room-set-r1549.webp",
+        "alt": "Living Room Set R1549 full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/living-room-set-r1549.webp",
+        "alt": "Living Room Set R1549 material craftsmanship detail (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/living-room-set-r1549.webp",
+        "alt": "Living Room Set R1549 styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/living-room-set-r1549.webp",
+        "alt": "Living Room Set R1549 architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "venus-corner-sofa": {
+      "productId": "venus-corner-sofa",
+      "productName": "Venus Corner Sofa",
+      "category": "Living Room",
+      "productCode": "Code on enquiry",
+      "dimensions": "Width 340cm; Chaise Lounge 200cm (multiple colors available)",
+      "materials": "Romanian Red Beech Wood; Mohair fabric; Medium Soft upholstery",
+      "full": {
+        "src": "/media/catalogue/venus-corner-sofa/full-drive.webp",
+        "alt": "Venus Corner Sofa full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 5/magnific_photo-a-large-creamcolore_ks4dmhy16B.jpg",
+        "referenceSrc": "/images/products/venus-corner-sofa.webp",
+        "srcset": {
+          "avif": "/media/catalogue/venus-corner-sofa/full-drive-640.avif 640w, /media/catalogue/venus-corner-sofa/full-drive-1080.avif 1080w, /media/catalogue/venus-corner-sofa/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/venus-corner-sofa/full-drive-640.webp 640w, /media/catalogue/venus-corner-sofa/full-drive-1080.webp 1080w, /media/catalogue/venus-corner-sofa/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAwCdASoYABIAPvVwrFG/pikiqAqr8B6JZQCw7BXePzAA/uEVuldhVyfpeCbsNp6DXO5EwTPU9D3YAAAAAA==",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/venus-corner-sofa.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/venus-corner-sofa/full-drive.webp",
+        "alt": "Venus Corner Sofa full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 5/magnific_photo-a-large-creamcolore_ks4dmhy16B.jpg",
+        "referenceSrc": "/images/products/venus-corner-sofa.webp",
+        "srcset": {
+          "avif": "/media/catalogue/venus-corner-sofa/full-drive-640.avif 640w, /media/catalogue/venus-corner-sofa/full-drive-1080.avif 1080w, /media/catalogue/venus-corner-sofa/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/venus-corner-sofa/full-drive-640.webp 640w, /media/catalogue/venus-corner-sofa/full-drive-1080.webp 1080w, /media/catalogue/venus-corner-sofa/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAwCdASoYABIAPvVwrFG/pikiqAqr8B6JZQCw7BXePzAA/uEVuldhVyfpeCbsNp6DXO5EwTPU9D3YAAAAAA==",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/venus-corner-sofa.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/venus-corner-sofa.webp",
+        "alt": "Venus Corner Sofa styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.52,
+          "y": 0.54
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/venus-corner-sofa.webp",
+        "alt": "Venus Corner Sofa architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.52,
+          "y": 0.54
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "living-room-set-r1538": {
+      "productId": "living-room-set-r1538",
+      "productName": "Living Room Set R1538",
+      "category": "Living Room",
+      "productCode": "R1538",
+      "dimensions": "Two Sofas 230cm each; Armchair 75cm",
+      "materials": "Romanian Red Beech Wood; Liza fabric; Printed Fabric/Linen chair",
+      "full": {
+        "src": "/media/catalogue/living-room-set-r1538/full-drive.webp",
+        "alt": "Living Room Set R1538 full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room7/magnific_photo-a-creamcolored-sofa_6AD5s2ciJO.JPG",
+        "referenceSrc": "/images/products/living-room-set-r1538.webp",
+        "srcset": {
+          "avif": "/media/catalogue/living-room-set-r1538/full-drive-640.avif 640w, /media/catalogue/living-room-set-r1538/full-drive-1080.avif 1080w, /media/catalogue/living-room-set-r1538/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/living-room-set-r1538/full-drive-640.webp 640w, /media/catalogue/living-room-set-r1538/full-drive-1080.webp 1080w, /media/catalogue/living-room-set-r1538/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAgCdASoYABIAPvVsrlE/paSiqAqr8B6JZwAAO38SIAD+4SWT6R3ZabyTZbebJq04AAAA",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/living-room-set-r1538.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/living-room-set-r1538/full-drive.webp",
+        "alt": "Living Room Set R1538 full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room7/magnific_photo-a-creamcolored-sofa_6AD5s2ciJO.JPG",
+        "referenceSrc": "/images/products/living-room-set-r1538.webp",
+        "srcset": {
+          "avif": "/media/catalogue/living-room-set-r1538/full-drive-640.avif 640w, /media/catalogue/living-room-set-r1538/full-drive-1080.avif 1080w, /media/catalogue/living-room-set-r1538/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/living-room-set-r1538/full-drive-640.webp 640w, /media/catalogue/living-room-set-r1538/full-drive-1080.webp 1080w, /media/catalogue/living-room-set-r1538/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADwAgCdASoYABIAPvVsrlE/paSiqAqr8B6JZwAAO38SIAD+4SWT6R3ZabyTZbebJq04AAAA",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/living-room-set-r1538.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/living-room-set-r1538.webp",
+        "alt": "Living Room Set R1538 styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/living-room-set-r1538.webp",
+        "alt": "Living Room Set R1538 architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "living-room-set-r1552": {
+      "productId": "living-room-set-r1552",
+      "productName": "Living Room Set R1552",
+      "category": "Living Room",
+      "productCode": "R1552",
+      "dimensions": "3-Seater 220cm; 2-Seater 190cm; Armchair 100cm",
+      "materials": "Romanian Red Beech Wood; Bouclé fabric",
+      "full": {
+        "src": "/images/products/living-room-set-r1552.webp",
+        "alt": "Living Room Set R1552 full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/living-room-set-r1552.webp",
+        "alt": "Living Room Set R1552 material craftsmanship detail (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/living-room-set-r1552.webp",
+        "alt": "Living Room Set R1552 styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/living-room-set-r1552.webp",
+        "alt": "Living Room Set R1552 architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.52
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "new-panda-set": {
+      "productId": "new-panda-set",
+      "productName": "New Panda Set",
+      "category": "Living Room",
+      "productCode": "Code on enquiry",
+      "dimensions": "3-Seater 250cm; 2-Seater 190cm; Armchair 70cm",
+      "materials": "Romanian Red Beech Wood; Bouclé fabric; Printed Velvet",
+      "full": {
+        "src": "/images/products/new-panda-set.webp",
+        "alt": "New Panda Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/new-panda-set.webp",
+        "alt": "New Panda Set material craftsmanship detail (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/new-panda-set.webp",
+        "alt": "New Panda Set styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/new-panda-set.webp",
+        "alt": "New Panda Set architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "bubbles-bedroom-set": {
+      "productId": "bubbles-bedroom-set",
+      "productName": "Bubbles Bedroom Set",
+      "category": "Bedroom",
+      "productCode": "Code on enquiry",
+      "dimensions": "Bed 245cm; Nightstand 60cm; Dressing Table 80cm; Wardrobe 240/280cm",
+      "materials": "Liza fabric; Velvet texture; Metal or Wood w/ Oak Veneer tables",
+      "full": {
+        "src": "/images/products/bubbles-bedroom-set.webp",
+        "alt": "Bubbles Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/bubbles-bedroom-set.webp",
+        "alt": "Bubbles Bedroom Set material craftsmanship detail (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/bubbles-bedroom-set.webp",
+        "alt": "Bubbles Bedroom Set styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/bubbles-bedroom-set.webp",
+        "alt": "Bubbles Bedroom Set architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "mila-dining-table": {
+      "productId": "mila-dining-table",
+      "productName": "Mila Dining Table",
+      "category": "Dining",
+      "productCode": "Code on enquiry",
+      "dimensions": "Dining Table 220x110cm; Buffet 220cm; Chair 60cm",
+      "materials": "Natural Wood, Plywood & Romanian Red Beech Wood; Metal cabinet doors; Spanish Root Veneer; Beech Wood chairs; Bouclé fabric",
+      "full": {
+        "src": "/images/products/mila-dining-table.webp",
+        "alt": "Mila Dining Table full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/mila-dining-table.webp",
+        "alt": "Mila Dining Table material craftsmanship detail (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/mila-dining-table.webp",
+        "alt": "Mila Dining Table styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/mila-dining-table.webp",
+        "alt": "Mila Dining Table architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "chaise-lounge-corner-sofa": {
+      "productId": "chaise-lounge-corner-sofa",
+      "productName": "Chaise Lounge Corner Sofa",
+      "category": "Living Room",
+      "productCode": "Code on enquiry",
+      "dimensions": "Corner Sofa 310cm; Chaise Lounge 190cm; 2-Seater 245cm; Chair 70cm",
+      "materials": "Romanian Red Beech Wood; Printed Velvet fabric (Corner Sofa + Sofa + Chaise Lounge)",
+      "full": {
+        "src": "/images/products/chaise-lounge-corner-sofa.webp",
+        "alt": "Chaise Lounge Corner Sofa full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/chaise-lounge-corner-sofa.webp",
+        "alt": "Chaise Lounge Corner Sofa material craftsmanship detail (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/chaise-lounge-corner-sofa.webp",
+        "alt": "Chaise Lounge Corner Sofa styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/chaise-lounge-corner-sofa.webp",
+        "alt": "Chaise Lounge Corner Sofa architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "karma-dining-table": {
+      "productId": "karma-dining-table",
+      "productName": "Karma Dining Table",
+      "category": "Dining",
+      "productCode": "Code on enquiry",
+      "dimensions": "Dining Table 240cm; Buffet 240cm; Chair 55cm",
+      "materials": "Plywood & Solid Oak Wood; Ouster Paint finish; Velvet & Leather",
+      "full": {
+        "src": "/images/products/karma-dining-table.webp",
+        "alt": "Karma Dining Table full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "placeholder"
+      },
+      "detail": {
+        "src": "/images/products/karma-dining-table.webp",
+        "alt": "Karma Dining Table material craftsmanship detail (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "placeholder"
+      },
+      "context": {
+        "src": "/images/products/karma-dining-table.webp",
+        "alt": "Karma Dining Table styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/karma-dining-table.webp",
+        "alt": "Karma Dining Table architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "galaxy-dining-table": {
+      "productId": "galaxy-dining-table",
+      "productName": "Galaxy Dining Table",
+      "category": "Dining",
+      "productCode": "Code on enquiry",
+      "dimensions": "Dining Table 220x110cm; Buffet 230cm; Chair 50cm",
+      "materials": "Natural Wood, Plywood & Romanian Red Beech Wood; Ebony veneer; Italian Calacatta Marble; Turkish Linen & Velvet chairs",
+      "full": {
+        "src": "/media/catalogue/galaxy-dining-table/full-drive.webp",
+        "alt": "Galaxy Dining Table full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room13/magnific_photo-a-dining-room-with-_s7RIr2Hl8e.JPG",
+        "referenceSrc": "/images/products/galaxy-dining-table.webp",
+        "srcset": {
+          "avif": "/media/catalogue/galaxy-dining-table/full-drive-640.avif 640w, /media/catalogue/galaxy-dining-table/full-drive-1080.avif 1080w, /media/catalogue/galaxy-dining-table/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/galaxy-dining-table/full-drive-640.webp 640w, /media/catalogue/galaxy-dining-table/full-drive-1080.webp 1080w, /media/catalogue/galaxy-dining-table/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoYABIAPvVsr1E/paSiqAqr8B6JZQDCgBsuYSAA/ng+kfzHxiw3Whqsh+iickKumUBl0zKWAAA=",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/galaxy-dining-table.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/galaxy-dining-table/full-drive.webp",
+        "alt": "Galaxy Dining Table full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room13/magnific_photo-a-dining-room-with-_s7RIr2Hl8e.JPG",
+        "referenceSrc": "/images/products/galaxy-dining-table.webp",
+        "srcset": {
+          "avif": "/media/catalogue/galaxy-dining-table/full-drive-640.avif 640w, /media/catalogue/galaxy-dining-table/full-drive-1080.avif 1080w, /media/catalogue/galaxy-dining-table/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/galaxy-dining-table/full-drive-640.webp 640w, /media/catalogue/galaxy-dining-table/full-drive-1080.webp 1080w, /media/catalogue/galaxy-dining-table/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoYABIAPvVsr1E/paSiqAqr8B6JZQDCgBsuYSAA/ng+kfzHxiw3Whqsh+iickKumUBl0zKWAAA=",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/galaxy-dining-table.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/galaxy-dining-table.webp",
+        "alt": "Galaxy Dining Table styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/galaxy-dining-table.webp",
+        "alt": "Galaxy Dining Table architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "living-room-set-r1560-a": {
+      "productId": "living-room-set-r1560-a",
+      "productName": "Living Room Set R1560 (A)",
+      "category": "Living Room",
+      "productCode": "R1560",
+      "dimensions": "Width 280cm; Depth 110cm",
+      "materials": "Romanian Red Beech Wood; Soft upholstery; Turkish Linen & Velvet",
+      "full": {
+        "src": "/media/catalogue/living-room-set-r1560-a/full-drive.webp",
+        "alt": "Living Room Set R1560 (A) full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 12/magnific_photo-a-sectional-sofa-wi_8aKi48TIrU.JPG",
+        "referenceSrc": "/images/products/living-room-set-r1560-a.webp",
+        "srcset": {
+          "avif": "/media/catalogue/living-room-set-r1560-a/full-drive-640.avif 640w, /media/catalogue/living-room-set-r1560-a/full-drive-1080.avif 1080w, /media/catalogue/living-room-set-r1560-a/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/living-room-set-r1560-a/full-drive-640.webp 640w, /media/catalogue/living-room-set-r1560-a/full-drive-1080.webp 1080w, /media/catalogue/living-room-set-r1560-a/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAwCdASoYABIAPvVsslC7pioiqAqrcB6JZQDA3BXB7ygA/mBsRcYuzqo7HJzgy22KfKml2SVTEp0saaFUAAAA",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/living-room-set-r1560-a.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/living-room-set-r1560-a/full-drive.webp",
+        "alt": "Living Room Set R1560 (A) full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 12/magnific_photo-a-sectional-sofa-wi_8aKi48TIrU.JPG",
+        "referenceSrc": "/images/products/living-room-set-r1560-a.webp",
+        "srcset": {
+          "avif": "/media/catalogue/living-room-set-r1560-a/full-drive-640.avif 640w, /media/catalogue/living-room-set-r1560-a/full-drive-1080.avif 1080w, /media/catalogue/living-room-set-r1560-a/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/living-room-set-r1560-a/full-drive-640.webp 640w, /media/catalogue/living-room-set-r1560-a/full-drive-1080.webp 1080w, /media/catalogue/living-room-set-r1560-a/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAwCdASoYABIAPvVsslC7pioiqAqrcB6JZQDA3BXB7ygA/mBsRcYuzqo7HJzgy22KfKml2SVTEp0saaFUAAAA",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/living-room-set-r1560-a.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/living-room-set-r1560-a.webp",
+        "alt": "Living Room Set R1560 (A) styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/living-room-set-r1560-a.webp",
+        "alt": "Living Room Set R1560 (A) architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "living-room-set-r1560-b": {
+      "productId": "living-room-set-r1560-b",
+      "productName": "Living Room Set R1560 (B)",
+      "category": "Living Room",
+      "productCode": "R1560",
+      "dimensions": "Sofa 250cm; Armchair 80cm",
+      "materials": "Turkish Linen & Velvet",
+      "full": {
+        "src": "/media/catalogue/living-room-set-r1560-b/full-drive.webp",
+        "alt": "Living Room Set R1560 (B) full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 11/magnific_photo-a-beige-sectional-s_6ADb19niJO.JPG",
+        "referenceSrc": "/images/products/living-room-set-r1560-b.webp",
+        "srcset": {
+          "avif": "/media/catalogue/living-room-set-r1560-b/full-drive-640.avif 640w, /media/catalogue/living-room-set-r1560-b/full-drive-1080.avif 1080w, /media/catalogue/living-room-set-r1560-b/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/living-room-set-r1560-b/full-drive-640.webp 640w, /media/catalogue/living-room-set-r1560-b/full-drive-1080.webp 1080w, /media/catalogue/living-room-set-r1560-b/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAwCdASoYABIAPvVop04/qqgiMBgMA/AeiWUAxvQVWcAUAPs/Z+rUtvWmK12vDUu3BnibCCJox/8Yqs0AAA==",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/living-room-set-r1560-b.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/living-room-set-r1560-b/full-drive.webp",
+        "alt": "Living Room Set R1560 (B) full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 11/magnific_photo-a-beige-sectional-s_6ADb19niJO.JPG",
+        "referenceSrc": "/images/products/living-room-set-r1560-b.webp",
+        "srcset": {
+          "avif": "/media/catalogue/living-room-set-r1560-b/full-drive-640.avif 640w, /media/catalogue/living-room-set-r1560-b/full-drive-1080.avif 1080w, /media/catalogue/living-room-set-r1560-b/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/living-room-set-r1560-b/full-drive-640.webp 640w, /media/catalogue/living-room-set-r1560-b/full-drive-1080.webp 1080w, /media/catalogue/living-room-set-r1560-b/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAwCdASoYABIAPvVop04/qqgiMBgMA/AeiWUAxvQVWcAUAPs/Z+rUtvWmK12vDUu3BnibCCJox/8Yqs0AAA==",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/living-room-set-r1560-b.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/living-room-set-r1560-b.webp",
+        "alt": "Living Room Set R1560 (B) styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/living-room-set-r1560-b.webp",
+        "alt": "Living Room Set R1560 (B) architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "electric-decorative-fireplace": {
+      "productId": "electric-decorative-fireplace",
+      "productName": "Electric Decorative Fireplace",
+      "category": "Accessories",
+      "productCode": "Fireplace",
+      "dimensions": "120x80cm",
+      "materials": "Metal frame",
+      "full": {
+        "src": "/media/catalogue/electric-decorative-fireplace/full.webp",
+        "alt": "Electric Decorative Fireplace full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "table 3/magnific_photo-a-black-electric-fi_gO2taaYSXO.JPG",
+        "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+        "srcset": {
+          "webp": "/media/catalogue/electric-decorative-fireplace/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdL1ABn0AmzHWEAP7fdWdsSHUySt55j3jbJDUURwQqECMrnYezWSfBzO2gaDXe8Vt7l+4FPDKZThDx0v4jED9/7El0zaAAAA=="
+      },
+      "detail": {
+        "src": "/media/catalogue/electric-decorative-fireplace/detail.webp",
+        "alt": "Electric Decorative Fireplace material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "table 3/magnific_photo-a-black-console-tab_jUiBtB4LD0.JPG",
+        "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+        "srcset": {
+          "webp": "/media/catalogue/electric-decorative-fireplace/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAQBQCdASoUABQAPu1ur1IppiQiqAgBMB2JQBOiyAADbvgXDcjvomzbUok35q3nG4wAAP7rbDYfbiWHe4JEWXrWk/c5Hx+0t8hRM9lZo8R9yHJLexCj13w1H5lJmH8mY3+TeclGjAbwO3PNkecTJeOxcAA="
+      },
+      "context": {
+        "src": "/media/catalogue/electric-decorative-fireplace/context.webp",
+        "alt": "Electric Decorative Fireplace showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "table 3/magnific_photo-a-black-console-tab_jUiBtB4LD0.JPG",
+        "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+        "srcset": {
+          "webp": "/media/catalogue/electric-decorative-fireplace/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JYgCdAB4U/Sf0couGMP4AAOJ/NPEGkvn1nFvuKFWSHqoBbc5nD++XbHLqtUXRuiBawXeQfns39PrmgUqD+TtJvG2dNs3bWU9AAA=="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/electric-decorative-fireplace/wideSet.webp",
+        "alt": "Electric Decorative Fireplace room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "table 3/magnific_photo-a-black-console-tab_jUiBtB4LD0.JPG",
+        "referenceSrc": "/images/products/electric-decorative-fireplace.webp",
+        "srcset": {
+          "webp": "/media/catalogue/electric-decorative-fireplace/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAADwAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JYgCdAB4U/Sf0couGMP4AAOJ/NPEGkvn1nFvuKFWSHqoBbc5nD++XbHLqtUXRuiBawXeQfns39PrmgUqD+TtJvG2dNs3bWU9AAA=="
+      }
+    },
+    "lavender-bedroom-set": {
+      "productId": "lavender-bedroom-set",
+      "productName": "Lavender Bedroom Set",
+      "category": "Bedroom",
+      "productCode": "Code on enquiry",
+      "dimensions": "Bed 260cm; Nightstand 55cm; Dressing Table 120cm; Drawer 50cm; Wardrobe 265cm",
+      "materials": "Natural Wood, Plywood & Romanian Red Beech Wood; Natural Turkish Walnut veneer; Turkish Linen fabric",
+      "full": {
+        "src": "/media/catalogue/lavender-bedroom-set/full-drive.webp",
+        "alt": "Lavender Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 10/magnific_photo-a-bedroom-with-a-la_3zek08gREY.JPG",
+        "referenceSrc": "/images/products/lavender-bedroom-set.webp",
+        "srcset": {
+          "avif": "/media/catalogue/lavender-bedroom-set/full-drive-640.avif 640w, /media/catalogue/lavender-bedroom-set/full-drive-1080.avif 1080w, /media/catalogue/lavender-bedroom-set/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/lavender-bedroom-set/full-drive-640.webp 640w, /media/catalogue/lavender-bedroom-set/full-drive-1080.webp 1080w, /media/catalogue/lavender-bedroom-set/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoYABIAPvVurlGqpiQiqAqpUB6JZwDKABWdm4AA/r7nTomO2RNssDwJz98SqH1WkwZMlAAA",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/lavender-bedroom-set.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/lavender-bedroom-set/full-drive.webp",
+        "alt": "Lavender Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "room 10/magnific_photo-a-bedroom-with-a-la_3zek08gREY.JPG",
+        "referenceSrc": "/images/products/lavender-bedroom-set.webp",
+        "srcset": {
+          "avif": "/media/catalogue/lavender-bedroom-set/full-drive-640.avif 640w, /media/catalogue/lavender-bedroom-set/full-drive-1080.avif 1080w, /media/catalogue/lavender-bedroom-set/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/lavender-bedroom-set/full-drive-640.webp 640w, /media/catalogue/lavender-bedroom-set/full-drive-1080.webp 1080w, /media/catalogue/lavender-bedroom-set/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoYABIAPvVurlGqpiQiqAqpUB6JZwDKABWdm4AA/r7nTomO2RNssDwJz98SqH1WkwZMlAAA",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/images/products/lavender-bedroom-set.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/lavender-bedroom-set.webp",
+        "alt": "Lavender Bedroom Set styled interior scene (placeholder)",
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.52
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      },
+      "wideSet": {
+        "src": "/images/products/lavender-bedroom-set.webp",
+        "alt": "Lavender Bedroom Set architectural room ensemble (placeholder)",
+        "focalPoint": {
+          "x": 0.48,
+          "y": 0.52
+        },
+        "aspect": "16/9",
+        "status": "placeholder"
+      }
+    },
+    "bedroom-uqal": {
+      "productId": "bedroom-uqal",
+      "productName": "Bedroom Uqal",
+      "category": "Bedroom",
+      "productCode": "B1395",
+      "dimensions": "Bed 300cm (mattress 170cm); Bench 140cm; Wardrobe 270cm; Dressing Table 153cm; Hanger 100cm",
+      "materials": "Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/bedroom-uqal/full.webp",
+        "alt": "Bedroom Uqal full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/نوم اوفال/magnific_use-the-uploaded-referenc_rgRYIBPxtc.png",
+        "referenceSrc": "/images/products/bedroom-uqal.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bedroom-uqal/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACwAwCdASoUAA8APu1iqk4ppaQiMAgBMB2JZQC/OB3ZND6QbLCOgAD+64TrdH5OoXRC9GG46vPqidXAHozsZj2j8LerB4MnC6xlUyhH5mUq2LGNlxclXW83MX78lG6SsfRQAA=="
+      },
+      "detail": {
+        "src": "/media/catalogue/bedroom-uqal/detail.webp",
+        "alt": "Bedroom Uqal material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/نوم اوفال/magnific_use-the-uploaded-referenc_790dFGuJAL.png",
+        "referenceSrc": "/images/products/bedroom-uqal.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bedroom-uqal/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACQBQCdASoUABQAPu1qrFEppaQiqAqpMB2JZQDGfBEbva1xz55tP660gR/8NJ7PUv4s56F0IAD+8fYGSlOeUxczptFc5zHzXcFt6VNO8qPhoCvOqjift/IM3M/Mft2HQybIKrg87P3Jg7TMdNefS5ePXIUMULEjWKAAAA=="
+      },
+      "context": {
+        "src": "/media/catalogue/bedroom-uqal/context.webp",
+        "alt": "Bedroom Uqal showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/نوم اوفال/magnific_use-the-uploaded-referenc_8axUiZHIrU.png",
+        "referenceSrc": "/images/products/bedroom-uqal.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bedroom-uqal/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAAsAPu1kqk2ppaQiMAgBMB2JYwDG9CHpdQ8eNAndTcOAAP7x3A6Jqjzf27H9UYml+evoeBIbKfWMGW7oOo7qrSCOwgjfAAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/bedroom-uqal/wideSet.webp",
+        "alt": "Bedroom Uqal room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/نوم اوفال/magnific_use-the-uploaded-referenc_8axUiZHIrU.png",
+        "referenceSrc": "/images/products/bedroom-uqal.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bedroom-uqal/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoUAAsAPu1kqk2ppaQiMAgBMB2JYwDG9CHpdQ8eNAndTcOAAP7x3A6Jqjzf27H9UYml+evoeBIbKfWMGW7oOo7qrSCOwgjfAAA="
+      }
+    },
+    "marble-sofa": {
+      "productId": "marble-sofa",
+      "productName": "Marble Sofa",
+      "category": "Living Room",
+      "productCode": "R1555",
+      "dimensions": "-",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/marble-sofa/full-drive.webp",
+        "alt": "Marble Sofa full view (rendered reference image)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "lucchi/انتريه ماربيل/magnific_use-the-uploaded-referenc_6AXh5qHiJO.png",
+        "referenceSrc": "/media/catalogue/marble-sofa/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/marble-sofa/full-drive-640.avif 640w, /media/catalogue/marble-sofa/full-drive-1080.avif 1080w, /media/catalogue/marble-sofa/full-drive-1536.avif 1536w",
+          "webp": "/media/catalogue/marble-sofa/full-drive-640.webp 640w, /media/catalogue/marble-sofa/full-drive-1080.webp 1080w, /media/catalogue/marble-sofa/full-drive-1536.webp 1536w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAQAwCdASoYABIAPvVyslMqpqSiqAgBUB6JaQDN/BanwIAA/u7FMZYhXFVV40OAAAA=",
+        "original": "1536x1536",
+        "previous": {
+          "src": "/media/catalogue/marble-sofa/full.webp",
+          "status": "ai-placeholder",
+          "source": "ai-upscale",
+          "clientFile": "lucchi/انتريه ماربيل/magnific_use-the-uploaded-referenc_rgRYde5xtc.png"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/marble-sofa/detail.webp",
+        "alt": "Marble Sofa material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/انتريه ماربيل/magnific_use-the-uploaded-referenc_8axUnGCIrU.png",
+        "referenceSrc": "/images/products/marble-sofa.webp",
+        "srcset": {
+          "webp": "/media/catalogue/marble-sofa/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACQBACdASoUABQAPu1mq08ppaQiKA1RMB2JZQDGfAs30KyRzCff5Mm8Tp6BrgAA/u/78ySpQtoaeKhd5XNjR8YlV97WwF8+Kt7jy7/8AbozX0iN5JZHUbsC9/AT55LLckpyFDYhRDAQBb/LNw1h8wAA"
+      },
+      "context": {
+        "src": "/media/catalogue/marble-sofa/context.webp",
+        "alt": "Marble Sofa showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/انتريه ماربيل/magnific_use-the-uploaded-referenc_5jNAMeHKxe.png",
+        "referenceSrc": "/images/products/marble-sofa.webp",
+        "srcset": {
+          "webp": "/media/catalogue/marble-sofa/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAAsAPu1iqk4ppaQiMAgBMB2JQBOmUAA8n8A8ropEMAD9wRvaazUD2ahFb8X7rcdxInv9nX7L090SAh5leZoc7Qb2T8c2OC8FAAAA"
+      },
+      "wideSet": {
+        "src": "/media/catalogue/marble-sofa/wideSet.webp",
+        "alt": "Marble Sofa room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/انتريه ماربيل/magnific_use-the-uploaded-referenc_5jNAMeHKxe.png",
+        "referenceSrc": "/images/products/marble-sofa.webp",
+        "srcset": {
+          "webp": "/media/catalogue/marble-sofa/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAAsAPu1iqk4ppaQiMAgBMB2JQBOmUAA8n8A8ropEMAD9wRvaazUD2ahFb8X7rcdxInv9nX7L090SAh5leZoc7Qb2T8c2OC8FAAAA"
+      }
+    },
+    "mocha-set": {
+      "productId": "mocha-set",
+      "productName": "Mocha Set",
+      "category": "Living Room",
+      "productCode": "R1536",
+      "dimensions": "-",
+      "materials": "Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/mocha-set/full.webp",
+        "alt": "Mocha Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/طقم موكا/magnific_photo-a-creamcolored-armc_cpfbrUN0eP.JPG",
+        "referenceSrc": "/images/products/mocha-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/mocha-set/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADwAwCdASoUAA8APu1iqU2ppaOiMAgBMB2JYgCdABt8m3r6rXem8tosAP7hPvUEKmA0HadrmU0kbCXOy/JdJuA/4caiEt9jDBd8Y8MhsmyY5aeijx7OriuSsW46/jAAAAA="
+      },
+      "detail": {
+        "src": "/media/catalogue/mocha-set/detail.webp",
+        "alt": "Mocha Set material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/طقم موكا/magnific_photo-a-creamcolored-armc_cpfbrUN0eP.JPG",
+        "referenceSrc": "/images/products/mocha-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/mocha-set/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAADwBACdASoUABQAPu1krE4ppaSiKA1RMB2JZQAALUzqMSD3+W5G2desN4Ic7+h6SgAA/sTHlubi+3FgOiHQV9HoTMdX+cNOY5LRRXdfPe3b5j0Jah8LYvo4fTF2Y+Ih1Z2cbZqww2y4yQIKEoms4VQAAAA="
+      },
+      "context": {
+        "src": "/media/catalogue/mocha-set/context.webp",
+        "alt": "Mocha Set showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/طقم موكا/magnific_photo-three-wooden-coffee_LwZcDEOswO.JPG",
+        "referenceSrc": "/images/products/mocha-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/mocha-set/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQBACdASoUAAsAPu1kqk4ppaQiMAgBMB2JYwCdMoR3ACH4D1/osAnBoYBQAP6U1gY9Ew+o91mEwWsez4D7+CoNV25vy5TAgktnS24vg/CoCvgWXFFO6AAA"
+      },
+      "wideSet": {
+        "src": "/media/catalogue/mocha-set/wideSet.webp",
+        "alt": "Mocha Set room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/طقم موكا/magnific_photo-three-wooden-coffee_LwZcDEOswO.JPG",
+        "referenceSrc": "/images/products/mocha-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/mocha-set/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAABQBACdASoUAAsAPu1kqk4ppaQiMAgBMB2JYwCdMoR3ACH4D1/osAnBoYBQAP6U1gY9Ew+o91mEwWsez4D7+CoNV25vy5TAgktnS24vg/CoCvgWXFFO6AAA"
+      }
+    },
+    "shababi-asil-bedroom": {
+      "productId": "shababi-asil-bedroom",
+      "productName": "Shababi Asil Bedroom",
+      "category": "Kids Bedroom",
+      "productCode": "K1180",
+      "dimensions": "-",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/shababi-asil-bedroom/full.webp",
+        "alt": "Shababi Asil Bedroom full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم شبابي اسيل/magnific_photo-a-bedroom-with-two-_lJAY0d8gv9.JPG",
+        "referenceSrc": "/images/products/shababi-asil-bedroom.webp",
+        "srcset": {
+          "webp": "/media/catalogue/shababi-asil-bedroom/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAA8APu1iqk2ppaQiMAgBMB2JYwCdABtrJrs0+4n6JoAAzZJyLHsgXZmNIdrzF9SJtYCawZ42RVtS8ykBEvdIgvkf1x4U8XnjdCd6fEoIAA=="
+      },
+      "detail": {
+        "src": "/media/catalogue/shababi-asil-bedroom/detail.webp",
+        "alt": "Shababi Asil Bedroom material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم شبابي اسيل/magnific_photo-a-wooden-wardrobe-w_xS3YseAjfW.JPG",
+        "referenceSrc": "/images/products/shababi-asil-bedroom.webp",
+        "srcset": {
+          "webp": "/media/catalogue/shababi-asil-bedroom/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAACQBACdASoUABQAPu1qqVAppaOiqA1RMB2JQBdl7rARFQUoG9p7MthcyrJ9hGQAyt0XDS0lxedIBjnL8SMDwEm1pARtj5vmyWIfOIF4n+skuHS4Imn9hmcsD6NW0cbsf6vq1XiA0iAQb2Dy4IPJnvP2DO1ASRtqVwhiGgAA"
+      },
+      "context": {
+        "src": "/media/catalogue/shababi-asil-bedroom/context.webp",
+        "alt": "Shababi Asil Bedroom showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم شبابي اسيل/magnific_photo-a-beige-nightstand-_gOGWMz2SXO.JPG",
+        "referenceSrc": "/images/products/shababi-asil-bedroom.webp",
+        "srcset": {
+          "webp": "/media/catalogue/shababi-asil-bedroom/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOgBDvw4oJ+7KAAAP5b9zkjbjNtV9Wrpik1xJBpjZ7awe8Ul050G70wVQn3qAAAAA=="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/shababi-asil-bedroom/wideSet.webp",
+        "alt": "Shababi Asil Bedroom room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم شبابي اسيل/magnific_photo-a-beige-nightstand-_gOGWMz2SXO.JPG",
+        "referenceSrc": "/images/products/shababi-asil-bedroom.webp",
+        "srcset": {
+          "webp": "/media/catalogue/shababi-asil-bedroom/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACQAwCdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOgBDvw4oJ+7KAAAP5b9zkjbjNtV9Wrpik1xJBpjZ7awe8Ul050G70wVQn3qAAAAA=="
+      }
+    },
+    "lina-dining-table": {
+      "productId": "lina-dining-table",
+      "productName": "Lina Dining Table",
+      "category": "Dining",
+      "productCode": "D1269",
+      "dimensions": "Buffet 215cm; Display Cabinet 66cm; Dining Table 200x100cm",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/lina-dining-table/full-drive.webp",
+        "alt": "Lina Dining Table full view (rendered reference image)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "lucchi/سفره لينا/magnific_use-the-uploaded-referenc_rgRYDzUxtc.png",
+        "referenceSrc": "/media/catalogue/lina-dining-table/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/lina-dining-table/full-drive-640.avif 640w, /media/catalogue/lina-dining-table/full-drive-1080.avif 1080w, /media/catalogue/lina-dining-table/full-drive-1536.avif 1536w",
+          "webp": "/media/catalogue/lina-dining-table/full-drive-640.webp 640w, /media/catalogue/lina-dining-table/full-drive-1080.webp 1080w, /media/catalogue/lina-dining-table/full-drive-1536.webp 1536w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAADwAgCdASoYABIAPvVysVKqpqSiqAgBUB6JaQAAP9DMAAD+7b1PJSr/d+jAAAAA",
+        "original": "1536x1536",
+        "previous": {
+          "src": "/media/catalogue/lina-dining-table/full.webp",
+          "status": "ai-placeholder",
+          "source": "ai-upscale",
+          "clientFile": "lucchi/سفره لينا/magnific_use-the-uploaded-referenc_Doqxgn8pcl.png"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/lina-dining-table/detail.webp",
+        "alt": "Lina Dining Table material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره لينا/magnific_use-the-uploaded-referenc_bx92YHL5Y2.png",
+        "referenceSrc": "/images/products/lina-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/lina-dining-table/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABwBACdASoUABQAPuVepk2pJSOiN/VYASAciWkAACzmiR/MYPAreWTzEou6oAD+83Ux0nljlOfTst8fRqr3xjq2ZUMvqnCT5IVo+pX9pAjHH01l1aomIHIZVzD9cducowAAAA=="
+      },
+      "context": {
+        "src": "/media/catalogue/lina-dining-table/context.webp",
+        "alt": "Lina Dining Table showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره لينا/magnific_use-the-uploaded-referenc_rgRYDzUxtc.png",
+        "referenceSrc": "/images/products/lina-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/lina-dining-table/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAAsAPu1kqU2ppaQiMAgBMB2JZwAAW/Fe1XHpBjMgHq4AAP7rMnVXeQljbmIQGpSecaDL7iSm+GfHvJ4zRd9V2FrvS2MStFe7+14cVAAAAA=="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/lina-dining-table/wideSet.webp",
+        "alt": "Lina Dining Table room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره لينا/magnific_use-the-uploaded-referenc_rgRYDzUxtc.png",
+        "referenceSrc": "/images/products/lina-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/lina-dining-table/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAwCdASoUAAsAPu1kqU2ppaQiMAgBMB2JZwAAW/Fe1XHpBjMgHq4AAP7rMnVXeQljbmIQGpSecaDL7iSm+GfHvJ4zRd9V2FrvS2MStFe7+14cVAAAAA=="
+      }
+    },
+    "kayan-bedroom": {
+      "productId": "kayan-bedroom",
+      "productName": "Kayan Bedroom",
+      "category": "Bedroom",
+      "productCode": "B1391",
+      "dimensions": "Bed headboard 260cm (mattress 170cm); Nightstands 65cm each; Bench 155cm; Wardrobe 270cm; Dressing Table 147cm; Hanger 70cm",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/kayan-bedroom/full-drive.webp",
+        "alt": "Kayan Bedroom full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "lucchi/نوم كيان/magnific_dsc00102_huLJswMvqL.JPG",
+        "referenceSrc": "/images/products/kayan-bedroom.webp",
+        "srcset": {
+          "avif": "/media/catalogue/kayan-bedroom/full-drive-640.avif 640w, /media/catalogue/kayan-bedroom/full-drive-1080.avif 1080w, /media/catalogue/kayan-bedroom/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/kayan-bedroom/full-drive-640.webp 640w, /media/catalogue/kayan-bedroom/full-drive-1080.webp 1080w, /media/catalogue/kayan-bedroom/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoYABIAPvVysFMqpqQiqAgBUB6JZwDE2BwVo8AA/YuEUlpEINsnej7xlAdhbZgRcAwMAAAA",
+        "original": "4672x7008",
+        "previous": {
+          "src": "/images/products/kayan-bedroom.webp",
+          "status": "placeholder"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/kayan-bedroom/full-drive.webp",
+        "alt": "Kayan Bedroom full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "lucchi/نوم كيان/magnific_dsc00102_huLJswMvqL.JPG",
+        "referenceSrc": "/images/products/kayan-bedroom.webp",
+        "srcset": {
+          "avif": "/media/catalogue/kayan-bedroom/full-drive-640.avif 640w, /media/catalogue/kayan-bedroom/full-drive-1080.avif 1080w, /media/catalogue/kayan-bedroom/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/kayan-bedroom/full-drive-640.webp 640w, /media/catalogue/kayan-bedroom/full-drive-1080.webp 1080w, /media/catalogue/kayan-bedroom/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoYABIAPvVysFMqpqQiqAgBUB6JZwDE2BwVo8AA/YuEUlpEINsnej7xlAdhbZgRcAwMAAAA",
+        "original": "4672x7008",
+        "previous": {
+          "src": "/images/products/kayan-bedroom.webp",
+          "status": "placeholder"
+        }
+      },
+      "context": {
+        "src": "/images/products/kayan-bedroom.webp",
+        "alt": "Kayan Bedroom showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder",
+        "referenceSrc": "/images/products/kayan-bedroom.webp"
+      },
+      "wideSet": {
+        "src": "/images/products/kayan-bedroom.webp",
+        "alt": "Kayan Bedroom room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "placeholder",
+        "referenceSrc": "/images/products/kayan-bedroom.webp"
+      }
+    },
+    "mechanism-corner-sofa": {
+      "productId": "mechanism-corner-sofa",
+      "productName": "Mechanism Corner Sofa",
+      "category": "Living Room",
+      "productCode": "R1557",
+      "dimensions": "-",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/mechanism-corner-sofa/full.webp",
+        "alt": "Mechanism Corner Sofa full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/ركنة ميكانيزم/magnific_photo-a-beige-sectional-s_u5wNGDhQLD.JPG",
+        "referenceSrc": "/images/products/mechanism-corner-sofa.webp",
+        "srcset": {
+          "webp": "/media/catalogue/mechanism-corner-sofa/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQAwCdASoUAA8APu1iqU2ppaQiMAgBMB2JQBOgA2mPbrR+4GYAAPacncY/2r173XhSvg4WIH+ZgyscT+Vrsh1Y8U1m9y1SBLXi2D+o1gY44oPKah3it+wdWJsiC+ItgQIAAA=="
+      },
+      "detail": {
+        "src": "/media/catalogue/mechanism-corner-sofa/detail.webp",
+        "alt": "Mechanism Corner Sofa material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/ركنة ميكانيزم/magnific_photo-a-sectional-sofa-wi_O60Xho5ynm.JPG",
+        "referenceSrc": "/images/products/mechanism-corner-sofa.webp",
+        "srcset": {
+          "webp": "/media/catalogue/mechanism-corner-sofa/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAADwBACdASoUABQAPu1uq1EppiOiqAqpMB2JQBWF/+Ae/zwdgeji//i/X/5V9aGIEXAA/NMTjiKjEC+zJLhZhRsGLFArgazBdjtKouMd8CXqyl27O8/JI3O+M6o5tNQFOZZSDc0AK9gLX3srjTlpgm33q4baZuE4TmOHgAAA"
+      },
+      "context": {
+        "src": "/media/catalogue/mechanism-corner-sofa/context.webp",
+        "alt": "Mechanism Corner Sofa showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/ركنة ميكانيزم/magnific_photo-a-sectional-sofa-wi_O60Xho5ynm.JPG",
+        "referenceSrc": "/images/products/mechanism-corner-sofa.webp",
+        "srcset": {
+          "webp": "/media/catalogue/mechanism-corner-sofa/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUAAsAPu1kqU2ppaOiMAgBMB2JQBYdg8+zmkCEN/qoVADNpG6WIYSr7JVOtwpEdfGxy8ocUJ2+bDCYJ1bKBPUL7bpa0mFKEy8Tahd2ryAAAA=="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/mechanism-corner-sofa/wideSet.webp",
+        "alt": "Mechanism Corner Sofa room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/ركنة ميكانيزم/magnific_photo-a-sectional-sofa-wi_O60Xho5ynm.JPG",
+        "referenceSrc": "/images/products/mechanism-corner-sofa.webp",
+        "srcset": {
+          "webp": "/media/catalogue/mechanism-corner-sofa/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUAAsAPu1kqU2ppaOiMAgBMB2JQBYdg8+zmkCEN/qoVADNpG6WIYSr7JVOtwpEdfGxy8ocUJ2+bDCYJ1bKBPUL7bpa0mFKEy8Tahd2ryAAAA=="
+      }
+    },
+    "angels-bedroom-set": {
+      "productId": "angels-bedroom-set",
+      "productName": "Angels Bedroom Set",
+      "category": "Kids Bedroom",
+      "productCode": "K1182",
+      "dimensions": "-",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/angels-bedroom-set/full.webp",
+        "alt": "Angels Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم انجليز/magnific_photo-two-twin-beds-with-_lJAVYxygv9.JPG",
+        "referenceSrc": "/images/products/angels-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/angels-bedroom-set/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JaACdMoR3Ir+AWeqNBNz4kpVXSIAA9bdjnwYRaWAkvah9pnzBT8BaH7nlgjLrLNrZ/hrLsvpg8iNq9s5jtnkgKjryAz3oUPgk91AtruoAAA=="
+      },
+      "detail": {
+        "src": "/media/catalogue/angels-bedroom-set/detail.webp",
+        "alt": "Angels Bedroom Set material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم انجليز/magnific_photo-a-modern-white-and-_gOGMYuBSXO.JPG",
+        "referenceSrc": "/images/products/angels-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/angels-bedroom-set/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBQCdASoUABQAPu1usFIppiSiqAgBMB2JYgCdMyGBh0C+sB6n1/fNsAHt5eEptvTAAOEPHvhj3rLg6Udsu/KNseu3ngDhhTmy/80PK4aJ7d0/BIV7g6XZusYUxxLAKvY5E6HOZTI+kbkTEfkfehPXLsYDXbNpoAAAAA=="
+      },
+      "context": {
+        "src": "/media/catalogue/angels-bedroom-set/context.webp",
+        "alt": "Angels Bedroom Set showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم انجليز/magnific_photo-a-large-modern-ward_p8HjKmBehw.JPG",
+        "referenceSrc": "/images/products/angels-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/angels-bedroom-set/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAAsAPu1iqk2ppaQiMAgBMB2JYgCxG1yBTFMU4pNR8AAA+RsGKJJsu2FbPCLhONe2Dwvjl2BxMo5RAA7p2VfYRSxU40oE/SCYC9YC19af7zYAAAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/angels-bedroom-set/wideSet.webp",
+        "alt": "Angels Bedroom Set room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم انجليز/magnific_photo-a-large-modern-ward_p8HjKmBehw.JPG",
+        "referenceSrc": "/images/products/angels-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/angels-bedroom-set/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoUAAsAPu1iqk2ppaQiMAgBMB2JYgCxG1yBTFMU4pNR8AAA+RsGKJJsu2FbPCLhONe2Dwvjl2BxMo5RAA7p2VfYRSxU40oE/SCYC9YC19af7zYAAAA="
+      }
+    },
+    "bonkio-kids-bedroom-set": {
+      "productId": "bonkio-kids-bedroom-set",
+      "productName": "Bonkio Kids' Bedroom Set",
+      "category": "Kids Bedroom",
+      "productCode": "K1187",
+      "dimensions": "-",
+      "materials": "Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/bonkio-kids-bedroom-set/full-drive.webp",
+        "alt": "Bonkio Kids' Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "lucchi/اطفال بونكيو/magnific_photo-two-twin-beds-with-_nVhHh01YQD.JPG",
+        "referenceSrc": "/media/catalogue/bonkio-kids-bedroom-set/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/bonkio-kids-bedroom-set/full-drive-640.avif 640w, /media/catalogue/bonkio-kids-bedroom-set/full-drive-1080.avif 1080w, /media/catalogue/bonkio-kids-bedroom-set/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/bonkio-kids-bedroom-set/full-drive-640.webp 640w, /media/catalogue/bonkio-kids-bedroom-set/full-drive-1080.webp 1080w, /media/catalogue/bonkio-kids-bedroom-set/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoYABIAPvVysVKtpqSiqAgBsB6JZQC06BdzDCAA/uGdrQTnKA1faiiwC4pVMiRFm/H9vgoAAAA=",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/media/catalogue/bonkio-kids-bedroom-set/full.webp",
+          "status": "final",
+          "source": "client-photography",
+          "clientFile": "lucchi/اطفال بونكيو/magnific_photo-two-twin-beds-with-_nVhHh01YQD.JPG"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/bonkio-kids-bedroom-set/full-drive.webp",
+        "alt": "Bonkio Kids' Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "lucchi/اطفال بونكيو/magnific_photo-two-twin-beds-with-_nVhHh01YQD.JPG",
+        "referenceSrc": "/media/catalogue/bonkio-kids-bedroom-set/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/bonkio-kids-bedroom-set/full-drive-640.avif 640w, /media/catalogue/bonkio-kids-bedroom-set/full-drive-1080.avif 1080w, /media/catalogue/bonkio-kids-bedroom-set/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/bonkio-kids-bedroom-set/full-drive-640.webp 640w, /media/catalogue/bonkio-kids-bedroom-set/full-drive-1080.webp 1080w, /media/catalogue/bonkio-kids-bedroom-set/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoYABIAPvVysVKtpqSiqAgBsB6JZQC06BdzDCAA/uGdrQTnKA1faiiwC4pVMiRFm/H9vgoAAAA=",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/media/catalogue/bonkio-kids-bedroom-set/full.webp",
+          "status": "final",
+          "source": "client-photography",
+          "clientFile": "lucchi/اطفال بونكيو/magnific_photo-two-twin-beds-with-_nVhHh01YQD.JPG"
+        }
+      },
+      "context": {
+        "src": "/media/catalogue/bonkio-kids-bedroom-set/context.webp",
+        "alt": "Bonkio Kids' Bedroom Set showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/اطفال بونكيو/magnific_photo-a-modern-beige-nigh_gOGM2ecSXO.JPG",
+        "referenceSrc": "/images/products/bonkio-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bonkio-kids-bedroom-set/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JZACdOUE6UApksEOYYG/qFtKAAP5UfOi9BhDlCyUgv/jY/0mU+yuuXIlUX/H8XNeafwoKK7D5u42ilWsjQBzAAAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/bonkio-kids-bedroom-set/wideSet.webp",
+        "alt": "Bonkio Kids' Bedroom Set room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/اطفال بونكيو/magnific_photo-a-modern-beige-nigh_gOGM2ecSXO.JPG",
+        "referenceSrc": "/images/products/bonkio-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bonkio-kids-bedroom-set/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JZACdOUE6UApksEOYYG/qFtKAAP5UfOi9BhDlCyUgv/jY/0mU+yuuXIlUX/H8XNeafwoKK7D5u42ilWsjQBzAAAA="
+      }
+    },
+    "golf-kids-bedroom-set": {
+      "productId": "golf-kids-bedroom-set",
+      "productName": "Golf Kids' Bedroom Set",
+      "category": "Kids Bedroom",
+      "productCode": "K1185",
+      "dimensions": "-",
+      "materials": "Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/golf-kids-bedroom-set/full-drive.webp",
+        "alt": "Golf Kids' Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "lucchi/نوم اطفال جولف/magnific_photo-two-twin-beds-with-_mEjJq43hJQ.JPG",
+        "referenceSrc": "/media/catalogue/golf-kids-bedroom-set/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/golf-kids-bedroom-set/full-drive-640.avif 640w, /media/catalogue/golf-kids-bedroom-set/full-drive-1080.avif 1080w, /media/catalogue/golf-kids-bedroom-set/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/golf-kids-bedroom-set/full-drive-640.webp 640w, /media/catalogue/golf-kids-bedroom-set/full-drive-1080.webp 1080w, /media/catalogue/golf-kids-bedroom-set/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAwCdASoYABIAPvVwsFEqpiSiqAqpUB6JZQCsACF4PrkAAPxJ4a2xbl7qv9J7bDRDldHwed1eP5Mp/YAAAA==",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/media/catalogue/golf-kids-bedroom-set/full.webp",
+          "status": "final",
+          "source": "client-photography",
+          "clientFile": "lucchi/نوم اطفال جولف/magnific_photo-a-neatly-made-singl_8a1Uq36IrU.JPG"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/golf-kids-bedroom-set/full-drive.webp",
+        "alt": "Golf Kids' Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-drive",
+        "clientFile": "lucchi/نوم اطفال جولف/magnific_photo-two-twin-beds-with-_mEjJq43hJQ.JPG",
+        "referenceSrc": "/media/catalogue/golf-kids-bedroom-set/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/golf-kids-bedroom-set/full-drive-640.avif 640w, /media/catalogue/golf-kids-bedroom-set/full-drive-1080.avif 1080w, /media/catalogue/golf-kids-bedroom-set/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/golf-kids-bedroom-set/full-drive-640.webp 640w, /media/catalogue/golf-kids-bedroom-set/full-drive-1080.webp 1080w, /media/catalogue/golf-kids-bedroom-set/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAwCdASoYABIAPvVwsFEqpiSiqAqpUB6JZQCsACF4PrkAAPxJ4a2xbl7qv9J7bDRDldHwed1eP5Mp/YAAAA==",
+        "original": "7008x4672",
+        "previous": {
+          "src": "/media/catalogue/golf-kids-bedroom-set/full.webp",
+          "status": "final",
+          "source": "client-photography",
+          "clientFile": "lucchi/نوم اطفال جولف/magnific_photo-a-neatly-made-singl_8a1Uq36IrU.JPG"
+        }
+      },
+      "context": {
+        "src": "/media/catalogue/golf-kids-bedroom-set/context.webp",
+        "alt": "Golf Kids' Bedroom Set showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جولف/magnific_photo-a-modern-beige-nigh_Xm5ltJkBfo.JPG",
+        "referenceSrc": "/images/products/golf-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/golf-kids-bedroom-set/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwBACdASoUAAsAPu1iqk4ppaQiMAgBMB2JZACdMoR8eCnUS905R/cDe5g4AAD+MS5TbJgfC+XkL2EUxrqEz53hC7WftDXlwlv/FGUFPgr8ZAAA"
+      },
+      "wideSet": {
+        "src": "/media/catalogue/golf-kids-bedroom-set/wideSet.webp",
+        "alt": "Golf Kids' Bedroom Set room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جولف/magnific_photo-a-modern-beige-nigh_Xm5ltJkBfo.JPG",
+        "referenceSrc": "/images/products/golf-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/golf-kids-bedroom-set/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwBACdASoUAAsAPu1iqk4ppaQiMAgBMB2JZACdMoR8eCnUS905R/cDe5g4AAD+MS5TbJgfC+XkL2EUxrqEz53hC7WftDXlwlv/FGUFPgr8ZAAA"
+      }
+    },
+    "grey-kids-bedroom-set": {
+      "productId": "grey-kids-bedroom-set",
+      "productName": "Grey Kids' Bedroom Set",
+      "category": "Kids Bedroom",
+      "productCode": "K1184",
+      "dimensions": "Bed 125x210x120cm; Wardrobe 160x55x210cm; Nightstand 50x40x45cm; Dressing Table 80x40x80cm",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/grey-kids-bedroom-set/full.webp",
+        "alt": "Grey Kids' Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جراي/magnific_photo-two-single-beds-wit_xS3cLLWjfW.JPG",
+        "referenceSrc": "/images/products/grey-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/grey-kids-bedroom-set/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoUAA8APu1iqU2ppaQiMAgBMB2JQBUfNQA0FsSbUZXF9K0GqAgA/t7JyzahatjE0a6OciabptpM1iv++4lNsYgoOuMhBy/OCikakMRVNDqqBZSWclBNPNzm3VS1cjHnEHeJlxPwjcsnJXA3Rs7O9JGyrwbW4YYAAAA="
+      },
+      "detail": {
+        "src": "/media/catalogue/grey-kids-bedroom-set/detail.webp",
+        "alt": "Grey Kids' Bedroom Set material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جراي/magnific_photo-a-wooden-vanity-wit_aFlPv8xfSh.JPG",
+        "referenceSrc": "/images/products/grey-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/grey-kids-bedroom-set/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBACdASoUABQAPu1mqk8ppaOiKA1RMB2JQBibATCNr/NzX0vKCM0ONh1bAADNwP9ltU4Okg11ONCYJ6M4bIaIoG5/nROQw0r5t185hRZhXu5hKurRntpl4phhMn76bK530gr3Q7Wx8A8ca0+bgEUPQptAAAAA"
+      },
+      "context": {
+        "src": "/media/catalogue/grey-kids-bedroom-set/context.webp",
+        "alt": "Grey Kids' Bedroom Set showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جراي/magnific_photo-a-wooden-nightstand_jUR0UemLD0.JPG",
+        "referenceSrc": "/images/products/grey-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/grey-kids-bedroom-set/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAAsAPu1iqk2ppaQiMAgBMB2JQBOmUABd3ZD2dvbbKhFQAP6xkfHTebNW+HLsfx+zqmDkS1LAHoyXGN48bBsAx4BCRZUfvbRgkeRbgAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/grey-kids-bedroom-set/wideSet.webp",
+        "alt": "Grey Kids' Bedroom Set room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اطفال جراي/magnific_photo-a-wooden-nightstand_jUR0UemLD0.JPG",
+        "referenceSrc": "/images/products/grey-kids-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/grey-kids-bedroom-set/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAAsAPu1iqk2ppaQiMAgBMB2JQBOmUABd3ZD2dvbbKhFQAP6xkfHTebNW+HLsfx+zqmDkS1LAHoyXGN48bBsAx4BCRZUfvbRgkeRbgAA="
+      }
+    },
+    "circle-dining-table": {
+      "productId": "circle-dining-table",
+      "productName": "Circle Dining Table",
+      "category": "Dining",
+      "productCode": "D1270",
+      "dimensions": "Dining Table 200x100x80cm; Display Cabinet 100x55x170cm; Buffet 235x55x100cm w/ mirror 180cm; Chair 50x60x85cm",
+      "materials": "Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/circle-dining-table/full-drive.webp",
+        "alt": "Circle Dining Table full view (rendered reference image)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "lucchi/سفره سيركل/magnific_use-the-uploaded-referenc_IfjA8ZMtvE.png",
+        "referenceSrc": "/media/catalogue/circle-dining-table/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/circle-dining-table/full-drive-640.avif 640w, /media/catalogue/circle-dining-table/full-drive-1080.avif 1080w, /media/catalogue/circle-dining-table/full-drive-1536.avif 1536w",
+          "webp": "/media/catalogue/circle-dining-table/full-drive-640.webp 640w, /media/catalogue/circle-dining-table/full-drive-1080.webp 1080w, /media/catalogue/circle-dining-table/full-drive-1536.webp 1536w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAwCdASoYABIAPvVysVMqpqSiqAgBUB6JaQDPoBZlykWoAAD+7pisNKCdGitIugA=",
+        "original": "1536x1536",
+        "previous": {
+          "src": "/media/catalogue/circle-dining-table/full.webp",
+          "status": "ai-placeholder",
+          "source": "ai-upscale",
+          "clientFile": "lucchi/سفره سيركل/magnific_use-the-uploaded-referenc_DoqNBwgpcl.png"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/circle-dining-table/detail.webp",
+        "alt": "Circle Dining Table material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره سيركل/magnific_use-the-uploaded-referenc_8axAmTHIrU.png",
+        "referenceSrc": "/images/products/circle-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/circle-dining-table/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwBACdASoUABQAPu1gp02ppSOiMAgBMB2JZQC7M2QCam/pYlB9m1Z3fIAA/u4ubcXZN/cdUI3g2wSEPCTPeipbWxN8NMBQSjhoTY/HNBtmssIjRwj5Kifu4AA="
+      },
+      "context": {
+        "src": "/media/catalogue/circle-dining-table/context.webp",
+        "alt": "Circle Dining Table showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره سيركل/magnific_use-the-uploaded-referenc_CqwTuhNEEy.png",
+        "referenceSrc": "/images/products/circle-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/circle-dining-table/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABQAwCdASoUAAsAPu1kq04ppaQiMAgBMB2JZQDE2B7Hjth3AAD+8d9J3ghmisXhNK1rWovYngFIUnYSWHhKjSAA"
+      },
+      "wideSet": {
+        "src": "/media/catalogue/circle-dining-table/wideSet.webp",
+        "alt": "Circle Dining Table room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره سيركل/magnific_use-the-uploaded-referenc_CqwTuhNEEy.png",
+        "referenceSrc": "/images/products/circle-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/circle-dining-table/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABQAwCdASoUAAsAPu1kq04ppaQiMAgBMB2JZQDE2B7Hjth3AAD+8d9J3ghmisXhNK1rWovYngFIUnYSWHhKjSAA"
+      }
+    },
+    "rahaf-dining-table": {
+      "productId": "rahaf-dining-table",
+      "productName": "Rahaf Dining Table",
+      "category": "Dining",
+      "productCode": "D1267",
+      "dimensions": "Buffet 215x55x90cm; Dining Table 205x105x80cm; Display Cabinet 120x55x170cm; Chair 50x60x85cm",
+      "materials": "Roman Red Beech Wood (code duplicates D1267 in PDF - verify with client)",
+      "full": {
+        "src": "/media/catalogue/rahaf-dining-table/full.webp",
+        "alt": "Rahaf Dining Table full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/سفره رهف/magnific_photo-a-dining-room-with-_WDa5vwAcXe.JPG",
+        "referenceSrc": "/images/products/rahaf-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/rahaf-dining-table/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAAAwBACdASoUAA8APu1iqU2ppaOiMAgBMB2JYgCdMoACjdcEEkAscSEYNKAA/rxbi1Spbm5km3udw24SNhWso8R4J2zWlQO/1FpLaQJaXwh08IFj8kq0EP4DCEAhI7Uwh9uy1s/Xd/9OF+DVlygAAA=="
+      },
+      "detail": {
+        "src": "/media/catalogue/rahaf-dining-table/detail.webp",
+        "alt": "Rahaf Dining Table material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/سفره رهف/magnific_photo-a-white-marble-oval_iGdaW0p3uK.JPG",
+        "referenceSrc": "/images/products/rahaf-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/rahaf-dining-table/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAAAQBQCdASoUABQAPu1sqlGppaOiqAqpMB2JQBYj42a4Ay8OpomEQmQwcPXucLTqlSaAAP40fasGYRgdDH2Ha+1jeZrtqQrPul9betTPS0bq/rRG49/cemsYZRO8FUwrup4iwBNsP+R/02XzngZL4u0K9GR9Not+hGozJMJNZHvNA+MMGRQNCfgr8AAAAA=="
+      },
+      "context": {
+        "src": "/media/catalogue/rahaf-dining-table/context.webp",
+        "alt": "Rahaf Dining Table showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/سفره رهف/magnific_photo-a-dining-room-with-_VXur7BoMMU.JPG",
+        "referenceSrc": "/images/products/rahaf-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/rahaf-dining-table/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOmUABuySVdXBQ/cBov9CMAAP7vSZnwFncHIvYarsPBzchNlZCs7IE2ki4ZJ73q7OcL+V+wd2dz2KytUfy+REJq15KCuDd3OVAAAAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/rahaf-dining-table/wideSet.webp",
+        "alt": "Rahaf Dining Table room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/سفره رهف/magnific_photo-a-dining-room-with-_VXur7BoMMU.JPG",
+        "referenceSrc": "/images/products/rahaf-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/rahaf-dining-table/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JQBOmUABuySVdXBQ/cBov9CMAAP7vSZnwFncHIvYarsPBzchNlZCs7IE2ki4ZJ73q7OcL+V+wd2dz2KytUfy+REJq15KCuDd3OVAAAAA="
+      }
+    },
+    "living-room-set-r1561": {
+      "productId": "living-room-set-r1561",
+      "productName": "Living Room Set R1561",
+      "category": "Living Room",
+      "productCode": "R1561",
+      "dimensions": "-",
+      "materials": "Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/living-room-set-r1561/full-drive.webp",
+        "alt": "Living Room Set R1561 full view (rendered reference image)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "lucchi/انتريه r1561/magnific_use-the-uploaded-referenc_LwA0ILTswO.png",
+        "referenceSrc": "/media/catalogue/living-room-set-r1561/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/living-room-set-r1561/full-drive-640.avif 640w, /media/catalogue/living-room-set-r1561/full-drive-1080.avif 1080w, /media/catalogue/living-room-set-r1561/full-drive-1536.avif 1536w",
+          "webp": "/media/catalogue/living-room-set-r1561/full-drive-640.webp 640w, /media/catalogue/living-room-set-r1561/full-drive-1080.webp 1080w, /media/catalogue/living-room-set-r1561/full-drive-1536.webp 1536w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjgAAABXRUJQVlA4ICwAAADwAgCdASoYABIAPvVyslMqpqSiqAgBUB6JaQAAP8jUAAD+7u6NlkyhY4AAAA==",
+        "original": "1536x1536",
+        "previous": {
+          "src": "/media/catalogue/living-room-set-r1561/full.webp",
+          "status": "ai-placeholder",
+          "source": "ai-upscale",
+          "clientFile": "lucchi/انتريه r1561/magnific_use-the-uploaded-referenc_9ZetQbuNYZ.png"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/living-room-set-r1561/detail.webp",
+        "alt": "Living Room Set R1561 material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/انتريه r1561/magnific_use-the-uploaded-referenc_aFSP2BRfSh.png",
+        "referenceSrc": "/images/products/living-room-set-r1561.webp",
+        "srcset": {
+          "webp": "/media/catalogue/living-room-set-r1561/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADwBACdASoUABQAPu1kq06ppaOiKA1RMB2JZwDKABEZ/bfEIk0ApRMg2D1OokNfNAAA/vHQCHBScpgQgEEGzz8x8wH9hoCs0BeC8ua7oi7+lRrs6JyC5D/7zDYfLLyXGODqIUswL40smps1fPNb4tjDaNieDe+eF34BqOBbIAA="
+      },
+      "context": {
+        "src": "/media/catalogue/living-room-set-r1561/context.webp",
+        "alt": "Living Room Set R1561 showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/انتريه r1561/magnific_use-the-uploaded-referenc_w4cevbR7EI.png",
+        "referenceSrc": "/images/products/living-room-set-r1561.webp",
+        "srcset": {
+          "webp": "/media/catalogue/living-room-set-r1561/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAAsAPu1kqk2ppaQiMAgBMB2JZwDG9BSYDB9Sw9zkc64AAP7wNgisTbOjTVHhdDbkl1TvloEnVIz/nBXNQmCMnUux1Pur/H7Rh8BYAAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/living-room-set-r1561/wideSet.webp",
+        "alt": "Living Room Set R1561 room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/انتريه r1561/magnific_use-the-uploaded-referenc_w4cevbR7EI.png",
+        "referenceSrc": "/images/products/living-room-set-r1561.webp",
+        "srcset": {
+          "webp": "/media/catalogue/living-room-set-r1561/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoUAAsAPu1kqk2ppaQiMAgBMB2JZwDG9BSYDB9Sw9zkc64AAP7wNgisTbOjTVHhdDbkl1TvloEnVIz/nBXNQmCMnUux1Pur/H7Rh8BYAAA="
+      }
+    },
+    "bianco-bedroom-set": {
+      "productId": "bianco-bedroom-set",
+      "productName": "Bianco Bedroom Set",
+      "category": "Bedroom",
+      "productCode": "B1393",
+      "dimensions": "-",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/bianco-bedroom-set/full.webp",
+        "alt": "Bianco Bedroom Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم بيانكو/magnific_photo-a-white-bed-with-a-_CqS9trnEEy.JPG",
+        "referenceSrc": "/images/products/bianco-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bianco-bedroom-set/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAwCdASoUAA8APu1oqk6ppiQiMAgBMB2JYgCdACEqELIH8699SPKgAP7Buu6/SArkvRSpwvCbEjkmNGTqBLaNS/Kt+gUoiPELkI9U9FuhE0JOh56VEKZXF5pS1WyrPAe8vAAA"
+      },
+      "detail": {
+        "src": "/media/catalogue/bianco-bedroom-set/detail.webp",
+        "alt": "Bianco Bedroom Set material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم بيانكو/magnific_photo-a-white-vanity-tabl_LwZ00HpswO.JPG",
+        "referenceSrc": "/images/products/bianco-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bianco-bedroom-set/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAQBQCdASoUABQAPu1qr1CppaQiqAqpMB2JZACdMuN5aAy8x2SrV5yAI7YTnj0Yu/YAAP7L+8C1LqsDqRHwJt+nVH00pwsQkXZ2hSuUKgMwJrB8CuKyL4KqfXLDsbFoVpmyxftsqp3JecrqW6oyCqjMnkmVTxgJFsDJIAAA"
+      },
+      "context": {
+        "src": "/media/catalogue/bianco-bedroom-set/context.webp",
+        "alt": "Bianco Bedroom Set showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم بيانكو/magnific_photo-a-creamcolored-oval_cpf5ZWN0eP.JPG",
+        "referenceSrc": "/images/products/bianco-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bianco-bedroom-set/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQBACdASoUAAsAPu1iqk2ppaQiMAgBMB2JZACdMoADgusn/qvdE7cwFsXAAP6sQ1w0EomNsIX+AABPTUhUYdmOtSTWdNNZ2uwHyY9OjZ7u3SRo1WJ3iPUqrEazD6GwAAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/bianco-bedroom-set/wideSet.webp",
+        "alt": "Bianco Bedroom Set room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم بيانكو/magnific_photo-a-creamcolored-oval_cpf5ZWN0eP.JPG",
+        "referenceSrc": "/images/products/bianco-bedroom-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/bianco-bedroom-set/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABQBACdASoUAAsAPu1iqk2ppaQiMAgBMB2JZACdMoADgusn/qvdE7cwFsXAAP6sQ1w0EomNsIX+AABPTUhUYdmOtSTWdNNZ2uwHyY9OjZ7u3SRo1WJ3iPUqrEazD6GwAAA="
+      }
+    },
+    "haland-dining-table": {
+      "productId": "haland-dining-table",
+      "productName": "Haland Dining Table",
+      "category": "Dining",
+      "productCode": "D1266",
+      "dimensions": "Buffet 250cm; Dining Table 220x110cm",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/haland-dining-table/full-drive.webp",
+        "alt": "Haland Dining Table full view (rendered reference image)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "lucchi/سفره هالاند/magnific_use-the-uploaded-referenc_UPWpf0Pwny.png",
+        "referenceSrc": "/media/catalogue/haland-dining-table/full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/haland-dining-table/full-drive-640.avif 640w, /media/catalogue/haland-dining-table/full-drive-1080.avif 1080w, /media/catalogue/haland-dining-table/full-drive-1536.avif 1536w",
+          "webp": "/media/catalogue/haland-dining-table/full-drive-640.webp 640w, /media/catalogue/haland-dining-table/full-drive-1080.webp 1080w, /media/catalogue/haland-dining-table/full-drive-1536.webp 1536w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADwAgCdASoYABIAPvVyslKqpqSiqAgBUB6JaQAAPaaKAAD+7uj+6gAA",
+        "original": "1536x1536",
+        "previous": {
+          "src": "/media/catalogue/haland-dining-table/full.webp",
+          "status": "ai-placeholder",
+          "source": "ai-upscale",
+          "clientFile": "lucchi/سفره هالاند/magnific_use-the-uploaded-referenc_LwA08gRswO.png"
+        }
+      },
+      "detail": {
+        "src": "/media/catalogue/haland-dining-table/detail.webp",
+        "alt": "Haland Dining Table material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره هالاند/magnific_use-the-uploaded-referenc_WDCblY3cXe.png",
+        "referenceSrc": "/images/products/haland-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/haland-dining-table/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAADQBACdASoUABQAPuVgpU2pJaOiN/VYASAciWUAuwAQ4jYX7yQNyf3h4jwqk1StQADeIpEv6/VabvjujJIWs3zs4Rs4AtBFVVa1+QNu1YnZuaSUSqtz0N8hQgO44rQLByqQU1nS3g8nupwAAAA="
+      },
+      "context": {
+        "src": "/media/catalogue/haland-dining-table/context.webp",
+        "alt": "Haland Dining Table showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره هالاند/magnific_use-the-uploaded-referenc_WDC72sHcXe.png",
+        "referenceSrc": "/images/products/haland-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/haland-dining-table/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZwC7ACIftYw7J/BQ6AAA/uuK8iCn9ncbhuxgLZjjhIv10/lYLynxG00CufnJiYmfMKxg8BQ1toLjVDgAAA=="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/haland-dining-table/wideSet.webp",
+        "alt": "Haland Dining Table room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "ai-placeholder",
+        "source": "ai-upscale",
+        "clientFile": "lucchi/سفره هالاند/magnific_use-the-uploaded-referenc_WDC72sHcXe.png",
+        "referenceSrc": "/images/products/haland-dining-table.webp",
+        "srcset": {
+          "webp": "/media/catalogue/haland-dining-table/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADQAwCdASoUAAsAPu1iqU2ppaQiMAgBMB2JZwC7ACIftYw7J/BQ6AAA/uuK8iCn9ncbhuxgLZjjhIv10/lYLynxG00CufnJiYmfMKxg8BQ1toLjVDgAAA=="
+      }
+    },
+    "curve-set": {
+      "productId": "curve-set",
+      "productName": "Curve Set",
+      "category": "Living Room",
+      "productCode": "R1562",
+      "dimensions": "3-Seater 260cm; 2-Seater 255cm; Chair 83cm",
+      "materials": "Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/curve-set/full.webp",
+        "alt": "Curve Set full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/طقم كيرف/magnific_photo-a-creamcolored-curv_BhKSYI0oQR.JPG",
+        "referenceSrc": "/images/products/curve-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/curve-set/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoUAA8APu1iqU2ppaOiMAgBMB2JZACdL1yBeJHTPj/TaDA0oAD+3GjM2rD4CHUmJjd1F+Evnl9+eififPw0fKH2JdiGeP+D1Jzk2CXkgA0GRoqGuNYAAA=="
+      },
+      "detail": {
+        "src": "/media/catalogue/curve-set/detail.webp",
+        "alt": "Curve Set material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/طقم كيرف/magnific_photo-a-round-creamcolore_huLykhNvqL.JPG",
+        "referenceSrc": "/images/products/curve-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/curve-set/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAAAQBQCdASoUABQAPu1wsFIppiSiqAgBMB2JQBdmZfgonakxjF1rhbKDMw+jHk3gBy+gAP4z2TyqG+mgI06TwMTxU+CmAk1ikVsagQRp92d78zUDqd85sLq8msKwwCSjdHkA5s4WSI2hfyBW/G5NuXvJRZCXm026EE37CTpqgNKTKnCaV4cmAAAA"
+      },
+      "context": {
+        "src": "/media/catalogue/curve-set/context.webp",
+        "alt": "Curve Set showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/طقم كيرف/magnific_photo-a-modern-living-roo_tCxJDkpmZJ.JPG",
+        "referenceSrc": "/images/products/curve-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/curve-set/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwCdMoR8eCIbdSxXaMEZcDlQAP7u3nUmrlB+oB3iPg8XHGl+xEBRi/+hKTGHEB98XbVJWrrfTJXoQkYpqePrcAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/curve-set/wideSet.webp",
+        "alt": "Curve Set room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/طقم كيرف/magnific_photo-a-modern-living-roo_tCxJDkpmZJ.JPG",
+        "referenceSrc": "/images/products/curve-set.webp",
+        "srcset": {
+          "webp": "/media/catalogue/curve-set/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAABQBACdASoUAAsAPu1iqU2ppaOiMAgBMB2JYwCdMoR8eCIbdSxXaMEZcDlQAP7u3nUmrlB+oB3iPg8XHGl+xEBRi/+hKTGHEB98XbVJWrrfTJXoQkYpqePrcAA="
+      }
+    },
+    "areej-bedroom": {
+      "productId": "areej-bedroom",
+      "productName": "Areej Bedroom",
+      "category": "Bedroom",
+      "productCode": "B1392",
+      "dimensions": "Bed 295x210x140cm; Wardrobe 270x230x60cm; Dressing Table 160x185x45cm; Nightstand 60x45x45cm; Hanger 50x180x40cm; Bench 120x40cm; Pouf 40x40cm",
+      "materials": "Blockboard + Roman Red Beech Wood",
+      "full": {
+        "src": "/media/catalogue/areej-bedroom/full.webp",
+        "alt": "Areej Bedroom full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اريج/magnific_photo-a-kingsize-bed-with_1l6ztghr4r.JPG",
+        "referenceSrc": "/images/products/areej-bedroom.webp",
+        "srcset": {
+          "webp": "/media/catalogue/areej-bedroom/full.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAwBACdASoUAA8APu1iqk2ppaQiMAgBMB2JZACdMoAC8hf2c0plds+s44gAzETKSsHK0KKysnOmal+g4vUKuiI6qbibXvRSpTkGqG2ezuPjfewwAOSjjhta1PqnrA5EDtIGlMwMRdnrLkmo2t2PeQAA"
+      },
+      "detail": {
+        "src": "/media/catalogue/areej-bedroom/detail.webp",
+        "alt": "Areej Bedroom material and joinery detail",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "1/1",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اريج/magnific_photo-a-square-wooden-sto_cpfbzJq0eP.JPG",
+        "referenceSrc": "/images/products/areej-bedroom.webp",
+        "srcset": {
+          "webp": "/media/catalogue/areej-bedroom/detail.webp 1080w"
+        },
+        "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAACwBACdASoUABQAPu1srVCppiQiqAqpMB2JQBYdgbbUzRbJd9X7QNCNkYndwRHAAP6ib0j+wmm1A4bpMVEi++Q7Aw9KeU5DV4t1Ilj7lAZ+RN+zzNSpyRsZvXy4tYrKreHcpJcXGVfwsKDtEAA="
+      },
+      "context": {
+        "src": "/media/catalogue/areej-bedroom/context.webp",
+        "alt": "Areej Bedroom showroom context",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اريج/magnific_photo-a-modern-wooden-nig_rgine1Zxtc.JPG",
+        "referenceSrc": "/images/products/areej-bedroom.webp",
+        "srcset": {
+          "webp": "/media/catalogue/areej-bedroom/context.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQBACdASoUAAsAPu1iqk2ppaQiMAgBMB2JZACdMoR4GCWWhE4S9Rg2cAD+7MOz6N/QHAT+qnTS7eVqN8tjctsHyQaHLpI2m5+JFuQQAAA="
+      },
+      "wideSet": {
+        "src": "/media/catalogue/areej-bedroom/wideSet.webp",
+        "alt": "Areej Bedroom room ensemble",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "16/9",
+        "status": "final",
+        "source": "client-photography",
+        "clientFile": "lucchi/نوم اريج/magnific_photo-a-modern-wooden-nig_rgine1Zxtc.JPG",
+        "referenceSrc": "/images/products/areej-bedroom.webp",
+        "srcset": {
+          "webp": "/media/catalogue/areej-bedroom/wideSet.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQBACdASoUAAsAPu1iqk2ppaQiMAgBMB2JZACdMoR4GCWWhE4S9Rg2cAD+7MOz6N/QHAT+qnTS7eVqN8tjctsHyQaHLpI2m5+JFuQQAAA="
+      }
+    },
+    "side-table": {
+      "productId": "side-table",
+      "productName": "Side Table",
+      "category": "Accessories",
+      "productCode": "",
+      "full": {
+        "src": "/media/catalogue/side-table/full-drive.webp",
+        "alt": "Side Table full view (rendered reference image)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "table 1/magnific_use-the-uploaded-referenc_rgNduOQxtc.png",
+        "referenceSrc": "/media/selected/selected-side-table-full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/side-table/full-drive-640.avif 640w, /media/catalogue/side-table/full-drive-1080.avif 1080w, /media/catalogue/side-table/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/side-table/full-drive-640.webp 640w, /media/catalogue/side-table/full-drive-1080.webp 1080w, /media/catalogue/side-table/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAQAwCdASoYABIAPvVyslKqpqSiqAgBUB6JaQDPoBbHDYAA/u7lwvA2xgnJugAA",
+        "original": "1536x1536"
+      },
+      "detail": {
+        "src": "/media/catalogue/side-table/full-drive.webp",
+        "alt": "Side Table full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "table 1/magnific_use-the-uploaded-referenc_rgNduOQxtc.png",
+        "referenceSrc": "/media/selected/selected-side-table-full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/side-table/full-drive-640.avif 640w, /media/catalogue/side-table/full-drive-1080.avif 1080w, /media/catalogue/side-table/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/side-table/full-drive-640.webp 640w, /media/catalogue/side-table/full-drive-1080.webp 1080w, /media/catalogue/side-table/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAAAQAwCdASoYABIAPvVyslKqpqSiqAgBUB6JaQDPoBbHDYAA/u7lwvA2xgnJugAA",
+        "original": "1536x1536"
+      }
+    },
+    "pedestal-table": {
+      "productId": "pedestal-table",
+      "productName": "Pedestal Table",
+      "category": "Accessories",
+      "productCode": "",
+      "full": {
+        "src": "/media/catalogue/pedestal-table/full-drive.webp",
+        "alt": "Pedestal Table full view (rendered reference image)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "table 2/magnific_use-the-uploaded-referenc_8aK6dzFIrU.png",
+        "referenceSrc": "/media/selected/selected-pedestal-table-full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/pedestal-table/full-drive-640.avif 640w, /media/catalogue/pedestal-table/full-drive-1080.avif 1080w, /media/catalogue/pedestal-table/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/pedestal-table/full-drive-640.webp 640w, /media/catalogue/pedestal-table/full-drive-1080.webp 1080w, /media/catalogue/pedestal-table/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADQAgCdASoYABIAPvVyslKqpqSiqAgBUB6JaQAAPaOgAP7vh38AAAAA",
+        "original": "1536x1536"
+      },
+      "detail": {
+        "src": "/media/catalogue/pedestal-table/full-drive.webp",
+        "alt": "Pedestal Table full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "table 2/magnific_use-the-uploaded-referenc_8aK6dzFIrU.png",
+        "referenceSrc": "/media/selected/selected-pedestal-table-full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/pedestal-table/full-drive-640.avif 640w, /media/catalogue/pedestal-table/full-drive-1080.avif 1080w, /media/catalogue/pedestal-table/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/pedestal-table/full-drive-640.webp 640w, /media/catalogue/pedestal-table/full-drive-1080.webp 1080w, /media/catalogue/pedestal-table/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAADQAgCdASoYABIAPvVyslKqpqSiqAgBUB6JaQAAPaOgAP7vh38AAAAA",
+        "original": "1536x1536"
+      }
+    },
+    "table-lamp": {
+      "productId": "table-lamp",
+      "productName": "Table Lamp",
+      "category": "Accessories",
+      "productCode": "",
+      "full": {
+        "src": "/media/catalogue/table-lamp/full-drive.webp",
+        "alt": "Table Lamp full view (rendered reference image)",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "lamp 2/magnific_use-the-uploaded-referenc_O6WuO93ynm.png",
+        "referenceSrc": "/media/selected/selected-table-lamp-full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/table-lamp/full-drive-640.avif 640w, /media/catalogue/table-lamp/full-drive-1080.avif 1080w, /media/catalogue/table-lamp/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/table-lamp/full-drive-640.webp 640w, /media/catalogue/table-lamp/full-drive-1080.webp 1080w, /media/catalogue/table-lamp/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAADQAgCdASoYABIAPvV0slMqpqSiqAgBUB6JaQAAPaOgAP7vqlIAAA==",
+        "original": "1536x1536"
+      },
+      "detail": {
+        "src": "/media/catalogue/table-lamp/full-drive.webp",
+        "alt": "Table Lamp full view",
+        "focalPoint": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "aspect": "4/3",
+        "status": "ai-placeholder",
+        "source": "client-drive",
+        "clientFile": "lamp 2/magnific_use-the-uploaded-referenc_O6WuO93ynm.png",
+        "referenceSrc": "/media/selected/selected-table-lamp-full.webp",
+        "srcset": {
+          "avif": "/media/catalogue/table-lamp/full-drive-640.avif 640w, /media/catalogue/table-lamp/full-drive-1080.avif 1080w, /media/catalogue/table-lamp/full-drive-1600.avif 1600w",
+          "webp": "/media/catalogue/table-lamp/full-drive-640.webp 640w, /media/catalogue/table-lamp/full-drive-1080.webp 1080w, /media/catalogue/table-lamp/full-drive-1600.webp 1600w"
+        },
+        "lqip": "data:image/webp;base64,UklGRjIAAABXRUJQVlA4ICYAAADQAgCdASoYABIAPvV0slMqpqSiqAgBUB6JaQAAPaOgAP7vqlIAAA==",
+        "original": "1536x1536"
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "src": "/media/catalogue/contact-hero.webp",
+      "alt": "Marble-accent Lucchi sofa, photographed for private showroom enquiry",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "aspect": "16/9",
+      "recommendedSize": "2400x1350",
+      "status": "ai-placeholder",
+      "referenceSrc": "/images/products/living-room-set-r1560-a.webp",
+      "source": "ai-upscale"
+    },
+    "cta": {
+      "src": "/media/contact/cta-living-room-1536.webp",
+      "alt": "Living room with curved cream sofas and armchairs around a dark coffee table, in front of a travertine wall",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "aspect": "4/3",
+      "width": 1536,
+      "height": 1152,
+      "status": "final",
+      "source": "client-supplied",
+      "srcset": {
+        "avif": "/media/contact/cta-living-room-640.avif 640w, /media/contact/cta-living-room-1080.avif 1080w, /media/contact/cta-living-room-1536.avif 1536w",
+        "webp": "/media/contact/cta-living-room-640.webp 640w, /media/contact/cta-living-room-1080.webp 1080w, /media/contact/cta-living-room-1536.webp 1536w"
+      },
+      "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAwCdASoYABIAPvVur1E7pi6iqAqrcB6JZwC2yBXjLnQA/merllofAbM562r9t0c/fcFGObfvCumUEAZTMAAA",
+      "original": "1536x1536",
+      "previous": {
+        "src": "/media/contact/cta-drive-1600.webp",
+        "note": "Previous CTA picture (cta-drive-*), files kept in public/media/contact"
+      }
+    }
+  },
+  "about": {
+    "image": {
+      "src": "/media/about/about-drive.webp",
+      "alt": "Cream sofa with two gold round side tables on grey carpet in the Lucchi showroom",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "aspect": "4/5",
+      "status": "final",
+      "source": "client-drive",
+      "clientFile": "room7/magnific_photo-two-modern-gold-cof_9ZVqjaaNYZ.JPG",
+      "srcset": {
+        "avif": "/media/about/about-drive-640.avif 640w, /media/about/about-drive-1080.avif 1080w, /media/about/about-drive-1600.avif 1600w",
+        "webp": "/media/about/about-drive-640.webp 640w, /media/about/about-drive-1080.webp 1080w, /media/about/about-drive-1600.webp 1600w"
+      },
+      "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABQAwCdASoYAB4APvVgqU87qiOiMBgMA3AeiWcAygAVWkgQAAD9sWHGDNiWFkLCeg0CSL8MwyeyERKBD7AAAA==",
+      "original": "4672x7008",
+      "previous": {
+        "src": "/media/about/curve-set-soft.webp",
+        "source": "client-photography"
+      }
+    }
+  },
+  "menu": {
+    "home": {
+      "src": "/media/menu/menu-home-drive.webp",
+      "alt": "Cream armchair with a taupe wrap-around back on a marble floor in the Lucchi showroom",
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "aspect": "4/5",
+      "status": "final",
+      "source": "client-drive",
+      "clientFile": "lucchi/طقم موكا/magnific_photo-a-creamcolored-armc_cpfbrUN0eP.JPG",
+      "srcset": {
+        "avif": "/media/menu/menu-home-drive-640.avif 640w, /media/menu/menu-home-drive-1080.avif 1080w, /media/menu/menu-home-drive-1600.avif 1600w",
+        "webp": "/media/menu/menu-home-drive-640.webp 640w, /media/menu/menu-home-drive-1080.webp 1080w, /media/menu/menu-home-drive-1600.webp 1600w"
+      },
+      "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAABQAwCdASoYAB4APvVkqE+7pTE3sBgMA3AeiWcAxvQU24jf6AD+2/p7T+vKcN7FfjzKZcoNGP+Enqk8CH7GudReZmgAAA==",
+      "original": "4672x7008"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "lucchi-furniture-showcase",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@11.25.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3000",
+    "sync": "node scripts/sync-sanity.mjs",
+    "prebuild": "node scripts/sync-sanity.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3000",
+    "hero": "npm install --no-save --no-audit --no-fund sharp && node scripts/generate-hero.mjs"
+  },
+  "dependencies": {
+    "@fontsource/playfair-display": "^5.2.7",
+    "@fontsource/poppins": "^5.2.7",
+    "framer-motion": "^12.23.12",
+    "lenis": "^1.3.8",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite": "^7.1.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4"
+  }
+}

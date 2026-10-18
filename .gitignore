@@ -1,0 +1,57 @@
+node_modules/
+dist/
+.vercel
+
+.env
+.env.*
+!.env.example
+
+*.local
+.DS_Store
+client-assets/
+lucchi-backup/
+
+.env.local
+Lucchi_Product_Reference_Photos/
+grade-report/
+*.pdf
+*.zip
+pasted_content*.txt
+
+# Private or heavy, never in git
+private-data/
+public/media/hero/alt/
+.vercel/
+.env*
+!.env.example
+
+# Loose files at the project root: client briefs, notes, csv, review images, strays (kept on the computer, never in git)
+/02-asset-design.md
+/Full Prompt for Claude*.md
+/Lucchi Furniture*Brief.md
+/Lucchi Visual Photo Shoot Board.md
+/Lucchi Website*.md
+/build-contracts.md
+/configuration.md
+/design.md
+/development.md
+/ideas.md
+/plan.md
+/route-manifest.md
+/validation.md
+/SKILL.md
+/أقوى*.md
+/تحليل*.md
+/2026-09-30_*.txt
+/*.csv
+/lucchi-*-contact-sheet.jpg
+/selected-pieces-verified.png
+/pasted_file_*_image.png
+/living-room-set-r1552.webp
+/living-room-set-r1560-a.webp
+/new-panda-set.webp
+/venus-corner-sofa.webp
+/app.config.ts
+/pnpm-workspace.yaml
+/prepare_catalogue.py
+.cursor/
