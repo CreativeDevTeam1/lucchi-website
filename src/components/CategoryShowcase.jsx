@@ -2,6 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react
 import { useReducedMotion } from 'framer-motion'
 import { imageManifest } from '../data/content'
 import { CATALOGUE_CATEGORIES, collectionsPath } from '../config/catalogue'
+import useSidewaysWheel from './useSidewaysWheel'
 
 /* Tune the Collections row here. */
 const AUTOPLAY = true
@@ -342,6 +343,9 @@ function LoopRow({ onSelect }) {
       document.removeEventListener('visibilitychange', onVisibility)
     }
   }, [])
+
+  /* Sideways trackpad swipe / Shift + mouse wheel (shared with the Selected Pieces row). */
+  useSidewaysWheel(viewportRef, { offset, metrics, tween, momentum, interactionUntil, restartLoop }, RESUME_DELAY)
 
   /* ------------------------------------------------------- drag + momentum */
   const drag = useRef({ id: null })

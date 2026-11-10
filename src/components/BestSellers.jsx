@@ -6,6 +6,7 @@ import { imageManifest, products, selectedPieceIds, homeCopy, pieceBadge } from 
 import Price from './Price'
 import { EASE as ease, SECTION_REVEAL } from '../config/siteMotion'
 import { piecePath } from '../config/catalogue'
+import useSidewaysWheel from './useSidewaysWheel'
 import { WhatsAppIcon, pieceMessage } from './WhatsAppButton'
 import { whatsappChatUrl } from '../data/contact'
 
@@ -559,29 +560,8 @@ function GlidingPiecesCarousel({ items, onOpenPiece }) {
     }
   }, [])
 
-  /* ------------------------------------------- mouse wheel / trackpad scroll
-     A sideways swipe on a trackpad, Shift + mouse wheel, or a tilt wheel moves the row. A plain up/down wheel is left
-     alone, so the page still scrolls when the pointer is over the row. Autoplay pauses while it is used and
-     resumes after RESUME_DELAY (same as after a drag). The listener is not passive, so the page does not
-     also go "back" on a sideways swipe. */
-  useEffect(() => {
-    const viewport = viewportRef.current
-    if (!viewport) return undefined
-    const onWheel = (e) => {
-      const sideways = e.shiftKey ? (e.deltaX || e.deltaY) : e.deltaX
-      if (!e.shiftKey && Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return
-      if (!sideways) return
-      e.preventDefault()
-      const unit = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? viewport.clientWidth : 1
-      tween.current = null
-      momentum.current = 0
-      offset.current = wrap(offset.current + sideways * unit, metrics.current.set)
-      interactionUntil.current = performance.now() + RESUME_DELAY
-      restartLoop.current()
-    }
-    viewport.addEventListener('wheel', onWheel, { passive: false })
-    return () => viewport.removeEventListener('wheel', onWheel)
-  }, [])
+  /* Sideways trackpad swipe / Shift + mouse wheel (shared with the Collections row). */
+  useSidewaysWheel(viewportRef, { offset, metrics, tween, momentum, interactionUntil, restartLoop }, RESUME_DELAY)
 
   /* ------------------------------------------------------- drag + momentum */
   const drag = useRef({ id: null })
