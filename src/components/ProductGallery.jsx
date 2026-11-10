@@ -1,11 +1,11 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import ProductRow from './ProductRow'
 
 // The first cards on the page load eagerly; the rest are lazy.
 const EAGER_COUNT = 6
 
-function ProductGrid({ products, orderOf, openProduct, setOpenProduct, onShowroomInquiry, reduceMotion }) {
+function ProductGrid({ products, orderOf, onOpenPiece, reduceMotion }) {
   return (
     <div className="archive-items-grid">
       {products.map((product, index) => (
@@ -14,9 +14,7 @@ function ProductGrid({ products, orderOf, openProduct, setOpenProduct, onShowroo
           product={product}
           index={index}
           eager={orderOf(product.id) < EAGER_COUNT}
-          open={openProduct === product.id}
-          onToggle={() => setOpenProduct((curr) => (curr === product.id ? null : product.id))}
-          onShowroomInquiry={onShowroomInquiry}
+          onOpenPiece={onOpenPiece}
           reduceMotion={reduceMotion}
         />
       ))}
@@ -29,10 +27,9 @@ export default function ProductGallery({
   activeCategory,
   categories,
   onFilter,
-  onShowroomInquiry,
+  onOpenPiece,
   reduceMotion,
 }) {
-  const [openProduct, setOpenProduct] = useState(null)
   const filterTabs = ['All', ...categories]
   const visible = activeCategory === 'All'
     ? products
@@ -120,9 +117,7 @@ export default function ProductGallery({
                 <ProductGrid
                   products={items}
                   orderOf={orderOf}
-                  openProduct={openProduct}
-                  setOpenProduct={setOpenProduct}
-                  onShowroomInquiry={onShowroomInquiry}
+                  onOpenPiece={onOpenPiece}
                   reduceMotion={reduceMotion}
                 />
               </section>
@@ -132,9 +127,7 @@ export default function ProductGallery({
           <ProductGrid
             products={visible}
             orderOf={orderOf}
-            openProduct={openProduct}
-            setOpenProduct={setOpenProduct}
-            onShowroomInquiry={onShowroomInquiry}
+            onOpenPiece={onOpenPiece}
             reduceMotion={reduceMotion}
           />
         )}

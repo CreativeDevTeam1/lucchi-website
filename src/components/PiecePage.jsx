@@ -5,15 +5,17 @@ import Footer from './Footer'
 import ImageMedia from './ImageMedia'
 import { imageManifest, products, pieceBadge, isRealSpec } from '../data/content'
 import Price from './Price'
+import WhatsAppButton from './WhatsAppButton'
 import { EASE } from '../config/siteMotion'
+import { collectionsPath } from '../config/catalogue'
 
 /* One piece page for any product in products.json (slug = product id).
    Only real, filled-in fields are shown: name, category, description, code, dimensions, materials.
    Empty values and the "need client confirmation" placeholder text in the data are never shown.
    A price only when the piece has one in Sanity and "Show price" is on. Image: images.json selectedPieces[slug].full when it exists, else the product's own image. */
-const PAGE_INQUIRE_LABEL = 'Inquire about this piece'
 const BACK_LABEL = 'Back to Home'
 const BACK_HREF = '/#selected-pieces'
+const BACK_COLLECTIONS_LABEL = 'Back to Collections'
 const IMAGE_SIZES = '(max-width: 900px) 92vw, 560px'
 
 const clean = (value) => (typeof value === 'string' ? value.trim() : '')
@@ -76,7 +78,6 @@ function PieceGallery({ images, name, badge, reduceMotion }) {
           fetchPriority="high"
           sizes={IMAGE_SIZES}
           overlay={false}
-          showIllustrativeNote={false}
         />
         {badge ? <span className="piece-badge">{badge}</span> : null}
       </div>
@@ -91,7 +92,7 @@ function PieceGallery({ images, name, badge, reduceMotion }) {
                 aria-label={`Show picture ${i + 1} of ${images.length}`}
                 aria-current={i === index ? 'true' : undefined}
               >
-                <ImageMedia slot={image} aspectRatio="1 / 1" loading="lazy" sizes="72px" overlay={false} showIllustrativeNote={false} />
+                <ImageMedia slot={image} aspectRatio="1 / 1" loading="lazy" sizes="72px" overlay={false} />
               </button>
             </li>
           ))}
@@ -113,7 +114,7 @@ function setMetaDescription(value) {
   return () => { if (previous != null) node.setAttribute('content', previous) }
 }
 
-export default function PiecePage({ slug, onNavigate, menuOpen, setMenuOpen, onInquire, onGoHome }) {
+export default function PiecePage({ slug, onNavigate, menuOpen, setMenuOpen, onGoHome, onGoCollections }) {
   const reduceMotion = useReducedMotion()
   const product = findPiece(slug)
   const fields = product ? pieceFields(product) : null
@@ -141,9 +142,15 @@ export default function PiecePage({ slug, onNavigate, menuOpen, setMenuOpen, onI
     action()
   }
 
+  // Opened from a Collections card: the back link returns to that collection instead of the homepage.
+  const fromCollections = typeof window !== 'undefined' && window.history.state?.from === 'collections' && Boolean(onGoCollections)
+  const backHref = fromCollections ? collectionsPath(fields?.category) : BACK_HREF
+  const backLabel = fromCollections ? BACK_COLLECTIONS_LABEL : BACK_LABEL
+  const goBack = () => (fromCollections ? onGoCollections(fields?.category) : onGoHome?.())
+
   const gallery = product && Array.isArray(product.gallery) ? product.gallery.filter((g) => g?.src) : []
   const mainImage = product ? pieceImage(product) : null
-  const images = gallery.length > 1 ? gallery : [mainImage]
+  const images = gallery.length ? gallery : [mainImage]
 
   return (
     <div className="site-shell piece-page-shell">
@@ -181,19 +188,13 @@ export default function PiecePage({ slug, onNavigate, menuOpen, setMenuOpen, onI
                 </section>
               ) : null}
 
-              <a
-                className="contact-primary-enquire-btn piece-page-inquire"
-                href={`/contact?type=product&product=${encodeURIComponent(product.id)}`}
-                onClick={(event) => go(event, () => onInquire?.(product, 'product'))}
-              >
-                <span>{PAGE_INQUIRE_LABEL}</span>
-              </a>
+              <WhatsAppButton product={product} className="contact-primary-enquire-btn piece-page-inquire" label="Inquire on WhatsApp" />
               <a
                 className="piece-page-back"
-                href={BACK_HREF}
-                onClick={(event) => go(event, () => onGoHome?.())}
+                href={backHref}
+                onClick={(event) => go(event, goBack)}
               >
-                {BACK_LABEL}
+                {backLabel}
               </a>
             </div>
           </motion.div>
@@ -211,7 +212,7 @@ export default function PiecePage({ slug, onNavigate, menuOpen, setMenuOpen, onI
           </div>
         )}
       </main>
-      <Footer onNavigate={onNavigate} onEnquire={() => onInquire?.()} />
+      <Footer onNavigate={onNavigate} />
     </div>
   )
 }

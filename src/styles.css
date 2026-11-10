@@ -334,6 +334,7 @@ html.is-menu-open body { overflow: hidden; height: 100%; }
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-weight: 500;
+  text-decoration: none;
   transition: background 0.3s var(--ease), transform 0.3s var(--ease);
 }
 .nav-enquire-btn:hover {
@@ -566,7 +567,10 @@ html.is-menu-open body { overflow: hidden; height: 100%; }
   text-transform: uppercase;
   color: var(--menu-muted, rgba(68, 83, 73, 0.76));
 }
-.site-menu-foot button {
+.site-menu-foot button,
+.site-menu-foot > a {
+  display: inline-flex;
+  align-items: center;
   min-height: 48px;
   color: inherit;
   letter-spacing: inherit;
@@ -1008,7 +1012,6 @@ html.hero-reduced.hero-play .hero-hairline { animation: none; }
   object-fit: cover;
   background: #f4f1ec;
 }
-.selected-piece-image .media-illustrative-note,
 .selected-piece-image .media-tonal-scrim {
   display: none;
 }
@@ -1699,38 +1702,6 @@ html.hero-reduced.hero-play .hero-hairline { animation: none; }
   padding-bottom: 1px;
 }
 
-/* Floating Back-To-Top Button */
-.floating-back-top-btn {
-  position: fixed;
-  z-index: 90;
-  right: 28px;
-  bottom: 28px;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 8px 14px;
-  background: var(--oat-100);
-  border: 1px solid rgba(31, 38, 34, 0.2);
-  border-radius: 9999px;
-  color: var(--ink-900);
-  font-family: var(--mono);
-  font-size: 9px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: background 0.3s var(--ease), border-color 0.3s var(--ease), color 0.3s var(--ease);
-}
-.floating-back-top-btn:hover {
-  background: var(--green-900);
-  color: var(--beige-300);
-  border-color: var(--green-900);
-}
-html.is-collections-inview .floating-back-top-btn,
-html.is-footer-inview .floating-back-top-btn {
-  opacity: 0 !important;
-  visibility: hidden;
-  pointer-events: none;
-}
-.top-arrow { color: var(--brown); }
 
 /* ==========================================================================
    ARCHIVE PAGE & PRODUCT GALLERY STYLES
@@ -1974,7 +1945,6 @@ html.is-footer-inview .floating-back-top-btn {
   transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease), border-color 0.4s var(--ease);
 }
 .archive-item-card:hover {
-  transform: translateY(-3px);
   box-shadow: 0 16px 32px -12px rgba(28, 37, 31, 0.12);
   border-color: rgba(35, 45, 38, 0.28);
 }
@@ -2011,23 +1981,11 @@ html.is-footer-inview .floating-back-top-btn {
 @media (prefers-reduced-motion: reduce) {
   .item-media-aspect-box .media-frame img { transition: none; }
 }
-.item-media-aspect-box .media-frame,
-.item-hover-detail-overlay {
+.item-media-aspect-box .media-frame {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-}
-.item-hover-detail-overlay {
-  opacity: 0;
-  pointer-events: none;
-  z-index: 1;
-}
-@media (hover: hover) and (pointer: fine) {
-  .archive-item-card:hover .item-hover-detail-overlay,
-  .archive-item-card:focus-within .item-hover-detail-overlay {
-    opacity: 1;
-  }
 }
 .item-media-top-tags {
   position: absolute;
@@ -2637,31 +2595,6 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   border-left: 2px solid var(--beige);
   color: var(--pure-paper);
 }
-.media-illustrative-note {
-  position: absolute;
-  left: 8px;
-  bottom: 8px;
-  z-index: 5;
-  max-width: calc(100% - 16px);
-  padding: 0;
-  color: rgba(244, 243, 240, 0.42);
-  background: none;
-  font-family: var(--mono);
-  font-size: 7px;
-  line-height: 1.3;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  pointer-events: none;
-}
-.media-illustrative-note.is-hover-only {
-  opacity: 0;
-  transition: opacity 0.35s var(--ease);
-}
-.media-frame:hover .media-illustrative-note.is-hover-only,
-.media-frame:focus-within .media-illustrative-note.is-hover-only {
-  opacity: 1;
-}
-
 /* --------------------------------------------------------------------------
    Hero: ambient motion gate + per-screen art direction
    -------------------------------------------------------------------------- */
@@ -3471,8 +3404,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   gap: clamp(64px, 7vw, 96px);
 }
 .piece-page-media {
-  position: sticky;
-  top: calc(var(--nav-h) + 24px);
+  /* Static: the picture card scrolls with the page like any other block (it never sticks or follows the scroll). */
+  position: static;
   flex: 0 0 auto;
   box-sizing: border-box;
   /* picture area is at most 70svh - frame high, 4:5, never wider than 42% of the content */
@@ -3647,9 +3580,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .piece-page { display: block; min-height: 0; padding: calc(var(--nav-h) + 24px) 0 72px; }
   .piece-page-grid { flex-direction: column; align-items: stretch; gap: 32px; }
   .piece-page-media {
-    position: static;
-    width: min(100%, calc((55svh - 28px) * 0.8 + 28px));
-    align-self: flex-start;
+    /* Full width of the content on a phone (at most 440px), centred, so it never looks lopsided. */
+    width: min(100%, 440px);
+    align-self: center;
   }
   .piece-page-info { max-width: none; }
   .piece-page-inquire { width: 100%; justify-content: center; }
@@ -3673,3 +3606,339 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 }
 .contact-branch-address { user-select: text; -webkit-user-select: text; overflow-wrap: anywhere; }
 .contact-channels-stack .contact-channel-link { min-height: 44px; display: inline-flex; align-items: center; }
+
+/* ==========================================================================
+   WHATSAPP: floating launcher + pop-up card (bottom right, every page)
+   Only transform and opacity animate. The launcher stays above the back-to-top pill.
+   ========================================================================== */
+.wa-widget {
+  position: fixed;
+  z-index: 95; /* above the page, below the open menu (120+) */
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+  font-family: var(--font-body);
+}
+html.is-intro .wa-widget { display: none; }
+.wa-launcher {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: var(--green-900);
+  color: var(--beige-300);
+  box-shadow: 0 10px 24px -10px rgba(31, 38, 34, 0.55), 0 0 0 1px rgba(212, 194, 179, 0.28);
+  cursor: pointer;
+  transition: transform 0.25s var(--ease), background 0.25s var(--ease);
+}
+.wa-launcher:hover { background: var(--green-700); transform: translateY(-2px); }
+.wa-launcher:focus-visible,
+.wa-cta:focus-visible,
+.wa-popup-close:focus-visible { outline: 2px solid var(--brass-400); outline-offset: 3px; }
+.wa-icon { flex: none; }
+
+.wa-popup {
+  width: min(340px, calc(100vw - 32px));
+  overflow: hidden;
+  background: var(--oat-100);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 24px 48px -24px rgba(31, 38, 34, 0.45);
+  transform-origin: bottom right;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px) scale(0.98);
+  transition: opacity 0.22s var(--ease), transform 0.22s var(--ease), visibility 0s linear 0.22s;
+}
+.wa-popup[data-open='true'] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity 0.22s var(--ease), transform 0.22s var(--ease), visibility 0s;
+}
+.wa-popup-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 16px 16px 18px;
+  background: var(--green-900);
+  color: var(--oat-100);
+}
+.wa-avatar {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(212, 194, 179, 0.16);
+  color: var(--beige-300);
+}
+.wa-popup-id { flex: 1; min-width: 0; }
+.wa-popup-title { margin: 0; font-size: 0.9375rem; font-weight: 500; line-height: 1.3; }
+.wa-popup-sub { margin: 2px 0 0; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--beige-300); }
+.wa-popup-close {
+  width: 32px;
+  height: 32px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--oat-100);
+  cursor: pointer;
+  transition: background 0.2s var(--ease);
+}
+.wa-popup-close:hover { background: rgba(244, 241, 236, 0.14); }
+.wa-popup-body { padding: 18px; display: flex; flex-direction: column; gap: 12px; }
+.wa-bubble {
+  margin: 0;
+  padding: 12px 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 4px 14px 14px 14px;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink-900);
+}
+.wa-piece { margin: 0; font-size: 0.875rem; line-height: 1.4; color: var(--ink-500); }
+.wa-piece strong { font-weight: 500; color: var(--ink-900); }
+.wa-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 12px 20px;
+  border-radius: 9999px;
+  background: var(--green-900);
+  color: var(--oat-100);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: background 0.25s var(--ease);
+}
+.wa-cta:hover { background: var(--green-700); }
+.wa-number { margin: 0; text-align: center; font-size: 0.8125rem; letter-spacing: 0.04em; color: var(--ink-500); }
+
+/* Piece buttons that now open WhatsApp: real links, same look as before, plus the mark. */
+a.item-inquire-action-btn,
+a.drawer-primary-inquire-btn { text-decoration: none; }
+a.item-inquire-action-btn .wa-icon { width: 14px; height: 14px; }
+a.drawer-primary-inquire-btn .wa-icon { width: 15px; height: 15px; }
+.piece-page-inquire .wa-icon { width: 20px; height: 20px; }
+
+
+@media (max-width: 640px) {
+  .wa-widget { right: 16px; bottom: 16px; }
+  .wa-launcher { width: 52px; height: 52px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .wa-popup,
+  .wa-popup[data-open='true'] { transform: none; transition: opacity 0.15s linear, visibility 0s; }
+  .wa-launcher:hover { transform: none; }
+}
+
+/* Selected Pieces cards: a small round WhatsApp button in the bottom-right corner of the picture.
+   The layer matches the picture box (4 / 5) and ignores the pointer; only the button takes clicks. */
+.selected-piece-card { position: relative; }
+.sp-wa-layer {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  aspect-ratio: 4 / 5;
+  pointer-events: none;
+}
+.sp-wa {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--green-900);
+  color: var(--beige-300);
+  box-shadow: 0 6px 16px -6px rgba(31, 38, 34, 0.5), 0 0 0 1px rgba(212, 194, 179, 0.3);
+  text-decoration: none;
+  pointer-events: auto;
+  transition: background 0.25s var(--ease);
+}
+.sp-wa:hover { background: var(--green-700); }
+.sp-wa:focus-visible { outline: 2px solid var(--brass-400); outline-offset: 3px; }
+@media (max-width: 767px) {
+  .sp-wa { width: 36px; height: 36px; right: 8px; bottom: 8px; }
+  .sp-wa .wa-icon { width: 18px; height: 18px; }
+}
+
+/* WhatsApp: the widget box must never swallow taps meant for the page under it.
+   Only the launcher and an open pop-up take pointer events. */
+.wa-widget { pointer-events: none; }
+.wa-launcher,
+.wa-popup[data-open='true'] { pointer-events: auto; }
+
+/* WhatsApp buttons: one calm look. Solid green, soft shadow, clear tap size, colour-only feedback. */
+.piece-page-inquire,
+a.drawer-primary-inquire-btn,
+a.item-inquire-action-btn {
+  gap: 10px;
+  background: var(--green-900);
+  color: var(--oat-100);
+  border: 0;
+  font-family: var(--font-body);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  box-shadow: 0 10px 22px -12px rgba(31, 38, 34, 0.6);
+  transition: background 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.piece-page-inquire { min-height: 54px; border: 0; font-size: 0.8125rem; }
+.piece-page-inquire:hover,
+a.drawer-primary-inquire-btn:hover,
+a.item-inquire-action-btn:hover { background: var(--green-700); transform: none; }
+.piece-page-inquire .wa-icon,
+a.drawer-primary-inquire-btn .wa-icon,
+a.item-inquire-action-btn .wa-icon { color: var(--beige-300); }
+a.drawer-primary-inquire-btn {
+  min-height: 46px;
+  padding: 12px 18px;
+  border-radius: 9999px;
+  font-size: 0.6875rem;
+}
+a.item-inquire-action-btn {
+  min-height: 44px;
+  padding: 10px 18px;
+  font-size: 0.625rem;
+}
+.piece-page-inquire:focus-visible,
+a.drawer-primary-inquire-btn:focus-visible,
+a.item-inquire-action-btn:focus-visible { outline: 2px solid var(--brass-400); outline-offset: 3px; }
+
+/* Collections cards open the piece page: the picture and the name are links; no specifications drawer. */
+a.item-media-click-target { text-decoration: none; color: inherit; cursor: pointer; }
+.item-name-link { color: inherit; text-decoration: none; }
+.item-name-link:hover { color: var(--green-700); }
+.item-name-link:focus-visible,
+a.item-media-click-target:focus-visible,
+.item-view-link:focus-visible { outline: 2px solid var(--brass-400); outline-offset: 3px; }
+.item-view-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 2px;
+  color: var(--ink-900);
+  font-family: var(--font-body);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+  text-decoration-color: var(--brass-400);
+}
+.item-view-link:hover { color: var(--green-700); }
+
+/* ---- Review fixes (2026-11-05) ---- */
+/* Card tags: the code / "LUCCHI" tag is a dark pill like the category tag, so it reads on light pictures too. */
+.item-code-tag {
+  padding: 2px 7px;
+  background: rgba(28, 37, 31, 0.82);
+  color: var(--beige);
+  font-size: 7.5px;
+  border-radius: 2px;
+}
+/* Filter tabs: one line each (the row scrolls sideways), a comfortable touch height, room before the first heading. */
+.archive-tabs-list { gap: 10px 22px; }
+.archive-tab-btn { flex: none; white-space: nowrap; min-height: 44px; padding: 0 6px; }
+.tab-label { display: inline-block; }
+.archive-catalogue-body { margin-top: 32px; }
+.catalogue-group-heading button { min-height: 44px; padding: 8px 0; }
+.contact-back-home-btn, .archive-return-ghost-btn { min-height: 44px; }
+@media (max-width: 640px) {
+  .archive-catalogue-section { padding-top: 28px; }
+  .archive-tabs-container { margin-top: 0; }
+  .archive-tabs-list { gap: 4px 14px; }
+}
+
+/* Contact page: the WhatsApp card (replaces the enquiry form). */
+.contact-message-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: clamp(24px, 4vw, 40px);
+  background: var(--oat-100);
+  border: 1px solid rgba(31, 38, 34, 0.12);
+  border-radius: 4px;
+  box-shadow: 0 20px 40px -28px rgba(45, 55, 48, 0.3);
+}
+.contact-message-title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 2.6vw, 2rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--ink-900);
+}
+.contact-message-copy { margin: 0; max-width: 46ch; font-size: 0.9375rem; line-height: 1.6; color: var(--ink-500); }
+.contact-message-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 54px;
+  margin-top: 6px;
+  padding: 14px 30px;
+  border-radius: 9999px;
+  background: var(--green-900);
+  color: var(--oat-100);
+  font-family: var(--font-body);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 10px 22px -12px rgba(31, 38, 34, 0.6);
+  transition: background 0.25s var(--ease);
+}
+.contact-message-cta .wa-icon { color: var(--beige-300); }
+.contact-message-cta:hover { background: var(--green-700); }
+.contact-message-cta:focus-visible,
+.contact-message-call a:focus-visible { outline: 2px solid var(--brass-400); outline-offset: 3px; }
+.contact-message-number { margin: -4px 0 0; font-size: 0.8125rem; letter-spacing: 0.04em; color: var(--ink-500); }
+.contact-message-call {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  width: 100%;
+  margin-top: 8px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(31, 38, 34, 0.14);
+  font-size: 0.9375rem;
+  color: var(--ink-500);
+}
+.contact-message-call a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--ink-900);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--brass-400);
+}
+@media (max-width: 640px) {
+  .contact-message-cta { width: 100%; }
+}

@@ -102,7 +102,7 @@ export default function ContactSection({ onOpenContact, onNavigate }) {
         </div>
       </section>
 
-      <Footer onNavigate={onNavigate} onEnquire={onOpenContact} />
+      <Footer onNavigate={onNavigate} />
     </>
   )
 }

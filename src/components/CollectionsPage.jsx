@@ -7,7 +7,7 @@ import Navigation from './Navigation'
 import Footer from './Footer'
 import { CATALOGUE_CATEGORIES, collectionsPath, parseCategoryParam } from '../config/catalogue'
 
-export default function CollectionsPage({ onNavigate, menuOpen, setMenuOpen, onShowroomInquiry }) {
+export default function CollectionsPage({ onNavigate, onOpenPiece, menuOpen, setMenuOpen }) {
   const reduceMotion = useReducedMotion()
 
   const readCategoryFromUrl = () => {
@@ -112,12 +112,12 @@ export default function CollectionsPage({ onNavigate, menuOpen, setMenuOpen, onS
           activeCategory={activeCategory}
           categories={CATALOGUE_CATEGORIES}
           onFilter={handleFilter}
-          onShowroomInquiry={onShowroomInquiry}
+          onOpenPiece={onOpenPiece}
           reduceMotion={reduceMotion}
         />
       </main>
 
-      <Footer onNavigate={onNavigate} onEnquire={() => onShowroomInquiry()} />
+      <Footer onNavigate={onNavigate} />
     </div>
   )
 }

@@ -144,6 +144,41 @@ imageManifest.archiveItems ||= {}
 imageManifest.collections ||= {}
 imageManifest.about ||= {}
 
+/* The lead picture of a piece (its card, its Selected Pieces card, and the first picture on its page): the first picture
+   that is not a cut-out on a white background (`plain`, set by the sync), i.e. the first picture with a room setting.
+   When every picture is a cut-out, the first picture. */
+function leadImage(piece) {
+  const list = hasList(piece.gallery) ? piece.gallery.filter((image) => image?.asset?.url) : []
+  return list.find((image) => image.plain !== true) || list[0] || null
+}
+
+/* The pictures of the piece page. First the room settings (the lead picture first), then the piece's own main picture
+   when it is a cut-out, then the other pictures, close-ups last (a stable sort, so equal kinds keep their Sanity
+   order). Other cut-outs on a white background are left out, unless the piece has one room picture or none: then they
+   all stay. */
+const galleryRank = (alt = '', isMain = false, plain = false) => {
+  if (!plain && isMain) return -1
+  if (!plain && /room setting|lifestyle|styled|setting/i.test(alt)) return 0
+  if (isMain) return 0.5
+  return /close-up|detail/i.test(alt) ? 2 : 1
+}
+function curatedGallery(piece, status) {
+  const frames = (hasList(piece.gallery) ? piece.gallery : [])
+    .map((image, index) => ({
+      main: index === 0,
+      plain: image?.plain === true,
+      rank: galleryRank(text(image?.alt), index === 0, image?.plain === true),
+      frame: frameFromSanityImage(image, { aspect: '4/5', alt: text(piece.name), ...(status ? { status } : {}) }),
+    }))
+    .filter((entry) => entry.frame)
+  const scenes = frames.filter((entry) => !entry.plain)
+  const kept = scenes.length > 1 ? frames.filter((entry) => entry.main || !entry.plain) : frames
+  return kept
+    .map((entry, index) => ({ ...entry, index }))
+    .sort((x, y) => x.rank - y.rank || x.index - y.index)
+    .map((entry) => entry.frame)
+}
+
 for (const piece of snapshotPieces) {
   const slug = text(piece.id)
   const status = text(piece.imageStatus)
@@ -159,7 +194,9 @@ for (const piece of snapshotPieces) {
       ? { ...local, ...(status ? { status } : {}) }
       : { aspect: local.aspect, focalPoint: local.focalPoint, alt: text(piece.name), ...(status ? { status } : {}) }))
     .filter(Boolean)
-  const frame = galleryFrames[0] || baseFrame
+  const lead = leadImage(piece)
+  const leadFrame = lead ? frameFromSanityImage(lead, { ...local, ...(status ? { status } : {}) }) : null
+  const frame = leadFrame || baseFrame
   if (!frame) {
     // A Sanity piece without a picture shows a clean placeholder: never its old local picture.
     delete imageManifest.selectedPieces[slug]
@@ -170,9 +207,10 @@ for (const piece of snapshotPieces) {
   const archive = imageManifest.archiveItems[slug] || {}
   const hover = galleryFrames[1] ? { ...galleryFrames[1], aspect: '4/3' } : undefined
   imageManifest.archiveItems[slug] = { ...archive, productId: slug, full: { ...frame, aspect: '4/3' }, detail: hover }
-  if (galleryFrames.length > 1) {
+  const curated = curatedGallery(piece, status)
+  if (curated.length) {
     const product = products.find((p) => p.id === slug)
-    if (product) product.gallery = galleryFrames
+    if (product) product.gallery = curated
   }
 }
 

@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ALLOW_AI_RENDERS, CATALOGUE_NOTE } from '../config/siteMotion'
+import { ALLOW_AI_RENDERS } from '../config/siteMotion'
 
 /**
  * Shared media surface for the Lucchi image manifest.
@@ -14,7 +14,6 @@ export default function ImageMedia({
   fetchPriority,
   decoding,
   showDebugBadge = false,
-  showIllustrativeNote = false,
   overlay = true,
   sizes = '100vw',
   draggable,
@@ -88,12 +87,6 @@ export default function ImageMedia({
       {(isDebugActive || showDebugBadge) && (
         <span className={`media-debug-badge ${isAiPlaceholder ? 'is-ai' : isPlaceholder ? 'is-placeholder' : 'is-final'}`}>
           {isAiPlaceholder ? 'AI Concept' : isPlaceholder ? 'Reference' : 'Final Shoot'}
-        </span>
-      )}
-
-      {CATALOGUE_NOTE.enabled && (showIllustrativeNote || isPlaceholder) && (
-        <span className={`media-illustrative-note${CATALOGUE_NOTE.hoverOnly ? ' is-hover-only' : ''}`}>
-          {CATALOGUE_NOTE.text}
         </span>
       )}
 

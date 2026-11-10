@@ -32,10 +32,10 @@ const localContact = {
     { display: '0109 483 0060', tel: '+201094830060' },
   ),
   whatsapp: item(
-    '',
-    'No official WhatsApp Business link found on the verified Facebook, Instagram, Maps, or website pages on 2026-10-04.',
-    '—',
-    false,
+    '01203988877',
+    'Given by the client for WhatsApp, 2026-10-29 (the showroom phone 01094830060 stays the number for calls)',
+    'High',
+    true,
   ),
   address: item(
     'Spot Mall, in front of Gate 4 of the American University (AUC), Fifth Settlement (New Cairo), Ground Floor',
@@ -127,6 +127,8 @@ function mergeContact(local, remote) {
   for (const key of Object.keys(local)) {
     const field = remote[key]
     if (!field) continue
+    // A field never filled in Sanity (no value, not confirmed) leaves the local fallback in place.
+    if (field.value == null && field.confirmed !== true) continue
     const value = text(field.value) || ''
     const same = value === local[key].value
     const { display, tel, handle, followers, conflicts, ...base } = local[key]
@@ -195,10 +197,36 @@ export function phoneHref(field) {
   return digits.startsWith('tel:') ? digits : `tel:${digits}`
 }
 
+/** wa.me needs the country code: an Egyptian mobile typed as 01203988877 becomes 201203988877. */
+function waDigits(value) {
+  const digits = String(value || '').replace(/\D/g, '')
+  return /^01\d{9}$/.test(digits) ? `2${digits}` : digits
+}
+
 export function whatsappHref(field) {
-  if (!field?.value) return ''
-  const digits = field.value.replace(/\D/g, '')
+  const digits = waDigits(field?.value)
   return digits ? `https://wa.me/${digits}` : ''
+}
+
+/** The number every "WhatsApp" button opens, as digits with the country code (201094830060), or '' when there is none.
+ *  A confirmed WhatsApp item wins; otherwise it is the confirmed phone number (the client's mobile is also on WhatsApp). */
+export function whatsappNumber() {
+  if (contact.whatsapp?.value && contact.whatsapp.confirmed === true) return waDigits(contact.whatsapp.value)
+  if (contact.phone?.value && contact.phone.confirmed === true) return phoneHref(contact.phone).replace(/\D/g, '')
+  return ''
+}
+
+/** wa.me link with a ready-to-send message, or '' when there is no number. */
+export function whatsappChatUrl(message = '') {
+  const number = whatsappNumber()
+  if (!number) return ''
+  return `https://wa.me/${number}${message ? `?text=${encodeURIComponent(message)}` : ''}`
+}
+
+/** The number as the visitor reads it (0109 483 0060). */
+export function whatsappDisplay() {
+  const number = whatsappNumber()
+  return number ? formatPhone(number) : ''
 }
 
 export function organizationJsonLd({ siteUrl, logoUrl }) {

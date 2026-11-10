@@ -10,9 +10,11 @@ import './styles.css'
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App'
+import WhatsAppWidget from './components/WhatsAppWidget'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
+    <WhatsAppWidget />
   </React.StrictMode>,
 )

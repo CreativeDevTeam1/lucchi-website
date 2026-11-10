@@ -194,8 +194,8 @@
    "value": "https://lucchifurniture.com/"
   },
   "whatsapp": {
-   "confirmed": false,
-   "value": null
+   "confirmed": true,
+   "value": "01203988877"
   },
   "youtube": {
    "confirmed": false,
@@ -233,7 +233,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Turkish Set — styled room setting",
@@ -244,7 +245,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Turkish Set — studio view",
@@ -255,7 +257,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Turkish Set — styled room setting 2",
@@ -266,7 +269,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Turkish Set — studio view 2",
@@ -277,7 +281,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Turkish Set — styled room setting 3",
@@ -288,7 +293,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Turkish Set — studio view 3",
@@ -299,7 +305,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Turkish Set — studio view 4",
@@ -310,7 +317,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "turkish-set",
@@ -329,7 +337,7 @@
    "materials": "Romanian Red Beech Wood; Embossed Velvet fabric; Chair: Wood & Metal, Velvet Print fabric",
    "name": "Turkish Set",
    "order": 1,
-   "price": 69000,
+   "price": 74000,
    "seoDescription": null,
    "seoTitle": null,
    "showPrice": true,
@@ -358,7 +366,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bedroom Set B1387 — studio view",
@@ -369,7 +378,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Bedroom Set B1387 — studio view 2",
@@ -380,7 +390,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Bedroom Set B1387 — studio view 3",
@@ -391,7 +402,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "bedroom-set-b1387",
@@ -439,7 +451,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Sila Dining Table — styled room setting",
@@ -450,7 +463,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Sila Dining Table — styled room setting 2",
@@ -461,7 +475,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Sila Dining Table — studio view 2",
@@ -472,7 +487,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Sila Dining Table — studio view 3",
@@ -483,7 +499,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Sila Dining Table — studio view 4",
@@ -494,7 +511,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Sila Dining Table — close-up detail",
@@ -505,7 +523,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Sila Dining Table — close-up detail 2",
@@ -516,7 +535,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "sila-dining-table",
@@ -564,7 +584,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1549 — studio view",
@@ -575,7 +596,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1549 — styled room setting 2",
@@ -586,7 +608,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1549 — styled room setting 3",
@@ -597,7 +620,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1549 — styled room setting 4",
@@ -608,7 +632,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1549 — studio view 2",
@@ -619,7 +644,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1549 — studio view 3",
@@ -630,7 +656,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1549 — studio view 4",
@@ -641,7 +668,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "living-room-set-r1549",
@@ -689,7 +717,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Venus Corner Sofa — styled room setting 2",
@@ -700,7 +729,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Venus Corner Sofa — studio view",
@@ -711,7 +741,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Venus Corner Sofa — studio view 2",
@@ -722,7 +753,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Venus Corner Sofa — studio view 3",
@@ -733,7 +765,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Venus Corner Sofa — studio view 4",
@@ -744,7 +777,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Venus Corner Sofa — close-up detail",
@@ -755,7 +789,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Venus Corner Sofa — close-up detail 2",
@@ -766,7 +801,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "venus-corner-sofa",
@@ -814,7 +850,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1538 — styled room setting",
@@ -825,7 +862,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1538 — styled room setting 2",
@@ -836,7 +874,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1538 — styled room setting 3",
@@ -847,7 +886,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1538 — styled room setting 4",
@@ -858,7 +898,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1538 — studio view",
@@ -869,7 +910,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1538 — studio view 2",
@@ -880,7 +922,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1538 — studio view 3",
@@ -891,7 +934,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "living-room-set-r1538",
@@ -939,7 +983,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Galaxy Dining Table — styled room setting",
@@ -950,7 +995,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Galaxy Dining Table — studio view",
@@ -961,7 +1007,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Galaxy Dining Table — studio view 2",
@@ -972,7 +1019,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Galaxy Dining Table — studio view 3",
@@ -983,7 +1031,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "galaxy-dining-table",
@@ -1031,7 +1080,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1560 (A) — studio view",
@@ -1042,7 +1092,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1560 (A) — styled room setting",
@@ -1053,7 +1104,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1560 (A) — styled room setting 2",
@@ -1064,7 +1116,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1560 (A) — styled room setting 3",
@@ -1075,7 +1128,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1560 (A) — studio view 2",
@@ -1086,7 +1140,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1560 (A) — studio view 3",
@@ -1097,7 +1152,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1560 (A) — studio view 4",
@@ -1108,7 +1164,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "living-room-set-r1560-a",
@@ -1156,7 +1213,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1560 (B) — studio view",
@@ -1167,7 +1225,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1560 (B) — studio view 2",
@@ -1178,7 +1237,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1560 (B) — studio view 3",
@@ -1189,7 +1249,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1560 (B) — studio view 4",
@@ -1200,7 +1261,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1560 (B) — studio view 5",
@@ -1211,7 +1273,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1560 (B) — close-up detail",
@@ -1222,7 +1285,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "living-room-set-r1560-b",
@@ -1270,7 +1334,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Electric Decorative Fireplace — studio view",
@@ -1281,7 +1346,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Electric Decorative Fireplace — studio view 2",
@@ -1292,7 +1358,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Electric Decorative Fireplace — close-up detail",
@@ -1303,7 +1370,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "electric-decorative-fireplace",
@@ -1351,7 +1419,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lavender Bedroom Set — studio view",
@@ -1362,7 +1431,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Lavender Bedroom Set — styled room setting",
@@ -1373,7 +1443,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lavender Bedroom Set — styled room setting 2",
@@ -1384,7 +1455,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lavender Bedroom Set — styled room setting 3",
@@ -1395,7 +1467,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lavender Bedroom Set — studio view 2",
@@ -1406,7 +1479,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Lavender Bedroom Set — studio view 3",
@@ -1417,7 +1491,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Lavender Bedroom Set — studio view 4",
@@ -1428,7 +1503,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "lavender-bedroom-set",
@@ -1476,7 +1552,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bedroom Uqal — styled room setting",
@@ -1487,7 +1564,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bedroom Uqal — styled room setting 2",
@@ -1498,7 +1576,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bedroom Uqal — studio view",
@@ -1509,7 +1588,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Bedroom Uqal — styled room setting 3",
@@ -1520,7 +1600,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bedroom Uqal — studio view 2",
@@ -1531,7 +1612,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Bedroom Uqal — styled room setting 4",
@@ -1542,7 +1624,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bedroom Uqal — studio view 3",
@@ -1553,7 +1636,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "bedroom-uqal",
@@ -1601,7 +1685,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Marble Sofa — styled room setting",
@@ -1612,7 +1697,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Marble Sofa — studio view",
@@ -1623,7 +1709,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Marble Sofa — styled room setting 2",
@@ -1634,7 +1721,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Marble Sofa — studio view 2",
@@ -1645,7 +1733,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Marble Sofa — close-up detail",
@@ -1656,7 +1745,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Marble Sofa — close-up detail 2",
@@ -1667,7 +1757,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Marble Sofa — close-up detail 3",
@@ -1678,7 +1769,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "marble-sofa",
@@ -1726,7 +1818,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Mocha Set — styled room setting",
@@ -1737,7 +1830,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Mocha Set — styled room setting 2",
@@ -1748,7 +1842,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Mocha Set — studio view",
@@ -1759,7 +1854,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Mocha Set — styled room setting 3",
@@ -1770,7 +1866,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Mocha Set — studio view 2",
@@ -1781,7 +1878,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Mocha Set — studio view 3",
@@ -1792,7 +1890,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Mocha Set — studio view 4",
@@ -1803,7 +1902,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "mocha-set",
@@ -1851,7 +1951,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Shababi Asil Bedroom — styled room setting",
@@ -1862,7 +1963,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Shababi Asil Bedroom — styled room setting 2",
@@ -1873,7 +1975,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Shababi Asil Bedroom — styled room setting 3",
@@ -1884,7 +1987,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Shababi Asil Bedroom — studio view 2",
@@ -1895,7 +1999,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Shababi Asil Bedroom — studio view 3",
@@ -1906,7 +2011,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Shababi Asil Bedroom — studio view 4",
@@ -1917,7 +2023,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Shababi Asil Bedroom — studio view 5",
@@ -1928,7 +2035,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "shababi-asil-bedroom",
@@ -1976,7 +2084,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lina Dining Table — styled room setting",
@@ -1987,7 +2096,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lina Dining Table — studio view",
@@ -1998,7 +2108,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Lina Dining Table — styled room setting 2",
@@ -2009,7 +2120,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lina Dining Table — studio view 2",
@@ -2020,7 +2132,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Lina Dining Table — styled room setting 3",
@@ -2031,7 +2144,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lina Dining Table — styled room setting 4",
@@ -2042,7 +2156,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Lina Dining Table — studio view 3",
@@ -2053,7 +2168,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "lina-dining-table",
@@ -2101,7 +2217,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Kayan Bedroom — styled room setting",
@@ -2112,7 +2229,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Kayan Bedroom — studio view",
@@ -2123,7 +2241,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Kayan Bedroom — styled room setting 2",
@@ -2134,7 +2253,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Kayan Bedroom — styled room setting 3",
@@ -2145,7 +2265,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Kayan Bedroom — studio view 2",
@@ -2156,7 +2277,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Kayan Bedroom — studio view 3",
@@ -2167,7 +2289,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Kayan Bedroom — styled room setting 4",
@@ -2178,7 +2301,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     }
    ],
    "id": "kayan-bedroom",
@@ -2226,7 +2350,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Mechanism Corner Sofa — close-up detail",
@@ -2237,7 +2362,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Mechanism Corner Sofa — close-up detail 2",
@@ -2248,7 +2374,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "mechanism-corner-sofa",
@@ -2296,7 +2423,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Angels Bedroom Set — studio view",
@@ -2307,7 +2435,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Angels Bedroom Set — styled room setting 2",
@@ -2318,7 +2447,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Angels Bedroom Set — styled room setting 3",
@@ -2329,7 +2459,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Angels Bedroom Set — studio view 2",
@@ -2340,7 +2471,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Angels Bedroom Set — studio view 3",
@@ -2351,7 +2483,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "angels-bedroom-set",
@@ -2399,7 +2532,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bonkio Kids' Bedroom Set — studio view",
@@ -2410,7 +2544,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Bonkio Kids' Bedroom Set — styled room setting",
@@ -2421,7 +2556,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bonkio Kids' Bedroom Set — styled room setting 2",
@@ -2432,7 +2568,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bonkio Kids' Bedroom Set — styled room setting 3",
@@ -2443,7 +2580,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bonkio Kids' Bedroom Set — styled room setting 4",
@@ -2454,7 +2592,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bonkio Kids' Bedroom Set — studio view 2",
@@ -2465,7 +2604,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Bonkio Kids' Bedroom Set — studio view 3",
@@ -2476,7 +2616,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "bonkio-kids-bedroom-set",
@@ -2524,7 +2665,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Golf Kids' Bedroom Set — studio view",
@@ -2535,7 +2677,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Golf Kids' Bedroom Set — styled room setting",
@@ -2546,7 +2689,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Golf Kids' Bedroom Set — styled room setting 2",
@@ -2557,7 +2701,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Golf Kids' Bedroom Set — studio view 2",
@@ -2568,7 +2713,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Golf Kids' Bedroom Set — studio view 3",
@@ -2579,7 +2725,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Golf Kids' Bedroom Set — studio view 4",
@@ -2590,7 +2737,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Golf Kids' Bedroom Set — studio view 5",
@@ -2601,7 +2749,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "golf-kids-bedroom-set",
@@ -2649,7 +2798,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Grey Kids' Bedroom Set — styled room setting",
@@ -2660,7 +2810,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Grey Kids' Bedroom Set — studio view",
@@ -2671,7 +2822,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Grey Kids' Bedroom Set — studio view 2",
@@ -2682,7 +2834,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Grey Kids' Bedroom Set — styled room setting 2",
@@ -2693,7 +2846,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Grey Kids' Bedroom Set — styled room setting 3",
@@ -2704,7 +2858,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Grey Kids' Bedroom Set — studio view 3",
@@ -2715,7 +2870,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Grey Kids' Bedroom Set — close-up detail",
@@ -2726,7 +2882,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "grey-kids-bedroom-set",
@@ -2774,7 +2931,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Circle Dining Table — studio view 2",
@@ -2785,7 +2943,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Circle Dining Table — styled room setting",
@@ -2796,7 +2955,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Circle Dining Table — studio view 3",
@@ -2807,7 +2967,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Circle Dining Table — studio view 4",
@@ -2818,7 +2979,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Circle Dining Table — studio view 5",
@@ -2829,7 +2991,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Circle Dining Table — studio view 6",
@@ -2840,7 +3003,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Circle Dining Table — close-up detail",
@@ -2851,7 +3015,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "circle-dining-table",
@@ -2899,7 +3064,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Rahaf Dining Table — styled room setting",
@@ -2910,7 +3076,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Rahaf Dining Table — studio view 2",
@@ -2921,7 +3088,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Rahaf Dining Table — studio view 3",
@@ -2932,7 +3100,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Rahaf Dining Table — studio view 4",
@@ -2943,7 +3112,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Rahaf Dining Table — studio view 5",
@@ -2954,7 +3124,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Rahaf Dining Table — close-up detail",
@@ -2965,7 +3136,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "rahaf-dining-table",
@@ -3013,7 +3185,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1561 — styled room setting",
@@ -3024,7 +3197,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1561 — studio view",
@@ -3035,7 +3209,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1561 — styled room setting 2",
@@ -3046,7 +3221,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1561 — styled room setting 3",
@@ -3057,7 +3233,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Living Room Set R1561 — studio view 2",
@@ -3068,7 +3245,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1561 — studio view 3",
@@ -3079,7 +3257,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Living Room Set R1561 — studio view 4",
@@ -3090,7 +3269,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "living-room-set-r1561",
@@ -3138,7 +3318,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bianco Bedroom Set — styled room setting",
@@ -3149,7 +3330,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bianco Bedroom Set — styled room setting 2",
@@ -3160,7 +3342,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bianco Bedroom Set — studio view",
@@ -3171,7 +3354,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Bianco Bedroom Set — styled room setting 3",
@@ -3182,7 +3366,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bianco Bedroom Set — styled room setting 4",
@@ -3193,7 +3378,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Bianco Bedroom Set — studio view 2",
@@ -3204,7 +3390,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Bianco Bedroom Set — studio view 3",
@@ -3215,7 +3402,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "bianco-bedroom-set",
@@ -3263,7 +3451,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Haland Dining Table — studio view",
@@ -3274,7 +3463,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Haland Dining Table — styled room setting",
@@ -3285,7 +3475,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Haland Dining Table — studio view 2",
@@ -3296,7 +3487,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Haland Dining Table — studio view 3",
@@ -3307,7 +3499,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Haland Dining Table — close-up detail",
@@ -3318,7 +3511,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Haland Dining Table — close-up detail 2",
@@ -3329,7 +3523,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Haland Dining Table — close-up detail 3",
@@ -3340,7 +3535,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "haland-dining-table",
@@ -3388,7 +3584,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Curve Set — studio view",
@@ -3399,7 +3596,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Curve Set — styled room setting",
@@ -3410,7 +3608,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Curve Set — styled room setting 2",
@@ -3421,7 +3620,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Curve Set — studio view 2",
@@ -3432,7 +3632,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Curve Set — studio view 3",
@@ -3443,7 +3644,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Curve Set — studio view 4",
@@ -3454,7 +3656,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Curve Set — studio view 5",
@@ -3465,7 +3668,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "curve-set",
@@ -3513,7 +3717,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Areej Bedroom — studio view",
@@ -3524,7 +3729,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Areej Bedroom — studio view 2",
@@ -3535,7 +3741,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Areej Bedroom — studio view 3",
@@ -3546,7 +3753,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Areej Bedroom — studio view 4",
@@ -3557,7 +3765,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "areej-bedroom",
@@ -3605,7 +3814,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Side Table — studio view",
@@ -3616,7 +3826,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Side Table — studio view 2",
@@ -3627,7 +3838,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Side Table — studio view 3",
@@ -3638,7 +3850,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "side-table",
@@ -3686,7 +3899,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Pedestal Table — studio view",
@@ -3697,7 +3911,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Pedestal Table — studio view 2",
@@ -3708,7 +3923,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Pedestal Table — close-up detail",
@@ -3719,7 +3935,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "pedestal-table",
@@ -3767,7 +3984,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Table Lamp — studio view",
@@ -3778,7 +3996,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Table Lamp — studio view 2",
@@ -3789,7 +4008,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Table Lamp — studio view 3",
@@ -3800,7 +4020,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Table Lamp — close-up detail",
@@ -3811,7 +4032,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Table Lamp — close-up detail 2",
@@ -3822,7 +4044,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "table-lamp",
@@ -3870,7 +4093,8 @@
       "w": 2048
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner — styled room setting",
@@ -3881,7 +4105,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Coffee Corner — studio view",
@@ -3892,7 +4117,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner — studio view 2",
@@ -3903,7 +4129,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner — studio view 3",
@@ -3914,7 +4141,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner — close-up detail",
@@ -3925,7 +4153,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner — close-up detail 2",
@@ -3936,7 +4165,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner — close-up detail 3",
@@ -3947,7 +4177,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "coffee-corner",
@@ -3995,7 +4226,8 @@
       "w": 2048
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner II — styled room setting",
@@ -4006,7 +4238,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": false
     },
     {
      "alt": "Coffee Corner II — studio view",
@@ -4017,7 +4250,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner II — close-up detail",
@@ -4028,7 +4262,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner II — close-up detail 2",
@@ -4039,7 +4274,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     },
     {
      "alt": "Coffee Corner II — close-up detail 3",
@@ -4050,7 +4286,8 @@
       "w": 1536
      },
      "crop": null,
-     "hotspot": null
+     "hotspot": null,
+     "plain": true
     }
    ],
    "id": "coffee-corner-ii",

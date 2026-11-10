@@ -2,13 +2,15 @@ import { useLayoutEffect, useRef } from 'react'
 import { useReducedMotion } from 'framer-motion'
 import { ArrowUp } from 'lucide-react'
 import ContactChannels from './ContactChannels'
-import { canShow, contact, useContactPreview, visibleBranches } from '../data/contact'
+import { canShow, contact, useContactPreview, visibleBranches, whatsappChatUrl } from '../data/contact'
+import { GENERAL_MESSAGE } from './WhatsAppButton'
 
 /* The one site footer (Home, Collections, About, Contact).
    - Solid green background, no image or video behind the text.
    - Right column: only contact items with `confirmed: true` in src/data/contact.js
      (all of them, plus a small note, with ?previewContact=1). Nothing confirmed: a plain
-     "Showroom enquiry" / "Request a viewing" link to /contact.
+     "Message us on WhatsApp" / "Request a viewing" links.
+   - "WhatsApp" links open wa.me for the confirmed number (no enquiry form link).
    - Animation: content fades up once when it scrolls into view (opacity + transform only).
      It is visible by default; the hidden start state is only added by this component once it
      is running, and a backup check reveals it as soon as it is on screen, so it cannot stay hidden. */
@@ -22,8 +24,9 @@ const FOOTER_LINKS = [
 const CONTACT_KEYS = ['email', 'phone', 'whatsapp', 'address', 'mapsUrl', 'hours', 'instagram', 'facebook']
 const CHECK_MS = 800
 
-export default function Footer({ onNavigate, onEnquire }) {
+export default function Footer({ onNavigate }) {
   const reduceMotion = useReducedMotion()
+  const waUrl = whatsappChatUrl(GENERAL_MESSAGE)
   const preview = useContactPreview()
   const rootRef = useRef(null)
   const shown = CONTACT_KEYS.filter((key) => canShow(contact[key], preview))
@@ -60,12 +63,6 @@ export default function Footer({ onNavigate, onEnquire }) {
     event.preventDefault()
     onNavigate?.(id)
   }
-  const enquire = (event) => {
-    if (event.metaKey || event.ctrlKey || event.shiftKey || event.button === 1) return
-    event.preventDefault()
-    if (onEnquire) onEnquire()
-    else onNavigate?.('contact')
-  }
   const toTop = () => window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' })
 
   return (
@@ -86,9 +83,6 @@ export default function Footer({ onNavigate, onEnquire }) {
                   <a className="sf-link" href={link.href} onClick={(event) => go(event, link.id)}>{link.label}</a>
                 </li>
               ))}
-              <li>
-                <a className="sf-link" href="/contact" onClick={enquire}>Enquire</a>
-              </li>
             </ul>
           </nav>
 
@@ -101,7 +95,7 @@ export default function Footer({ onNavigate, onEnquire }) {
               </>
             ) : (
               <ul className="site-footer-list">
-                <li><a className="sf-link" href="/contact" onClick={enquire}>Showroom enquiry</a></li>
+                {waUrl ? <li><a className="sf-link" href={waUrl} target="_blank" rel="noopener noreferrer">Message us on WhatsApp</a></li> : null}
                 <li><a className="sf-link" href="/contact" onClick={(event) => go(event, 'contact')}>Request a viewing</a></li>
               </ul>
             )}

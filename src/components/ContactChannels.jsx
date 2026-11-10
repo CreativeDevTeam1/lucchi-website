@@ -1,5 +1,8 @@
 import { canShow, contact, formatPhone, phoneHref, useContactPreview, visibleBranches, whatsappHref } from '../data/contact'
 
+// The number shown next to "WhatsApp" (only when the item holds a plain number; a pasted link shows no number).
+const whatsappNumberText = (field) => (/^[\d\s+()-]+$/.test(field?.value || '') ? formatPhone(field.value) : '')
+
 const ext = { target: '_blank', rel: 'noopener noreferrer' }
 
 export default function ContactChannels({ variant = 'stack' }) {
@@ -26,12 +29,12 @@ export default function ContactChannels({ variant = 'stack' }) {
       ) : null}
       {phone ? (
         <a className="contact-channel-link" href={phoneHref(contact.phone)} aria-label={`Call Lucchi on ${contact.phone.display || formatPhone(contact.phone.value)}`}>
-          {contact.phone.display || formatPhone(contact.phone.value)}
+          {whatsapp ? 'Call ' : ''}{contact.phone.display || formatPhone(contact.phone.value)}
         </a>
       ) : null}
       {whatsapp ? (
         <a className="contact-channel-link" href={whatsappHref(contact.whatsapp)} {...ext} aria-label="Message Lucchi on WhatsApp">
-          WhatsApp
+          WhatsApp {whatsappNumberText(contact.whatsapp)}
         </a>
       ) : null}
       {branchList.map((branch) => (

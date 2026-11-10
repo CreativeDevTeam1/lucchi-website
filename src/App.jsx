@@ -145,9 +145,10 @@ export default function App() {
     setRoute('/contact')
   }
 
-  const navigateToPiece = (slug) => {
+  // `from` is kept in the history entry so the piece page can offer a way back to where the visitor came from.
+  const navigateToPiece = (slug, from) => {
     window.scrollTo({ top: 0, behavior: 'auto' })
-    window.history.pushState({}, '', piecePath(slug))
+    window.history.pushState(from ? { from } : {}, '', piecePath(slug))
     setMenuOpen(false)
     setRoute(piecePath(slug))
   }
@@ -283,9 +284,9 @@ export default function App() {
         <motion.div key="collections" {...pageFade}>
           <CollectionsPage
             onNavigate={handleNavigate}
+            onOpenPiece={(slug) => navigateToPiece(slug, 'collections')}
             menuOpen={menuOpen}
             setMenuOpen={setMenuOpen}
-            onShowroomInquiry={navigateToContact}
           />
         </motion.div>
       </>
@@ -304,8 +305,8 @@ export default function App() {
             onNavigate={handleNavigate}
             menuOpen={menuOpen}
             setMenuOpen={setMenuOpen}
-            onInquire={navigateToContact}
             onGoHome={() => goHomeSection('selected-pieces')}
+            onGoCollections={navigateToCollections}
           />
         </motion.div>
       </>
@@ -396,19 +397,6 @@ export default function App() {
         </motion.main>
       </AnimatePresence>
 
-      <motion.button
-        className="floating-back-top-btn"
-        onClick={() => scrollToSection('top')}
-        initial={{ opacity: 0, y: 10 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ amount: 0.2 }}
-        whileHover={{ scale: 1.05 }}
-        whileTap={{ scale: 0.95 }}
-        aria-label="Back to top"
-      >
-        <span>Top</span>
-        <span className="top-arrow">↗</span>
-      </motion.button>
     </div>
   )
 }

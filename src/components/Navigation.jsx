@@ -1,10 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
-import { ArrowUpRight } from 'lucide-react'
 import { imageManifest } from '../data/content'
 import { EASE, MENU, MENU_THEMES } from '../config/siteMotion'
 import { MENU_CATALOGUE_LABEL, isAboutPath, isCollectionsPath, isContactPath } from '../config/catalogue'
-import { canShow, contact, useContactPreview } from '../data/contact'
+import { canShow, contact, useContactPreview, whatsappHref } from '../data/contact'
 
 const navItems = [
   { label: 'Home', id: 'home', index: '01', previewKey: 'home' },
@@ -234,15 +233,6 @@ export default function Navigation({ menuOpen, setMenuOpen, onNavigate, revealed
           </nav>
 
           <div className="nav-actions">
-            <button
-              className="nav-enquire-btn"
-              data-magnetic="true"
-              onClick={() => go('contact')}
-              aria-label="Enquire with Lucchi"
-            >
-              <span>Enquire</span>
-              <ArrowUpRight size={13} strokeWidth={1.4} />
-            </button>
           </div>
         </div>
       </header>
@@ -334,7 +324,6 @@ export default function Navigation({ menuOpen, setMenuOpen, onNavigate, revealed
               </div>
 
               <div className="site-menu-foot">
-                <button type="button" onClick={() => go('contact')}>Enquire</button>
                 <MenuContactLinks />
               </div>
             </motion.div>
@@ -366,7 +355,7 @@ function MenuContactLinks() {
         </a>
       ) : null}
       {whatsapp ? (
-        <a href={`https://wa.me/${contact.whatsapp.value.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer" aria-label="Message Lucchi on WhatsApp">
+        <a href={whatsappHref(contact.whatsapp)} target="_blank" rel="noopener noreferrer" aria-label="Message Lucchi on WhatsApp">
           WhatsApp
         </a>
       ) : null}

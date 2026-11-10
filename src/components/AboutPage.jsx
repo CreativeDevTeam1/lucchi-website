@@ -118,7 +118,6 @@ export default function AboutPage({ onNavigate, menuOpen, setMenuOpen, onOpenCon
                     loading="lazy"
                     sizes="(max-width: 900px) min(86vw, 520px), min(42vw, 560px)"
                     overlay={false}
-                    showIllustrativeNote={false}
                   />
                 </div>
               </div>
@@ -178,7 +177,7 @@ export default function AboutPage({ onNavigate, menuOpen, setMenuOpen, onOpenCon
         </section>
       </main>
 
-      <Footer onNavigate={onNavigate} onEnquire={() => onOpenContact?.()} />
+      <Footer onNavigate={onNavigate} />
     </div>
   )
 }

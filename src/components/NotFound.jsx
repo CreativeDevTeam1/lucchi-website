@@ -1,6 +1,13 @@
+import { useEffect } from 'react'
 import Navigation from './Navigation'
 
 export default function NotFound({ onNavigate, menuOpen, setMenuOpen }) {
+  useEffect(() => {
+    const previous = document.title
+    document.title = 'Page not found — Lucchi Furniture'
+    return () => { document.title = previous }
+  }, [])
+
   return (
     <div className="site-shell not-found-page">
       <Navigation

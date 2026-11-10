@@ -12,12 +12,16 @@
  *   SANITY_READ_TOKEN   (git-ignored .env.local on this computer, and a Vercel environment variable)
  * The token is used only here, at build time. It is never written to the snapshot or the bundle.
  *
+ * Each gallery picture also gets `plain` (true = a cut-out on a white background), measured from a ~1 KB rendition on the
+ * Sanity image CDN (scripts/lib/plain-background.mjs). The piece page leaves those out unless nothing else is left.
+ *
  * Price is never selected, never stored. The result is checked and refused if a "price" key shows up.
  * Optional env: SANITY_PROJECT_ID, SANITY_DATASET (defaults below), used to test the fallback.
  */
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { annotateGalleries } from './lib/plain-background.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const OUT = path.join(ROOT, 'src', 'data', 'sanity-snapshot.json')
@@ -114,6 +118,10 @@ async function main() {
   const { result } = await res.json()
   const problems = validate(result)
   if (problems.length) return warn(`The data from Sanity is not valid: ${problems.join('; ')}.`)
+
+  let previous = []
+  try { previous = JSON.parse(fs.readFileSync(OUT, 'utf8')).pieces || [] } catch { /* no earlier snapshot */ }
+  await annotateGalleries(result.pieces, previous)
 
   const snapshot = { project: PROJECT_ID, dataset: DATASET, syncedAt: new Date().toISOString(), ...result }
   const text = `${JSON.stringify(snapshot, null, 1)}\n`

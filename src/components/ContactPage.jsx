@@ -1,60 +1,28 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowLeft, ArrowUpRight, Check } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 import { products, DEFAULT_TITLE } from '../data/content'
 import Navigation from './Navigation'
 import ContactChannels from './ContactChannels'
 import Footer from './Footer'
-import { canShow, contact, useContactPreview, visibleBranches } from '../data/contact'
+import { GENERAL_MESSAGE, WhatsAppIcon, pieceMessage } from './WhatsAppButton'
+import {
+  canShow,
+  contact,
+  formatPhone,
+  phoneHref,
+  useContactPreview,
+  visibleBranches,
+  whatsappChatUrl,
+  whatsappDisplay,
+} from '../data/contact'
 
-const enquiryTypes = [
-  { value: 'product', label: 'Product enquiry (Selected piece or archive design)' },
-  { value: 'showroom', label: 'Showroom / private viewing consultation' },
-  { value: 'project', label: 'Project / interior design commission' },
-  { value: 'designer', label: 'Designer / architectural developer conversation' },
-]
-
-const TYPE_FROM_QUERY = {
-  product: 'product',
-  viewing: 'showroom',
-  showroom: 'showroom',
-  project: 'project',
-  designer: 'designer',
-}
-
-const QUERY_FROM_TYPE = {
-  product: 'product',
-  showroom: 'viewing',
-  project: 'project',
-  designer: 'designer',
-}
-
-function parseEnquiryType(value, fallback = 'showroom') {
-  if (!value) return fallback
-  return TYPE_FROM_QUERY[String(value).trim().toLowerCase()] || fallback
-}
-
-function readContactQuery() {
-  if (typeof window === 'undefined') {
-    return { pieceId: null, enquiryType: 'showroom' }
-  }
+// A link such as /contact?product=<slug> (older links, shared pieces) keeps the piece in the WhatsApp message.
+function readPieceFromQuery() {
+  if (typeof window === 'undefined') return null
   const params = new URLSearchParams(window.location.search)
   const pieceId = params.get('product') || params.get('piece')
-  const fallback = pieceId ? 'product' : 'showroom'
-  return {
-    pieceId,
-    enquiryType: parseEnquiryType(params.get('type'), fallback),
-  }
-}
-
-function writeTypeToUrl(enquiryType) {
-  if (typeof window === 'undefined') return
-  const params = new URLSearchParams(window.location.search)
-  const slug = QUERY_FROM_TYPE[enquiryType]
-  if (slug) params.set('type', slug)
-  else params.delete('type')
-  const next = params.toString() ? `/contact?${params.toString()}` : '/contact'
-  window.history.replaceState({}, '', next)
+  return products.find((p) => p.id === pieceId) || null
 }
 
 export default function ContactPage({ onNavigate, menuOpen, setMenuOpen }) {
@@ -65,70 +33,7 @@ export default function ContactPage({ onNavigate, menuOpen, setMenuOpen }) {
     }
   }, [])
 
-  const selectedProduct = useMemo(() => {
-    const { pieceId } = readContactQuery()
-    return products.find((p) => p.id === pieceId) || null
-  }, [])
-
-  const [form, setForm] = useState(() => {
-    const query = readContactQuery()
-    const selected = products.find((p) => p.id === query.pieceId) || null
-    return {
-      name: '',
-      email: '',
-      phone: '',
-      enquiryType: query.enquiryType,
-      preferredChannel: 'Email',
-      message: selected ? `I am enquiring about the ${selected.name} (${selected.productCode || 'Lucchi Archive'}).` : '',
-    }
-  })
-
-  const [error, setError] = useState('')
-  const [submitted, setSubmitted] = useState(false)
-
-  useEffect(() => {
-    const applyQuery = () => {
-      const query = readContactQuery()
-      setForm((curr) => (
-        curr.enquiryType === query.enquiryType ? curr : { ...curr, enquiryType: query.enquiryType }
-      ))
-    }
-    applyQuery()
-    window.addEventListener('popstate', applyQuery)
-    return () => window.removeEventListener('popstate', applyQuery)
-  }, [])
-
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search)
-    if (!params.get('type') && !params.get('piece') && !params.get('product')) return undefined
-    const formEl = document.getElementById('enquiry-form')
-    const typeField = formEl?.querySelector('[name="enquiryType"]')
-    formEl?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    window.setTimeout(() => typeField?.focus({ preventScroll: true }), 280)
-    return undefined
-  }, [])
-
-  const updateField = (e) => {
-    const { name, value } = e.target
-    setForm((curr) => ({ ...curr, [name]: value }))
-    setError('')
-    setSubmitted(false)
-    if (name === 'enquiryType') writeTypeToUrl(value)
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    if (!form.name.trim()) {
-      setError('Please provide your name.')
-      return
-    }
-    if (!form.email.trim() && !form.phone.trim()) {
-      setError('Please provide either an email address or a phone number so the atelier can contact you.')
-      return
-    }
-    setError('')
-    setSubmitted(true)
-  }
+  const selectedProduct = useMemo(() => readPieceFromQuery(), [])
 
   return (
     <div className="site-shell contact-page-shell">
@@ -151,7 +56,7 @@ export default function ContactPage({ onNavigate, menuOpen, setMenuOpen }) {
 
             <div className="contact-hero-sub-row">
               <p className="contact-hero-deck">
-                Whether you are enquiring about a specific piece, arranging a private showroom consultation, or discussing a whole-residence architectural commission, the atelier will prepare a considered response.
+                Whether you are asking about a specific piece, arranging a private showroom consultation, or discussing a whole-residence architectural commission, message us and we will prepare a considered response.
               </p>
 
               <button
@@ -165,7 +70,7 @@ export default function ContactPage({ onNavigate, menuOpen, setMenuOpen }) {
           </div>
         </section>
 
-        {/* Form & Context Section */}
+        {/* Context & message section */}
         <section className="contact-form-section section-light">
           <div className="page-width contact-layout-split">
             {/* Left Context Column */}
@@ -181,7 +86,7 @@ export default function ContactPage({ onNavigate, menuOpen, setMenuOpen }) {
 
               {selectedProduct && (
                 <div className="selected-piece-enquiry-card">
-                  <span className="enquiry-card-tag">Enquiring about piece</span>
+                  <span className="enquiry-card-tag">Asking about piece</span>
                   <strong className="enquiry-card-name">{selectedProduct.name}</strong>
                   <span className="enquiry-card-meta">
                     {selectedProduct.category} · {selectedProduct.productCode ? `Code ${selectedProduct.productCode}` : 'Lucchi'}
@@ -209,120 +114,52 @@ export default function ContactPage({ onNavigate, menuOpen, setMenuOpen }) {
               <ContactDetailsNote />
             </div>
 
-            {/* Right Form Column */}
+            {/* Right column: WhatsApp (and phone) */}
             <div className="contact-form-col">
-              <form id="enquiry-form" className="atelier-enquiry-form" onSubmit={handleSubmit} noValidate>
-                <div className="form-group-row">
-                  <label className="form-input-label">
-                    <span>Your Name <strong className="req-star">*</strong></span>
-                    <input
-                      type="text"
-                      name="name"
-                      value={form.name}
-                      onChange={updateField}
-                      placeholder="e.g. Karim Mansour"
-                      required
-                    />
-                  </label>
-
-                  <label className="form-input-label">
-                    <span>Preferred Response Channel</span>
-                    <select
-                      name="preferredChannel"
-                      value={form.preferredChannel}
-                      onChange={updateField}
-                    >
-                      <option value="Email">Email</option>
-                      <option value="Phone">Phone Call</option>
-                      <option value="WhatsApp">WhatsApp</option>
-                    </select>
-                  </label>
-                </div>
-
-                <div className="form-group-row">
-                  <label className="form-input-label">
-                    <span>Email Address</span>
-                    <input
-                      type="email"
-                      name="email"
-                      value={form.email}
-                      onChange={updateField}
-                      placeholder="name@example.com"
-                    />
-                  </label>
-
-                  <label className="form-input-label">
-                    <span>Phone / WhatsApp</span>
-                    <input
-                      type="tel"
-                      name="phone"
-                      value={form.phone}
-                      onChange={updateField}
-                      placeholder="+20 ..."
-                    />
-                  </label>
-                </div>
-
-                <label className="form-input-label">
-                  <span>Nature of Enquiry</span>
-                  <select
-                    name="enquiryType"
-                    value={form.enquiryType}
-                    onChange={updateField}
-                  >
-                    {enquiryTypes.map((type) => (
-                      <option key={type.value} value={type.value}>{type.label}</option>
-                    ))}
-                  </select>
-                </label>
-
-                <label className="form-input-label">
-                  <span>Project Context or Piece Notes</span>
-                  <textarea
-                    name="message"
-                    value={form.message}
-                    onChange={updateField}
-                    rows={5}
-                    placeholder="Describe your room dimensions, desired suite, timeline, or residential project requirements..."
-                  />
-                </label>
-
-                {error && (
-                  <p className="form-validation-error" role="alert">
-                    {error}
-                  </p>
-                )}
-
-                {submitted ? (
-                  <div className="form-success-box" role="status">
-                    <Check size={18} strokeWidth={1.5} />
-                    <div>
-                      <strong>Your enquiry is prepared for the atelier.</strong>
-                      <p>
-                        This enquiry will route directly to Lucchi once the verified client email / CRM destination is connected.
-                      </p>
-                    </div>
-                  </div>
-                ) : (
-                  <button type="submit" className="form-submit-enquiry-btn">
-                    <span>Submit Atelier Enquiry</span>
-                    <ArrowUpRight size={14} strokeWidth={1.4} />
-                  </button>
-                )}
-
-                <p className="form-privacy-disclaimer">
-                  Lucchi Furniture will only use your details to answer your enquiry and coordinate private consultations.
-                </p>
-              </form>
+              <MessageCard piece={selectedProduct} />
             </div>
           </div>
         </section>
       </main>
 
-      <Footer
-        onNavigate={onNavigate}
-        onEnquire={() => document.getElementById('enquiry-form')?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-      />
+      <Footer onNavigate={onNavigate} />
+    </div>
+  )
+}
+
+/* The one way to write to Lucchi from this page: a WhatsApp chat (message ready to send, about the piece when there is one),
+   and the phone number for calls. Nothing is shown for a number that is not confirmed. */
+function MessageCard({ piece }) {
+  const preview = useContactPreview()
+  const chatUrl = whatsappChatUrl(piece ? pieceMessage(piece) : GENERAL_MESSAGE)
+  const phone = canShow(contact.phone, preview)
+  const phoneText = contact.phone.display || formatPhone(contact.phone.value)
+  if (!chatUrl && !phone) return null
+
+  return (
+    <div className="contact-message-card">
+      <span className="enquiry-card-tag">WhatsApp</span>
+      <h3 className="contact-message-title">Message us on WhatsApp</h3>
+      <p className="contact-message-copy">
+        {piece
+          ? `Ask about the ${piece.name}. Your message opens in WhatsApp, ready to send.`
+          : 'Ask about a piece, a finish or a showroom visit. Your message opens in WhatsApp, ready to send.'}
+      </p>
+
+      {chatUrl ? (
+        <a className="contact-message-cta" href={chatUrl} target="_blank" rel="noopener noreferrer">
+          <WhatsAppIcon size={20} />
+          <span>Chat on WhatsApp</span>
+        </a>
+      ) : null}
+      {chatUrl && whatsappDisplay() ? <p className="contact-message-number">{whatsappDisplay()}</p> : null}
+
+      {phone ? (
+        <div className="contact-message-call">
+          <span>Prefer to call?</span>
+          <a href={phoneHref(contact.phone)} aria-label={`Call Lucchi on ${phoneText}`}>{phoneText}</a>
+        </div>
+      ) : null}
     </div>
   )
 }

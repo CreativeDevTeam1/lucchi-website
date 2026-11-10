@@ -6,6 +6,8 @@ import { imageManifest, products, selectedPieceIds, homeCopy, pieceBadge } from 
 import Price from './Price'
 import { EASE as ease, SECTION_REVEAL } from '../config/siteMotion'
 import { piecePath } from '../config/catalogue'
+import { WhatsAppIcon, pieceMessage } from './WhatsAppButton'
+import { whatsappChatUrl } from '../data/contact'
 
 const TOTAL_PIECES = 4
 
@@ -123,6 +125,7 @@ function PieceCard({ item, isClone, onOpenPiece, cardRef }) {
   const inert = isClone ? -1 : undefined
   // One image per card: the Full view. Detail and Context stay in the data only.
   const slot = item.full
+  const waUrl = whatsappChatUrl(pieceMessage({ id: item.id, name: item.name, productCode: item.productCode }))
 
   return (
     <article
@@ -158,7 +161,6 @@ function PieceCard({ item, isClone, onOpenPiece, cardRef }) {
                 fetchPriority={isClone ? 'auto' : 'high'}
                 sizes={PIECE_IMAGE_SIZES}
                 overlay={false}
-                showIllustrativeNote={false}
                 draggable={false}
               />
             </div>
@@ -171,6 +173,21 @@ function PieceCard({ item, isClone, onOpenPiece, cardRef }) {
         </div>
       </div>
       </a>
+      {waUrl ? (
+        <div className="sp-wa-layer">
+          <a
+            className="sp-wa"
+            href={waUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Inquire about ${item.name} on WhatsApp`}
+            tabIndex={inert}
+            draggable={false}
+          >
+            <WhatsAppIcon size={20} />
+          </a>
+        </div>
+      ) : null}
     </article>
   )
 }
@@ -271,7 +288,7 @@ function DragCursor({ targetRef }) {
       label.classList.toggle('is-on', on)
     }
     // The label hides over the button and links so they still look clickable.
-    const overControl = (target) => Boolean(target.closest?.('button, input, select, textarea'))
+    const overControl = (target) => Boolean(target.closest?.('button, a.sp-wa, input, select, textarea'))
 
     const onEnter = (e) => {
       if (e.pointerType !== 'mouse') return
@@ -540,6 +557,30 @@ function GlidingPiecesCarousel({ items, onOpenPiece }) {
       io.disconnect()
       document.removeEventListener('visibilitychange', onVisibility)
     }
+  }, [])
+
+  /* ------------------------------------------- mouse wheel / trackpad scroll
+     A sideways swipe on a trackpad, Shift + mouse wheel, or a tilt wheel moves the row. A plain up/down wheel is left
+     alone, so the page still scrolls when the pointer is over the row. Autoplay pauses while it is used and
+     resumes after RESUME_DELAY (same as after a drag). The listener is not passive, so the page does not
+     also go "back" on a sideways swipe. */
+  useEffect(() => {
+    const viewport = viewportRef.current
+    if (!viewport) return undefined
+    const onWheel = (e) => {
+      const sideways = e.shiftKey ? (e.deltaX || e.deltaY) : e.deltaX
+      if (!e.shiftKey && Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return
+      if (!sideways) return
+      e.preventDefault()
+      const unit = e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? viewport.clientWidth : 1
+      tween.current = null
+      momentum.current = 0
+      offset.current = wrap(offset.current + sideways * unit, metrics.current.set)
+      interactionUntil.current = performance.now() + RESUME_DELAY
+      restartLoop.current()
+    }
+    viewport.addEventListener('wheel', onWheel, { passive: false })
+    return () => viewport.removeEventListener('wheel', onWheel)
   }, [])
 
   /* ------------------------------------------------------- drag + momentum */

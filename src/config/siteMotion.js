@@ -92,12 +92,6 @@ export const CAROUSEL = {
    are shown. Set it to false to make every one of them fall back to its previous real or reference image. */
 export const ALLOW_AI_RENDERS = true
 
-export const CATALOGUE_NOTE = {
-  enabled: true,
-  hoverOnly: true,
-  text: 'Catalogue reference · final photography in preparation',
-}
-
 export function shouldPlayIntro() {
   if (typeof window === 'undefined') return false
   return LOADER.enabled !== false
