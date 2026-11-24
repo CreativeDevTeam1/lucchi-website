@@ -25,15 +25,15 @@ const localContact = {
     false,
   ),
   phone: item(
-    '01094830060',
-    'Confirmed by the client, 2026-10-09 (replaces the Facebook-page number +20 12 03988877 and the two conflicting directory numbers)',
+    '01203988877',
+    'Given by the client, 2026-11-24: the call number; same number as the WhatsApp number',
     'High',
     true,
-    { display: '0109 483 0060', tel: '+201094830060' },
+    { display: '0120 398 8877', tel: '+201203988877' },
   ),
   whatsapp: item(
     '01203988877',
-    'Given by the client for WhatsApp, 2026-10-29 (the showroom phone 01094830060 stays the number for calls)',
+    'Given by the client for WhatsApp, 2026-10-29',
     'High',
     true,
   ),
@@ -145,7 +145,7 @@ function mergeContact(local, remote) {
 export const contact = mergeContact(localContact, snapshot.contact)
 export const branches = mergeBranches(localBranches, snapshot.contact?.branches)
 
-/** Egyptian numbers read as 0109 483 0060; anything else is shown as typed. */
+/** Egyptian numbers read as 0120 398 8877; anything else is shown as typed. */
 export function formatPhone(value) {
   const digits = String(value || '').replace(/\D/g, '')
   const national = digits.startsWith('20') && digits.length === 12 ? `0${digits.slice(2)}` : digits
@@ -208,7 +208,7 @@ export function whatsappHref(field) {
   return digits ? `https://wa.me/${digits}` : ''
 }
 
-/** The number every "WhatsApp" button opens, as digits with the country code (201094830060), or '' when there is none.
+/** The number every "WhatsApp" button opens, as digits with the country code (201203988877), or '' when there is none.
  *  A confirmed WhatsApp item wins; otherwise it is the confirmed phone number (the client's mobile is also on WhatsApp). */
 export function whatsappNumber() {
   if (contact.whatsapp?.value && contact.whatsapp.confirmed === true) return waDigits(contact.whatsapp.value)
@@ -223,7 +223,7 @@ export function whatsappChatUrl(message = '') {
   return `https://wa.me/${number}${message ? `?text=${encodeURIComponent(message)}` : ''}`
 }
 
-/** The number as the visitor reads it (0109 483 0060). */
+/** The number as the visitor reads it (0120 398 8877). */
 export function whatsappDisplay() {
   const number = whatsappNumber()
   return number ? formatPhone(number) : ''

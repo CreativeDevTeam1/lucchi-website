@@ -14,7 +14,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const STUDIO = path.resolve(ROOT, '..', 'studio-lucchi')
 const WRITE = process.argv.includes('--write')
 
-const PHONE = '01094830060' // Egyptian mobile, 11 digits
+const PHONE = '01203988877' // Egyptian mobile, 11 digits
 const BRANCHES = [
   {
     _key: 'fifth-settlement',
